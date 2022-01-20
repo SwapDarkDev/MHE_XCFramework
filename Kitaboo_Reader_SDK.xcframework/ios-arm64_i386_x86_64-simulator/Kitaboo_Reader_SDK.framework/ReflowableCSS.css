@@ -1,0 +1,65 @@
+/* CSS Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, tt, var,
+b, u, i, center,
+dl, dt, dd, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, kitabooNote {
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+/* ePUB */
+html {
+    -webkit-text-size-adjust: none; /* Never autoresize text */
+    padding: 0 0 !important;
+/*    overflow-x: hidden;*/
+}
+
+body {
+/*    overflow-x: hidden !important;*/
+    position:unset !important;
+    -webkit-overflow-scrolling:unset !important;
+}
+
+@media only screen and (min-device-width: 600px) {
+    div {
+        /*        font-size: 1em;*/
+        /*        line-height: 1.438em !important;*/
+    }
+    
+    body {
+        -webkit-hyphens: none !important;
+        hyphens: none !important;
+    }
+}
+
+
+/* Begin Ted */
+
+img, svg, audio, video {
+    max-height: 95% !important;
+    max-width: 100% !important;
+    box-sizing: border-box;
+    object-fit: contain;
+    page-break-inside: avoid;
+/*    display: block;*/         /*As image has set this property we cannot change image alignment as of text alignment, this property makes it as center align only.*/
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-user-drag: none;
+}
+
+/* End Ted */
+
