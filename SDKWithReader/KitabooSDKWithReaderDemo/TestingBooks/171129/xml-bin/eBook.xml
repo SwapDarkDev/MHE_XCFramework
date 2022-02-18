@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eBook>
+    <title>Reading/Writing Companion Grade 3 Units 1-2</title>
+    <url>assets/images/thumbnails/page_1.png</url>
+    <id><![CDATA[171129]]></id>
+    <chapters><![CDATA[assets/xml-bin/chapters.xml]]></chapters>
+    <resources><![CDATA[assets/xml-bin/resources.xml]]></resources>
+    <glossary/>
+    <Author>MHE</Author>
+    <Description>Reading/Writing Companion Grade 3 Units 1-2</Description>
+    <InputFormat><![CDATA[PDF]]></InputFormat>
+    <BookType><![CDATA[Other]]></BookType>
+    <BookOrientation>Dynamic</BookOrientation>
+    <printdata/>
+</eBook>

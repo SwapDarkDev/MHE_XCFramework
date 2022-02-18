@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="TextHighlightColorBtnCollectionViewCell" id="gTV-IL-0wX" customClass="TextHighlightColorBtnCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gyS-m4-FFJ">
+                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kXe-Iv-9w4">
+                                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="kXe-Iv-9w4" secondAttribute="bottom" id="I3V-Oh-arx"/>
+                            <constraint firstItem="kXe-Iv-9w4" firstAttribute="centerY" secondItem="gyS-m4-FFJ" secondAttribute="centerY" id="IuC-2q-kAL"/>
+                            <constraint firstItem="kXe-Iv-9w4" firstAttribute="leading" secondItem="gyS-m4-FFJ" secondAttribute="leading" id="MK2-Co-Kmb"/>
+                            <constraint firstItem="kXe-Iv-9w4" firstAttribute="centerX" secondItem="gyS-m4-FFJ" secondAttribute="centerX" id="MQt-Kf-DGD"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="gyS-m4-FFJ" secondAttribute="bottom" id="FlY-7N-Q9w"/>
+                <constraint firstItem="gyS-m4-FFJ" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="KTF-Hn-kL1"/>
+                <constraint firstItem="gyS-m4-FFJ" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="bwd-j6-and"/>
+                <constraint firstAttribute="trailing" secondItem="gyS-m4-FFJ" secondAttribute="trailing" id="g7s-cQ-Wvk"/>
+            </constraints>
+            <connections>
+                <outlet property="buttonBottomConstraint" destination="I3V-Oh-arx" id="IOP-Nn-unJ"/>
+                <outlet property="buttonContainerView" destination="gyS-m4-FFJ" id="GxD-uS-6PR"/>
+                <outlet property="buttonLeadingConstraint" destination="MK2-Co-Kmb" id="5Yq-mz-53W"/>
+                <outlet property="heighLightButton" destination="kXe-Iv-9w4" id="auN-O8-10Y"/>
+            </connections>
+        </collectionViewCell>
+    </objects>
+</document>

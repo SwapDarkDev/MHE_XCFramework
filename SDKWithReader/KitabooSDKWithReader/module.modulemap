@@ -1,0 +1,31 @@
+
+module KitabooSDKWithReader
+{
+    header "../KitabooSDKWithReader/KitabooReader5.0/ReaderHelper/Constant.h"
+    header "../KitabooSDKWithReader/KitabooReader5.0/ReaderHelper/AlertView.h"
+    header "../KitabooSDKWithReader/KitabooReader5.0/ReaderHelper/ReaderHeader.h"
+    header "../KitabooSDKWithReader/KitabooReader5.0/KitabooReaderViewController.h"
+    header "../KitabooSDKWithReader/KitabooReader5.0/Utility/IconFontConstants.h"
+    header "../KitabooSDKWithReader/KitabooReader5.0/Utility/UIViewController-Expanded.h"
+    header "../KitabooSDKWithReader/KitabooReader5.0/Utility/UIButton-Expanded.h"
+    header "../KitabooSDKWithReader/KitabooReader5.0/Utility/NSString-Supplement.h"
+    header "../KitabooSDKWithReader/KitabooReader5.0/Utility/HSUIColor-Expanded.h"
+    header "../KitabooSDKWithReader/KitabooReader5.0/Utility/HDPopOverBackgroundView.h"
+    header "../KitabooSDKWithReader/KitabooReader5.0/Utility/UITextView+PH/UITextView+PH.h"
+    header "../KitabooSDKWithReader/KitabooReader5.0/Theme/KBHDThemeVO.h"
+    header "../KitabooSDKWithReader/KitabooReader5.0/MyData/KBMyDataViewController.h"
+    header "../KitabooSDKWithReader/KitabooReader5.0/PenTool/KitabooPenToolColorPalleteViewController.h"
+    header "../KitabooSDKWithReader/KitabooReader5.0/PenTool/KitabooPenToolThicknessPalleteViewController.h"
+    header "../KitabooSDKWithReader/KitabooReader5.0/MultiLinkMarkup/MultiLinkController.h"
+    header "../KitabooSDKWithReader/KitabooReader5.0/StickyNoteViewController/StickyNotesViewController.h"
+    header "../KitabooSDKWithReader/KitabooReader5.0/TeacherAnnotation/TeacherAnnotationViewController.h"
+    header "../KitabooSDKWithReader/KitabooReader5.0/TopAndBottomBar/PlayerActionTopBar.h"
+    header "../KitabooSDKWithReader/KitabooReader5.0/TopAndBottomBar/PlayerActionBottomBar.h"
+    header "../KitabooSDKWithReader/KitabooReader5.0/ShareSetting/KBShareSettingsController.h"
+    header "../KitabooSDKWithReader/KitabooReader5.0/Utility/NSString-Supplement.h"
+    header "../KitabooSDKWithReader/KitabooReader5.0/MHEReaderViewController.h"
+    header "../KitabooSDKWithReader/KitabooReader5.0/MHEReaderViewController.h"
+
+    export *
+}
+

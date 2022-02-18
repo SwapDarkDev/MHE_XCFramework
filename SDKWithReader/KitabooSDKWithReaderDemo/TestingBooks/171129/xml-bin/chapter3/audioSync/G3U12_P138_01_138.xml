@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cues gender="male" pausePeriod="0.02" type="wordsync">
+    <cue end="0.9950000000000001" start="0.455">
+        <text><![CDATA[SAILING]]></text>
+        <x>310</x>
+        <y>67.5</y>
+        <width>255</width>
+        <height>67.5</height>
+    </cue>
+    <cue end="1.155" start="0.9950000000000001">
+        <text><![CDATA[TO]]></text>
+        <x>577.5</x>
+        <y>62.5</y>
+        <width>75</width>
+        <height>73.75</height>
+    </cue>
+    <cue end="1.775" start="1.155">
+        <text><![CDATA[AMERICA]]></text>
+        <x>288.75</x>
+        <y>130</y>
+        <width>401.25</width>
+        <height>116.25</height>
+    </cue>
+</cues>

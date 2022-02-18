@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="BookId" version="3.0" prefix="rendition: http://www.idpf.org/vocab/rendition/# ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/">
+<metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+<dc:title>Mutsin and the Caterpillar_v1</dc:title>
+<dc:creator id="creator">Yugesh RV</dc:creator>
+<meta refines="#creator" property="role" scheme="marc:relators" id="role">aut</meta>
+<meta refines="#creator" property="file-as">RV, Yugesh</meta>
+<dc:publisher>Crea-Shakthi</dc:publisher>
+<dc:rights>All rights reserved</dc:rights>
+<dc:identifier id="BookId">XXXXXXXXXXXXXXX</dc:identifier>
+<meta property="dcterms:modified">2018-22-03T08:05:57Z</meta>
+<meta property="rendition:layout">pre-paginated</meta>
+<meta property="rendition:orientation">landscape</meta>
+<meta property="rendition:spread">both</meta>
+<meta name="orientation-lock" content="landscape"/>
+<dc:language>en</dc:language>
+<dc:format>6 Pages</dc:format>
+<meta property="media:active-class">-epub-media-overlay-active</meta>
+<meta property="media:duration" refines="#aud01">00:01:23</meta>
+<meta property="media:duration">00:01:23</meta>
+<meta name="cover" content="cover-image"/>
+</metadata>
+<manifest>
+<item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml">
+</item>
+<item properties="cover-image" id="cover-image" href="images/cover.jpg" media-type="image/jpeg"></item>
+<item id="cover" href="cover.xhtml" media-type="application/xhtml+xml"></item>
+<item id="page001" href="page001.xhtml" media-type="application/xhtml+xml"></item>
+<item id="page002" href="page002.xhtml" media-type="application/xhtml+xml"></item>
+<item id="page003" href="page003.xhtml" media-type="application/xhtml+xml"></item>
+<item id="page004" href="page004.xhtml" media-type="application/xhtml+xml"></item>
+<item id="page005" href="page005.xhtml" media-type="application/xhtml+xml"></item>
+<item id="page006" href="page006.xhtml" media-overlay="aud01" media-type="application/xhtml+xml"></item>
+<item id="aud01" href="smil/page006.smil" media-type="application/smil+xml" />
+<item id="audio1" href="audio/Mutsin_pg_1_test.wav" media-type="audio/mpeg" />
+<item id="styles" href="css/styles.css" media-type="text/css"></item>
+<item id="font-faces" href="css/font.css" media-type="text/css"></item>
+<item id="bg001" href="images/bg001.jpg" media-type="image/jpeg"></item>
+<item id="bg002" href="images/bg002.jpg" media-type="image/jpeg"></item>
+<item id="bg003" href="images/bg003.jpg" media-type="image/jpeg"></item>
+<item id="bg004" href="images/bg004.jpg" media-type="image/jpeg"></item>
+<item id="bg005" href="images/bg005.jpg" media-type="image/jpeg"></item>
+<item id="bg006" href="images/bg006.jpg" media-type="image/jpeg"></item>
+<item id="f3" href="fonts/f3.otf" media-type="application/vnd.ms-opentype"></item>
+<item id="f0" href="fonts/f0.otf" media-type="application/vnd.ms-opentype"></item>
+<item id="f1" href="fonts/f1.otf" media-type="application/vnd.ms-opentype"></item>
+<item id="f2" href="fonts/f2.otf" media-type="application/vnd.ms-opentype"></item>
+<item id="nav" href="nav.xhtml" media-type="application/xhtml+xml" properties="nav"></item>
+<item id="pgcs1" href="css/page1.css" media-type="text/css"></item>
+<item id="pgcs2" href="css/page2.css" media-type="text/css"></item>
+<item id="pgcs3" href="css/page3.css" media-type="text/css"></item>
+<item id="pgcs4" href="css/page4.css" media-type="text/css"></item>
+<item id="pgcs5" href="css/page5.css" media-type="text/css"></item>
+<item id="pgcs6" href="css/page6.css" media-type="text/css"></item>
+</manifest>
+<spine toc="ncx">
+<itemref idref="cover"></itemref>
+<itemref idref="page001"></itemref>
+<itemref idref="page002"></itemref>
+<itemref idref="page003"></itemref>
+<itemref idref="page004"></itemref>
+<itemref idref="page005"></itemref>
+<itemref idref="page006"></itemref>
+</spine>
+</package>

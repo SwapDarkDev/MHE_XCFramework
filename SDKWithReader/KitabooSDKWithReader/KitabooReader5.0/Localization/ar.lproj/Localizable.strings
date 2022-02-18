@@ -1,0 +1,364 @@
+/*
+ Localizable.strings
+ KItabooSDK
+ 
+ Copyright © 2017 Hurix Systems. All rights reserved.
+ */
+"EPUB_LOADED_MSG" = "لاعب ملف ePub تحميل";
+"PAGE_LOADED" = "تم تحميل الصفحة";
+"PAGE_ZOOM_IN" = "كانت الصفحة بالتكبير";
+"PAGE_ZOOM_OUT" = "كانت الصفحة التصغير";
+"FONT_FILE_MISSING" = "ملف الخط مفقود";
+"PAGE" ="صفحة";
+"OK" = "موافق";
+"ARE_YOU_SURE_YOU_WANT_TO_SHARE_THIS_NOTE_ALERT" = "هل أنت متأكد أنك تريد مشاركة هذه الملاحظة؟";
+"Me" = "أنا";
+"BOOK_OPEN_MSG" = "بدأت كتاب التهيئة";
+"BOOK_OPEN_ERROR_MSG" = "تهيئة الكتاب فشل";
+
+//Reader
+"FAILED_TO_SAVE_SCROM_DATA" = "غير قادر على حفظ البيانات scrom البيانات";
+"FAILED_TO_FETCH_SCROM_DATA" = "غير قادر على جلب البيانات scrom البيانات";
+"FAILED_TO_SAVE_HIGHLIGHT_DATA" = "غير قادر على حفظ البيانات ويبرز";
+"FAILED_TO_ACCEPT_OR_REJECT_DATA" = "غير قادر على قبول أو رفض البيانات";
+"FAILED_TO_SAVE_COLLAB_DATA" = "غير قادر على حفظ بيانات تعاوني";
+
+//Help Screen
+"HELP_GOT_IT_BUTTON" = "فهمتك";
+"HELP_SKIP_BUTTON" = "تخطى";
+
+"HELP_HOME_BUTTON_TITLE" = "الصفحة الرئيسية";
+"HELP_HOME_BUTTON_DETAIL" = "إعادة توجيه إلى مكتبة";
+"HELP_TOC_BUTTON_TITLE" = "قائمة المحتويات";
+"HELP_TOC_BUTTON_DETAIL" = "يطلع إدراج المحتوى";
+"HELP_MY_DATA_BUTTON_TITLE" = "بياناتي";
+"HELP_MY_DATA_BUTTON_DETAIL" = "عرض الموحدة من الملاحظات، ويسلط الضوء";
+"HELP_MY_DATA_HIGHLIGHT_BUTTON_DETAIL" = "رأي موحد من الضوء";
+"HELP_MY_DATA_NOTE_BUTTON_DETAIL" = "رأي موحد من الملاحظات";
+"HELP_PEN_TOOL_BUTTON_TITLE" = "أداة القلم";
+"HELP_PEN_TOOL_BUTTON_DETAIL" = "علق وخربش في ألوان مختلفة";
+"HELP_NOTE_BUTTON_TITLE" = "اضف ملاحظة";
+"HELP_NOTE_BUTTON_DETAIL" = "الملاحظات جعل وحصة";
+"HELP_SUBMIT_BUTTON_TITLE" = "يقدم";
+"HELP_SUBMIT_BUTTON_DETAIL" = "إرسال كافة البيانات";
+"HELP_THUMBNAIL_BUTTON_TITLE" = "ظفري";
+"HELP_THUMBNAIL_BUTTON_DETAIL" = "عرض الصور المصغرة للمحتوى";
+"HELP_SEARCH_BUTTON_DETAIL" = "كلمات البحث في المحتوى";
+"HELP_SETTING_BUTTON_DETAIL" = "تحليل التفاصيل انظر";
+"HELP_PROFILE_BUTTON_TITLE" = "حساب تعريفي";
+"HELP_PROFILE_BUTTON_DETAIL" = "تخصيص الإعدادات الخاصة بك";
+"HELP_FONT_SETTING_BUTTON_TITLE" = "إعداد الخط";
+"HELP_FONT_SETTING_BUTTON_DETAIL" = "تخصيص الخط الخاص بك";
+"HELP_MORE_SETTINGS_BUTTON_TITLE" = "مزيد من الإعدادات";
+"HELP_MORE_SETTINGS_BUTTON_DETAIL" = "انقر لرؤية المزيد من الأدوات";
+"HELP_PROTRACTOR_BUTTON_TITLE" = "منقلة";
+"HELP_PROTRACTOR_BUTTON_DETAIL" = "اضغط هنا لرسم الزوايا";
+"HELP_ADDTEXT_BUTTON_TITLE" = "شرح النص";
+"HELP_ADDTEXT_BUTTON_DETAIL" = "إضافة الشرح نص على الصفحة";
+"HELP_BOOKMARK_BUTTON_TITLE" = "المرجعية";
+"HELP_BOOKMARK_BUTTON_DETAIL" = "ضع علامة على هذه الصفحة";
+"HELP_ERASER_BUTTON_TITLE" = "ممحاة";
+"HELP_ERASER_BUTTON_DETAIL" = "محو البيانات الخاصة بك";
+"HELP_CLEAR_BUTTON_TITLE" = "واضح";
+"HELP_CLEAR_BUTTON_DETAIL" = "مسح البيانات الخاصة بك";
+"HELP_UNDO_BUTTON_TITLE" = "الغاء التحميل";
+"HELP_UNDO_BUTTON_DETAIL" = "تراجع البيانات الخاصة بك";
+"HELP_ARROW_BUTTON_TITLE" = "سهم";
+"HELP_ARROW_BUTTON_DETAIL" = "إلى الأمام أو الخلف في المحتوى";
+"HELP_DONE_BUTTON_DETAIL" = "إرسال تحرير الخاص بك";
+"HELP_STUDENT_PROFILE_BUTTON_TITLE" = "الملف الشخصي للطالب";
+"HELP_STUDENT_PROFILE_BUTTON_DETAIL" = "عرض والتغيير من قائمة الطلاب";
+"HELP_MARKER_BUTTON_TITLE" = "علامة";
+"HELP_MARKER_BUTTON_DETAIL" = "علق وخربش باللون الأخضر والأحمر";
+"HELP_PREV_STUDENT_TITLE" = "الطالب السابق";
+"HELP_PREV_STUDENT_DETAIL" = "انتقل إلى الطالب السابق";
+"HELP_NEXT_STUDENT_TITLE" = "الطالب التالي";
+"HELP_NEXT_STUDENT_DETAIL" = "انتقل إلى الطالب التالي";
+"HELP_DRAG_BOX_STUDENT_TITLE" = "مربع السحب";
+"HELP_DRAG_BOX_STUDENT_DETAIL" = "انقر واسحب لتحديد المجموعة";
+"HELP_GENERATE_REPORT_STUDENT_TITLE" = "انشاء تقرير";
+"HELP_GENERATE_REPORT_STUDENT_DETAIL" = "انقر لتحميل تقرير الطلاب";
+"HELP_FURTHEST_PAGE_TITLE" = "أبعد صفحة";
+"HELP_FURTHEST_PAGE_DETAIL" = "انقر للذهاب إلى أبعد صفحة";
+
+//Alerts
+"DO_YOU_WISH_TO_DELETE_THIS_NOTE_ALERT" = "هل ترغب في حذف هذه الملاحظة؟";
+"YES_ALERT_BUTTON" = "نعم";
+"NO_ALERT_BUTTON" = "لا";
+"THIS_ANSWER_IS_ALREADY_SUBMITTED_AND_CANNOT_CHANGED" = "عذرا، يقدم هذا الجواب بالفعل ولا يمكن تغيير";
+"NO_DATA_TO_SUBMIT" = "لا توجد بيانات لإرسال";
+"SUBMIT_DATA" = "إرسال البيانات";
+"ANSWER_WILL_BE_SUBMITTED_AND_CANNOT_BE_CHANGED" = "وستقدم الجواب ولا يمكن تغييرها. هل ترغب في الاستمرار؟";
+"YOUR_DATA_HAS_BEEN_SUCCESSFULLY_SAVED" = "وكانت البيانات الخاصة بك \ ن حفظ بنجاح";
+"FAILED_TO_SUBMIT_ANOTATIONS" = "فشل في إرسال الشروح";
+"FAILED_TO_SAVE_STUDENT_ANOTATION" = "غير قادر على حفظ البيانات، الرجاء المحاولة مرة أخرى ...";
+"FAILED_TO_FETCH_UGC" = "فشل في جلب UGC";
+"UGC_SYNCHING_FAILED" = "فشل UGC المزامنة";
+"HAS_NOT_SUBMITTED_ANY_ANSWER" = " لم يقدم \ ن أي إجابات";
+"FAILED_TO_SAVE_ANOTATION" = "فشل في حفظ التعليق التوضيحي";
+"YOUR_SESSION_HAS_EXPIRED" = "انتهت صلاحية جلسة العمل الخاصة بك";
+"PLEASE_SIGN_IN_AGAIN" = "الرجاء تسجيل الدخول مرة أخرى";
+"INCORRECT_ANSWER_TEXT" = "وهذا هو إجابة غير صحيحة! \ ن الجواب الصحيح هو";
+
+//My data
+"NO_SHARED_NOTES_KEY" = "لا الملاحظات المشتركة وجدت";
+"NO_SHARED_HIGHLIGHTS_KEY" = "لم يتم العثور على أبرز المشتركة";
+"NO_HIGHLIGHTS_KEY" = "لم يتم العثور على الضوء.";
+"NO_NOTES_KEY" = "لم يتم العثور على الملاحظات.";
+"My_Data:_Notification" = "بياناتي: أضواء";
+"Notes_added/shared_with_will_appear_color_coded_on_the_basis_of_recently_create/shared" = "ملاحظات وأضاف / سوف تظهر ونا مميزا على أساس مؤخرا تم تكوينها ومشاركتها / المشتركة";
+"Highlight_text_to_add_a_note_or_mark them_as_important" = "تسليط الضوء على النص لإضافة ملاحظة أو علامة عليها بأنها مهمة";
+"HIGHLIGHTS_KEY" = "يسلط الضوء";
+"NOTES_KEY" = "ملاحظات";
+"MY_DATA_COMMENTS" = "تعليقات";
+"MY_DATA_RECEIVE" = "تسلم";
+"MY_DATA_STARTED_SHARING_DATA_WITH_YOU" = "التي تقاسم البيانات معك.";
+
+//Months
+"January" = "يناير";
+"February" = "شهر فبراير";
+"March" = "مارس";
+"April" = "أبريل";
+"May" = "يمكن";
+"June" = "يونيو";
+"July" = "تموز";
+"August" = "أغسطس";
+"September" = "سبتمبر";
+"October" = "اكتوبر";
+"November" = "شهر نوفمبر";
+"December" = "ديسمبر";
+
+/*
+ Read To me Header Texts
+ */
+"READALOUD_READ_TO_ME_TEXT" = "حدد لفتح الكتاب في وبصوت عال قراءة الوضع على أساس صفحة تلو صفحة";
+"READALOUD_LET_ME_READ_TEXT" = "حدد لفتح الكتاب بدون صوت";
+"READALOUD_AUTOPLAY_TEXT" = "حدد لفتح الكتاب في وبصوت عال قراءة الوضع مع صناعة السيارات في الوجه إلى الصفحة التالية";
+"READALOUD_CHOOSE_YOUR_MODE_TEXT" = "اختيار وضع الخاص بك";
+
+"READALOUD_LET_ME_READ_BUTTON_TEXT" = "دعني اقرأ";
+"READALOUD_AUTOPLAY_BUTTON_TEXT" = "تشغيل تلقائي";
+"READALOUD_READ_TO_ME_BUTTON_TEXT" = "اقرأ لي";
+
+"NO_DATA" = "لايوجد بيانات";
+"MY_NOTES" = "ملاحظاتي";
+"MY_HIGHLIGHTS" = "بلدي يسلط الضوء على";
+
+//Teacher Review
+"SELECT_STUDENT" = "حدد الطلاب";
+"DONE" = "منتهي";
+"CLASS" = "فصل";
+"ALL_STUDENTS" = "كل الطلاب";
+"REFRESH" = "تحديث";
+"SELECT_CLASS" = "حدد الفئة";
+"SELECT_STUDENT" = "حدد الطالب";
+"ANNOTATIONS" = "التوضيحية";
+"CHANGE_CLASS" = "يتغيرون";
+"RESET_ALL" = "إعادة ضبط الجميع";
+"RESET_DETAIL" = "سيؤدي ذلك إلى إعادة تعيين إدخالات إدخال النص والإشراف التعجيلي المقدمة، إنها عملية لا رجعة فيها.";
+"CURRENT_PAGE" = "الصفحه الحاليه";
+"ALL_PAGES" = "كل الصفحات";
+"LEARNER" = "المتعلم";
+
+//Text Search
+"SEARCH_WITH_KEYWORDS" = "البحث مع الكلمات الرئيسية";
+
+//ShareSettings
+"ANNOTATIONS_SHARING_NOT_ALLOWED" = "تقاسم غير مسموح الشروح لهذه الفئة";
+"SETTINGS" = "إعدادات";
+"SHARE_NOTE" = "حصة ملاحظة";
+"SHARE" = "يشارك";
+"ALL TEACHERS" = "جميع المعلمين";
+
+//Thumbnail
+"GO_TO" ="اذهب إلى";
+"THUMBNAILS" = "الصور المصغرة";
+"PLEASE_ENTER_PAGE_NUMBER_ALERT" = "الرجاء إدخال رقم الصفحة";
+"ERROR_ALERT_TITLE" = "خطأ";
+"PLEASE_ENTER_VALID_PAGE_NUMBER_ALERT" = "الرجاء إدخال رقم الصفحة صحيح";
+
+//StickyNote
+"PLEASE_TAP_INSIDE_THE_PAGE_TO_ADD STICKYNOTE" = "يرجى النقر على داخل الصفحة لإضافة stickynote";
+"Enter_Note" = "أدخل ملاحظة";
+"Save_Changes" = "حفظ التغييرات";
+"Do_you_wish_to_save_changes" = "هل ترغب في حفظ التغييرات؟";
+"Delete_note" = "ملاحظة الحذف";
+"NOTE" = "ملحوظة";
+"WRITE_YOUR_COMMENT_HERE" = "أكتب تعليقك هنا";
+
+//KitabooTOC
+"NO_TOC_Data" = "لا بيانات TOC";
+"NO_RESOURCE_DATA" = "لا بيانات الموارد";
+"NO_BOOKMARK_DATA" = "لا بيانات المرجعية";
+"Table_of_Resources" = "جدول الموارد";
+"Table_of_Content" = "جدول المحتويات";
+"Your_added_bookmarks_will_be_listed_here" = "وسيتم إدراج العلامات وأضاف الخاص بك هنا";
+"NO_INTERNAL_RESOURCES" = "لم الموارد الداخلية المتاحة";
+"INTERNAL_RESOURCES" = "الموارد الداخلية";
+"EXTERNAL_RESOURCES" = "موارد خارجية";
+"Content" = "محتويات";
+"TEKS" = "TEKS";
+"ELPS" = "ELPS";
+"Standards" = "المعايير";
+"Resources" = "موارد";
+
+//TextAnnotation
+"DELETE_TEXT_ANNOTATION_MESSAGE" = "هل أنت متأكد أنك تريد حذف؟ \ n هذا العمل لا رجعة فيه";
+"TEXT_ANNOTATION_CAN_NOT_ADD_VIEW" = "لا يمكن إضافة حاشية النص على هذا الرأي";
+"TEXT_ANNOTATION_CAN_NOT_ADD" = "الرجاء إضافة نص الشرح على أي من الصفحات.";
+
+//ReaderViewController
+"SEARCH" = "بحث";
+"LOADING_DATA" = "تحميل البيانات..";
+"Delete_Highlight" = "تسليط الضوء على حذف";
+"Do_you_wish_to_delete_highlight" = "هل ترغب في حذف تسليط الضوء؟";
+
+//Kaltura Video Player Alert
+"KALTURA_INITIALIZATION_ERROR_MESSAGE_KEY"  =   "حدث خطأ أثناء تهيئة Kaltura الفيديو";
+
+//SEARCH VIEW
+"search_result_not_found" = "نتيجة البحث لم يتم العثور على";
+"GENERATING_SEARCH_RESULT" = "توليد نتيجة البحث ...";
+//Just now
+"JUST_NOW" = "الآن فقط";
+
+//Teacher Annotation.
+"RETRY" = "إعادة المحاولة";
+"DO_YOU_WISH_TO_DELETE_ALL_DOODLES" = "سيتم مسح كافة البيانات الموجودة على هذه الصفحة. هل ترغب في الاستمرار؟";
+"DATA_SUBMITTED_SUCCESSFULLY" = "قدمت البيانات بنجاح.";
+"ALERT_BUTTON" = "انذار!";
+"SAVING_THE_DATA" = "توفير البيانات ...";
+
+//FilerViewController
+"Filter_All" = "الجميع";
+"Contextual_notes" = "الملاحظات السياقية";
+"FILTER_BY" = "مصنف بواسطة";
+"NOTES_FILTER_BY" = "ملاحظات تصفية حسب";
+"Highlights_filter_by" = "مرشح يسلط الضوء من قبل";
+"CONTEXTUAL_NOTES_FILTER_BY" = "الملاحظات السياقية مرشح من قبل";
+
+//Protractor
+"PROTRACTOR_NOT_AVAILABLE_IN_LANDSCAPE_ALERT_TITLE" = "";
+"THE_FEATURE_CAN_BE_BEST_USED_IN_ONE_PAGE_VIEW_PLEASE_SWITCH_TO_ONE_PAGE_VIEW" = "هذه الميزة يمكن استخدام أفضل في عرض صفحة واحدة، يرجى عرض الصفحة التبديل إلى واحد.";
+"PROTRACTOR_ALERT_MSG"="هل أنت متأكد أنك تريد حذف؟";
+
+//Bookmark
+"ADD_BOOKMARK_PLACEHOLDER_KEY"  =   "إضافة علامة لقب";
+
+//Equation Editor
+"EE_DATA_DELETE_TITLE"="مفتاح لوحة المفاتيح";
+"EE_DATA_DELETE_MESSAGE"="سيتم حذف البيانات الخاصة بك، هل أنت متأكد أنك تريد أن تتحول؟";
+"NOTE_CAN_NOT_MOVE_NEAR_BOOKMARK_MESSAGE_KEY"  =  "لا يمكنك نقل مذكرة بالقرب من المرجعية أو منطقة المبرمجة.";
+"SORRY_KEY" = "آسف";
+
+//BOTTOMBAR FOR PHONE
+"INTERNET_UNAVAILABLE_MESSAGE" = "انت غير متصل. تحقق من اتصال الإنترنت الخاص بك وحاول مرة أخرى";
+"FAILED_ALERT_TITLE" = "باءت بالفشل";
+
+//DropDown
+"SELECT_KEY"   =   "يختار";
+
+"MY_DATA_ACCEPT" = "قبول";
+"MY_DATA_DECLINE" = "انخفاض";
+
+
+//Clear All Data
+"CLEAR_DATA_ALERT_TITILE_KEY"           =   "امسح البيانات";
+"CLEAR_DATA_ALERT_MESSAGE"              =   "سيتم مسح الأجوبة. هل ترغب في الاستمرار؟";
+
+//Html Activity
+"INTERNET_NOT_AVAILABLE_ACTIVITY"="لا اتصال إنترنت.";
+
+//Epub font setting
+"FONTSETTING_LAYOUT_TITLE" = "إعدادات الخط";
+"FONTSETTING_RESET_TITLE" = "إعادة تعيين إلى الافتراضي";
+
+"FONTSETTING_FONTFAMILY_TITLE" = "الخط";
+"FONTSETTING_FONTFAMILY_DEFAULT" = "تقصير";
+"FONTSETTING_ALIGNMENT_TITLE" = "محاذاة";
+"FONTSETTING_LINESPACING_TITLE" = "تباعد الأسطر";
+"FONTSETTING_MARGIN_TITLE" = "هوامش";
+"FONTSETTING_READERMODE_TITLE" = "الوضع";
+"FONTSETTING_SCROLLMODE_TITLE" = "وضع التمرير";
+
+//AudioBook
+
+//Narration Speed
+"NARRATION_SPEED_TITLE" = "رواية السرعة";
+"CANCEL" = "يلغي";
+"APPLY" = "يتقدم";
+
+//TOC
+"CHAPTERS" = "فصول";
+"TRANSCRIPT" = "كشف الدرجات";
+"BOOKMARKS" = "إشارات مرجعية";
+
+//TOC MultiLevel Chapter
+"HOURS" = "ساعة";
+"MINUTE" = "مين";
+"MINUTES" = "مين";
+"SECONDS" = "Secs.";
+
+//Bookmark
+"Add Bookmark" = "اضافة للمفضلة";
+"Delete Bookmark" = "حذف المرجعية";
+"DELETE" = "حذف";
+"ADD" = "يضيف";
+"TYPE_SOMETHING_HERE" = "اكتب شيئا هنا";
+
+//Reflowable Slider Page Count
+"CHAPTER_KEY" = "الفصل";
+"OF_KEY" = "من";
+"MIN_LEFT" = "دقيقة اليسار";
+
+//Resources
+"The Internet connection appears to be offline." = "يظهر اتصال بالإنترنت لتكون حاليا.";
+"RESOURCE_NOT_FOUND"= "الموارد غير موجود!";
+"MARKUP_NOT_SUPPORTED" = "لا يتم اعتماد هذا النوع العلامات.";
+
+//Error Message
+"UNKNOWN_ERROR" = "حدث خطأ غير معروف.";
+"INVALID_RESPONSE_RECEIVED" = "استجابة غير صالحة المتلقاة.";
+
+//AudioBook Sleep Timer
+"SLEEP_MODE" = "وضع السكون";
+"SLEEP_TIMER_OFF" = "النوم الموقت";
+"MIN" = "دقيقة";
+"CUSTOM" = "مخصص";
+"SET_CUSTOM_TIME" = "ضبط الوقت المخصص";
+"OK_BUTTON" = "موافق";
+
+
+//Generate Report
+"GENERATE_REPORT" = "انشاء تقرير";
+"SELECT_STUDENT_FOR_REVIEW" = "حدد الطالب للمراجعة";
+"GENERATE_REPORT_TITLE" = "ولدت تقرير";
+"GENERATE_REPORT_MESSAGE" = "\ ن ولدت وتقرير حصة على هاتفك مسجلة ID البريد الإلكتروني";
+"GENERATE_REPORT_PLACEHOLDER" = "أدخل معرف بريد إلكتروني آخر";
+"GENERATE_REPORT_MESSAGE_CONF" = "ستتلقى التقرير على البريد الإلكتروني المشترك في غضون ٣٠ دقيقة من";
+"GENERATE_REPORT_LABEL_TITLE" = "انشاء تقرير";
+"GENERATE_REPORT_LABEL_MESSAGE" = "اختر الفصل والطلاب لتوليد تقرير";
+"GENERATE_REPORT_CANCEL_BUTTON" = "يلغي";
+"GENERATE_REPORT_NEXT_BUTTON" = "التالي";
+"SELECT_CHAPTER" = "اختر الفصل";
+"SELECT_STUDENT" = "حدد الطلاب";
+"GENERATE_REPORT_ALL" = "الجميع";
+"GENERATE_REPORT_ALL_STUDENTS" = "كل الطلاب";
+"GENERATE_REPORT_ONLY_ATTEMPTED" = "محاولة فقط";
+"GENERATE_REPORT_ALL_STUDENTS_COUNT" = "جميع الطلاب";
+"GENERATE_REPORT_MAIL_SUCCESS_TITLE" = "نجاح";
+"GENERATE_REPORT_MAIL_SUCCESS_MESSAGE" = "أرسلت التقرير بنجاح للمستخدم";
+"SOMETHING_WENT_WRONG" = "عذرا، هناك خطأ ما. حاول مرة اخرى";
+"GENERATE_REPORT_NO_KEY" = "تحديث يرجى الكتاب الاليكتروني مرة أخرى لعرض جدول المحتويات أو الاتصال بمسؤول لمزيد من التفاصيل.";
+"INVALID_EMAIL_MESSAGE" = "الرجاء إدخال معرف بريد إلكتروني صحيح.";
+
+"WATERMARK_TEXT" = "محمي هذا العمل من قبل القانون، بما في ذلك سبيل المثال لا الحصر قانون الولايات المتحدة حق المؤلف والمعاهدات الدولية. جميع الحقوق محفوظة من قبل الناشر و / أو المرخص";
+
+//Furthest Page
+"FURTHEST_PAGE_NOT_SUPPORTED" = "أبعد الصفحة غير معتمد";
+"YOU_ARE_ALREADY_ON_FURTHEST_PAGE" = "كنت بالفعل على الصفحة أبعد";
+
+//Print My Data
+"PRINT_KEY" = "مطبعة";
+"BOTH_KEY" = "على حد سواء";
+"NOTE_CELL_PAGE_KEY" = "صفحة";

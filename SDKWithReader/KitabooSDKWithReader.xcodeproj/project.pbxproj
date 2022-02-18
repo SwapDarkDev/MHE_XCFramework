@@ -1,0 +1,1692 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		212D5C2426272461001D1E47 /* icomoon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 212D5C2326272461001D1E47 /* icomoon.ttf */; };
+		21B0984425FF7458006EEBB0 /* ThumnailSliderThumbImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 21B0984325FF7458006EEBB0 /* ThumnailSliderThumbImage.png */; };
+		21B0984525FF7458006EEBB0 /* ThumnailSliderThumbImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 21B0984325FF7458006EEBB0 /* ThumnailSliderThumbImage.png */; };
+		21B4F9F025E7C74E008575D8 /* RTLorLTRFlowLayoutForReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B4F9EF25E7C74E008575D8 /* RTLorLTRFlowLayoutForReader.swift */; };
+		3B863FE426F4D6EC0054D1B4 /* KBMyDataPrintOptionsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B863FE326F4D6EC0054D1B4 /* KBMyDataPrintOptionsController.swift */; };
+		48046D30252B43FD00E219DD /* KitabooReaderEventConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48046D2F252B43FD00E219DD /* KitabooReaderEventConstant.swift */; };
+		48046D31252B43FD00E219DD /* KitabooReaderEventConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48046D2F252B43FD00E219DD /* KitabooReaderEventConstant.swift */; };
+		487F099C24ACC87F00F1557A /* fetchUserSettingsResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 487F099B24ACC87E00F1557A /* fetchUserSettingsResponse.json */; };
+		487F09AF24ACCEC200F1557A /* HDScreenCaptureResistController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487F09AE24ACCEC200F1557A /* HDScreenCaptureResistController.swift */; };
+		487F09B024ACCEC200F1557A /* HDScreenCaptureResistController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487F09AE24ACCEC200F1557A /* HDScreenCaptureResistController.swift */; };
+		48C898072510BF8A005F3F70 /* SampleReaderConfiguration.plist in Resources */ = {isa = PBXBuildFile; fileRef = 48C898062510BF8A005F3F70 /* SampleReaderConfiguration.plist */; };
+		48C8980A2510C13B005F3F70 /* SampleReaderConfigurationData.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C898092510C13B005F3F70 /* SampleReaderConfigurationData.m */; };
+		48C8980D2510C61E005F3F70 /* SampleReaderBookInfoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C8980C2510C61E005F3F70 /* SampleReaderBookInfoManager.m */; };
+		48C898102510D85C005F3F70 /* SampleReaderDownloadController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C8980F2510D85C005F3F70 /* SampleReaderDownloadController.m */; };
+		48E9A40F255A641D00D0BC88 /* KBFixedEpubThumbnailViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 48E9A40D255A641D00D0BC88 /* KBFixedEpubThumbnailViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48E9A410255A641D00D0BC88 /* KBFixedEpubThumbnailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E9A40E255A641D00D0BC88 /* KBFixedEpubThumbnailViewController.m */; };
+		48EFD34624AB610E00AF5026 /* kitabooread.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48EFD34524AB610E00AF5026 /* kitabooread.ttf */; };
+		48EFD34F24AB698400AF5026 /* ReaderTheme.json in Resources */ = {isa = PBXBuildFile; fileRef = 48EFD34E24AB698400AF5026 /* ReaderTheme.json */; };
+		48EFD35824AB6F7300AF5026 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48EFD35724AB6F7300AF5026 /* AppDelegate.m */; };
+		48EFD35B24AB6F7300AF5026 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48EFD35A24AB6F7300AF5026 /* SceneDelegate.m */; };
+		48EFD35E24AB6F7300AF5026 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48EFD35D24AB6F7300AF5026 /* ViewController.m */; };
+		48EFD36124AB6F7300AF5026 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48EFD35F24AB6F7300AF5026 /* Main.storyboard */; };
+		48EFD36624AB6F7600AF5026 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48EFD36424AB6F7600AF5026 /* LaunchScreen.storyboard */; };
+		48EFD36924AB6F7600AF5026 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48EFD36824AB6F7600AF5026 /* main.m */; };
+		48EFD3DC24AB78C500AF5026 /* SliderThumbImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 48EFD3DB24AB78C500AF5026 /* SliderThumbImage.png */; };
+		48EFD3DD24AB78C500AF5026 /* SliderThumbImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 48EFD3DB24AB78C500AF5026 /* SliderThumbImage.png */; };
+		48EFD3DF24AB7E0C00AF5026 /* TestingBooks in Resources */ = {isa = PBXBuildFile; fileRef = 48EFD3DE24AB7E0C00AF5026 /* TestingBooks */; };
+		48F4FFD424E42F0800840C63 /* audio-video-theme.json in Resources */ = {isa = PBXBuildFile; fileRef = 48F4FFD324E42F0700840C63 /* audio-video-theme.json */; };
+		48F4FFD524E42F0800840C63 /* audio-video-theme.json in Resources */ = {isa = PBXBuildFile; fileRef = 48F4FFD324E42F0700840C63 /* audio-video-theme.json */; };
+		84698CAD27BA452B00FE6C08 /* KitabooLocalizationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE27447D24A0BBE30074B713 /* KitabooLocalizationHelper.swift */; };
+		84698CB327BA477100FE6C08 /* KitabooSDKWithReader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2743EC24A0BB890074B713 /* KitabooSDKWithReader.framework */; };
+		84698CB427BA477100FE6C08 /* KitabooSDKWithReader.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CE2743EC24A0BB890074B713 /* KitabooSDKWithReader.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		84698CBA27BA62DA00FE6C08 /* UGCXMLClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 84698CB827BA62DA00FE6C08 /* UGCXMLClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84698CBB27BA62DA00FE6C08 /* UGCXMLClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 84698CB927BA62DA00FE6C08 /* UGCXMLClass.m */; };
+		84698CBC27BA63C800FE6C08 /* UGCXMLClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 84698CB927BA62DA00FE6C08 /* UGCXMLClass.m */; };
+		84698CC427BA9B5300FE6C08 /* XMLReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 84698CC227BA9B5300FE6C08 /* XMLReader.h */; };
+		84698CC527BA9B5300FE6C08 /* XMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 84698CC327BA9B5300FE6C08 /* XMLReader.m */; };
+		84698CC627BA9B5300FE6C08 /* XMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 84698CC327BA9B5300FE6C08 /* XMLReader.m */; };
+		84698CCA27BAA78100FE6C08 /* ParseUGCData.h in Headers */ = {isa = PBXBuildFile; fileRef = 84698CC827BAA78100FE6C08 /* ParseUGCData.h */; };
+		84698CCB27BAA78200FE6C08 /* ParseUGCData.m in Sources */ = {isa = PBXBuildFile; fileRef = 84698CC927BAA78100FE6C08 /* ParseUGCData.m */; };
+		84698CCC27BAA78200FE6C08 /* ParseUGCData.m in Sources */ = {isa = PBXBuildFile; fileRef = 84698CC927BAA78100FE6C08 /* ParseUGCData.m */; };
+		84B9DF0527A98928007AC634 /* MHEReaderViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 84B9DF0327A98928007AC634 /* MHEReaderViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84B9DF0627A98928007AC634 /* MHEReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B9DF0427A98928007AC634 /* MHEReaderViewController.m */; };
+		84C627EA27BFF55C005BF680 /* Kitaboo_Reader_SDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B21AF7276B7BDF00E10E30 /* Kitaboo_Reader_SDK.xcframework */; };
+		84C627ED27BFF56A005BF680 /* Kitaboo_Reader_SDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B21AF7276B7BDF00E10E30 /* Kitaboo_Reader_SDK.xcframework */; };
+		84C627EE27BFF56A005BF680 /* Kitaboo_Reader_SDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 84B21AF7276B7BDF00E10E30 /* Kitaboo_Reader_SDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B30AA51B267A191300C2C77A /* TeacherReviewClassListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30AA51A267A191300C2C77A /* TeacherReviewClassListViewController.swift */; };
+		B30AA51F267A492300C2C77A /* TeacherReviewClassListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30AA51D267A492300C2C77A /* TeacherReviewClassListTableViewCell.swift */; };
+		B30AA520267A492300C2C77A /* TeacherReviewClassListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B30AA51E267A492300C2C77A /* TeacherReviewClassListTableViewCell.xib */; };
+		B33E05F824AA2E3C00756B3B /* HDFontManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B33E05F624AA2E3C00756B3B /* HDFontManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B33E05F924AA2E3C00756B3B /* HDFontManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B33E05F724AA2E3C00756B3B /* HDFontManager.m */; };
+		B33E05FC24AA31D500756B3B /* HDFontManagerHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = B33E05FA24AA31D500756B3B /* HDFontManagerHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B33E05FD24AA31D500756B3B /* HDFontManagerHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B33E05FB24AA31D500756B3B /* HDFontManagerHelper.m */; };
+		B34DF11C2680570B00BD94FB /* TeacherReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34DF11B2680570B00BD94FB /* TeacherReviewViewController.swift */; };
+		B34DF1252680AE0300BD94FB /* TeacherReviewStudentListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34DF1242680AE0300BD94FB /* TeacherReviewStudentListTableViewCell.swift */; };
+		B34DF1CB268A635200BD94FB /* ResetAllViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34DF1CA268A635100BD94FB /* ResetAllViewController.swift */; };
+		B3DD6CC025C95F82006A73F6 /* HDKitabooAnalyticsHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DD6CBF25C95F82006A73F6 /* HDKitabooAnalyticsHandler.swift */; };
+		B3E7434324B46BA60025553D /* HDLanguageBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E7434224B46BA50025553D /* HDLanguageBundle.swift */; };
+		B3E7434424B46BA60025553D /* HDLanguageBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E7434224B46BA50025553D /* HDLanguageBundle.swift */; };
+		C12FB74325F786FD00EC1FF2 /* HDKitabooMediaBookReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12FB74125F786FD00EC1FF2 /* HDKitabooMediaBookReader.swift */; };
+		C1E0E09A25AD6A860015CC7D /* HDKitabooHLSDownloaderManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C1E0E09825AD6A860015CC7D /* HDKitabooHLSDownloaderManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1E0E09B25AD6A860015CC7D /* HDKitabooHLSDownloaderManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E0E09925AD6A860015CC7D /* HDKitabooHLSDownloaderManager.m */; };
+		CE2743F124A0BB890074B713 /* KitabooSDKWithReader.h in Headers */ = {isa = PBXBuildFile; fileRef = CE2743EF24A0BB890074B713 /* KitabooSDKWithReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE27449324A0BBE30074B713 /* KitabooThumbnailCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2743FB24A0BBE20074B713 /* KitabooThumbnailCollectionViewCell.m */; };
+		CE27449424A0BBE30074B713 /* KBThumbnailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2743FC24A0BBE20074B713 /* KBThumbnailViewController.m */; };
+		CE27449524A0BBE30074B713 /* KitabooThumbnailCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = CE2743FD24A0BBE20074B713 /* KitabooThumbnailCollectionViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE27449624A0BBE30074B713 /* KBThumbnailViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = CE2743FE24A0BBE20074B713 /* KBThumbnailViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE27449724A0BBE30074B713 /* HDReaderSettingModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2743FF24A0BBE20074B713 /* HDReaderSettingModel.m */; };
+		CE27449824A0BBE30074B713 /* TOCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE27440124A0BBE20074B713 /* TOCViewController.swift */; };
+		CE27449924A0BBE30074B713 /* TOCContentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE27440224A0BBE20074B713 /* TOCContentCell.swift */; };
+		CE27449A24A0BBE30074B713 /* TOCTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE27440324A0BBE20074B713 /* TOCTableViewCell.swift */; };
+		CE27449B24A0BBE30074B713 /* TOCTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE27440424A0BBE20074B713 /* TOCTableViewCell.xib */; };
+		CE27449C24A0BBE30074B713 /* TOCContentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE27440524A0BBE20074B713 /* TOCContentCell.xib */; };
+		CE27449D24A0BBE30074B713 /* KitabooReaderViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = CE27440624A0BBE20074B713 /* KitabooReaderViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE27449E24A0BBE30074B713 /* KBShareSettingsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE27440824A0BBE20074B713 /* KBShareSettingsCell.xib */; };
+		CE27449F24A0BBE30074B713 /* KBShareSettingsController.h in Headers */ = {isa = PBXBuildFile; fileRef = CE27440924A0BBE20074B713 /* KBShareSettingsController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE2744A024A0BBE30074B713 /* KBShareSettingsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE27440A24A0BBE20074B713 /* KBShareSettingsCell.m */; };
+		CE2744A124A0BBE30074B713 /* KitabooSharedUserInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = CE27440B24A0BBE20074B713 /* KitabooSharedUserInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE2744A224A0BBE30074B713 /* ShareSettingsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE27440C24A0BBE20074B713 /* ShareSettingsController.xib */; };
+		CE2744A324A0BBE30074B713 /* KitabooSharedUserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = CE27440D24A0BBE20074B713 /* KitabooSharedUserInfo.m */; };
+		CE2744A424A0BBE30074B713 /* KBShareSettingsCell.h in Headers */ = {isa = PBXBuildFile; fileRef = CE27440E24A0BBE20074B713 /* KBShareSettingsCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE2744A524A0BBE30074B713 /* KBShareSettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE27440F24A0BBE20074B713 /* KBShareSettingsController.m */; };
+		CE2744A624A0BBE30074B713 /* PlayerActionTopBar.h in Headers */ = {isa = PBXBuildFile; fileRef = CE27441124A0BBE20074B713 /* PlayerActionTopBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE2744A724A0BBE30074B713 /* PlayerActionBottomBar.h in Headers */ = {isa = PBXBuildFile; fileRef = CE27441224A0BBE20074B713 /* PlayerActionBottomBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE2744A824A0BBE30074B713 /* PlayerActionBottomBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CE27441324A0BBE20074B713 /* PlayerActionBottomBar.m */; };
+		CE2744A924A0BBE30074B713 /* PlayerActionTopBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CE27441424A0BBE20074B713 /* PlayerActionTopBar.m */; };
+		CE2744AA24A0BBE30074B713 /* StickyNoteCommentCell.h in Headers */ = {isa = PBXBuildFile; fileRef = CE27441624A0BBE20074B713 /* StickyNoteCommentCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE2744AB24A0BBE30074B713 /* StickyNotesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE27441724A0BBE20074B713 /* StickyNotesViewController.xib */; };
+		CE2744AC24A0BBE30074B713 /* TextHighlightColorBtnCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE27441824A0BBE20074B713 /* TextHighlightColorBtnCollectionViewCell.m */; };
+		CE2744AD24A0BBE30074B713 /* StickyNotesViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = CE27441924A0BBE20074B713 /* StickyNotesViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE2744AE24A0BBE30074B713 /* StickyNoteCommentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE27441A24A0BBE20074B713 /* StickyNoteCommentCell.m */; };
+		CE2744AF24A0BBE30074B713 /* TextHighlightColorBtnCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE27441B24A0BBE20074B713 /* TextHighlightColorBtnCollectionViewCell.xib */; };
+		CE2744B024A0BBE30074B713 /* TextHighlightColorBtnCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = CE27441C24A0BBE20074B713 /* TextHighlightColorBtnCollectionViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE2744B124A0BBE30074B713 /* StickyNoteCommentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE27441D24A0BBE20074B713 /* StickyNoteCommentCell.xib */; };
+		CE2744B224A0BBE30074B713 /* StickyNotesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE27441E24A0BBE20074B713 /* StickyNotesViewController.m */; };
+		CE2744B324A0BBE30074B713 /* HDKitabooMediaBookController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE27442024A0BBE20074B713 /* HDKitabooMediaBookController.m */; };
+		CE2744B424A0BBE30074B713 /* HDKitabooMediaBookController.h in Headers */ = {isa = PBXBuildFile; fileRef = CE27442124A0BBE20074B713 /* HDKitabooMediaBookController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE2744B524A0BBE30074B713 /* HDReaderServiceConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE27442324A0BBE20074B713 /* HDReaderServiceConstants.swift */; };
+		CE2744B624A0BBE30074B713 /* ReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE27442424A0BBE20074B713 /* ReaderViewController.m */; };
+		CE2744B724A0BBE30074B713 /* TeacherAnnotationViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = CE27442624A0BBE20074B713 /* TeacherAnnotationViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE2744B824A0BBE30074B713 /* TeacherAnnotationTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = CE27442724A0BBE20074B713 /* TeacherAnnotationTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE2744B924A0BBE30074B713 /* TeacherAnnotationViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE27442824A0BBE20074B713 /* TeacherAnnotationViewCell.m */; };
+		CE2744BA24A0BBE30074B713 /* TeacherAnnotationTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE27442924A0BBE20074B713 /* TeacherAnnotationTableViewCell.m */; };
+		CE2744BB24A0BBE30074B713 /* TeacherAnnotationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE27442A24A0BBE20074B713 /* TeacherAnnotationViewController.m */; };
+		CE2744BC24A0BBE30074B713 /* TeacherAnnotationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE27442B24A0BBE20074B713 /* TeacherAnnotationTableViewCell.xib */; };
+		CE2744BD24A0BBE30074B713 /* TeacherAnnotationViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = CE27442C24A0BBE20074B713 /* TeacherAnnotationViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE2744BE24A0BBE30074B713 /* KBMyDataNoteAnswerCell.h in Headers */ = {isa = PBXBuildFile; fileRef = CE27442E24A0BBE20074B713 /* KBMyDataNoteAnswerCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE2744BF24A0BBE30074B713 /* MyDataViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE27442F24A0BBE20074B713 /* MyDataViewController.xib */; };
+		CE2744C024A0BBE30074B713 /* FilterDataObject.h in Headers */ = {isa = PBXBuildFile; fileRef = CE27443024A0BBE20074B713 /* FilterDataObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE2744C124A0BBE30074B713 /* FilterViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = CE27443124A0BBE20074B713 /* FilterViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE2744C224A0BBE30074B713 /* KBMyDataViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = CE27443224A0BBE20074B713 /* KBMyDataViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE2744C324A0BBE30074B713 /* KBMyDataHighlightCell.h in Headers */ = {isa = PBXBuildFile; fileRef = CE27443324A0BBE20074B713 /* KBMyDataHighlightCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE2744C424A0BBE30074B713 /* FilterCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE27443424A0BBE20074B713 /* FilterCollectionCell.m */; };
+		CE2744C524A0BBE30074B713 /* MyDataNoteCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE27443524A0BBE20074B713 /* MyDataNoteCell.xib */; };
+		CE2744C624A0BBE30074B713 /* KBMyDataNoteCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE27443624A0BBE20074B713 /* KBMyDataNoteCell.m */; };
+		CE2744C724A0BBE30074B713 /* FilterDataObject.m in Sources */ = {isa = PBXBuildFile; fileRef = CE27443724A0BBE20074B713 /* FilterDataObject.m */; };
+		CE2744C824A0BBE30074B713 /* MyDataNoteAnswerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE27443824A0BBE20074B713 /* MyDataNoteAnswerCell.xib */; };
+		CE2744C924A0BBE30074B713 /* KBMyDataNoteAnswerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE27443924A0BBE20074B713 /* KBMyDataNoteAnswerCell.m */; };
+		CE2744CA24A0BBE30074B713 /* MyDataHighlightCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE27443A24A0BBE20074B713 /* MyDataHighlightCell.xib */; };
+		CE2744CB24A0BBE30074B713 /* KBMyDataHighlightCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE27443B24A0BBE20074B713 /* KBMyDataHighlightCell.m */; };
+		CE2744CC24A0BBE30074B713 /* KBMyDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE27443C24A0BBE20074B713 /* KBMyDataViewController.m */; };
+		CE2744CD24A0BBE30074B713 /* FilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE27443D24A0BBE20074B713 /* FilterViewController.m */; };
+		CE2744CE24A0BBE30074B713 /* FilterCollectionCell.h in Headers */ = {isa = PBXBuildFile; fileRef = CE27443E24A0BBE20074B713 /* FilterCollectionCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE2744CF24A0BBE30074B713 /* FilterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE27443F24A0BBE20074B713 /* FilterViewController.xib */; };
+		CE2744D024A0BBE30074B713 /* KBMyDataNoteCell.h in Headers */ = {isa = PBXBuildFile; fileRef = CE27444024A0BBE20074B713 /* KBMyDataNoteCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE2744D124A0BBE30074B713 /* AlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = CE27444224A0BBE20074B713 /* AlertView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE2744D224A0BBE30074B713 /* ReaderHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = CE27444324A0BBE20074B713 /* ReaderHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE2744D324A0BBE30074B713 /* Constant.h in Headers */ = {isa = PBXBuildFile; fileRef = CE27444424A0BBE20074B713 /* Constant.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE2744D424A0BBE30074B713 /* AlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE27444524A0BBE20074B713 /* AlertView.m */; };
+		CE2744D524A0BBE30074B713 /* AccessibilityIdentifierConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = CE27444724A0BBE20074B713 /* AccessibilityIdentifierConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE2744D624A0BBE30074B713 /* KitabooAccessibility.json in Resources */ = {isa = PBXBuildFile; fileRef = CE27444824A0BBE20074B713 /* KitabooAccessibility.json */; };
+		CE2744D724A0BBE30074B713 /* AccessibilityInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE27444A24A0BBE20074B713 /* AccessibilityInfo.plist */; };
+		CE2744D824A0BBE30074B713 /* AccessibilityIdentifierConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = CE27444C24A0BBE20074B713 /* AccessibilityIdentifierConstants.m */; };
+		CE2744D924A0BBE30074B713 /* AccessibilityHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE27444E24A0BBE20074B713 /* AccessibilityHelper.swift */; };
+		CE2744DA24A0BBE30074B713 /* LocalizeHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE27445024A0BBE20074B713 /* LocalizeHelper.swift */; };
+		CE2744DB24A0BBE30074B713 /* KitabooReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE27445124A0BBE20074B713 /* KitabooReaderViewController.m */; };
+		CE2744DC24A0BBE30074B713 /* HDReaderSettingModel.h in Headers */ = {isa = PBXBuildFile; fileRef = CE27445224A0BBE20074B713 /* HDReaderSettingModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE2744DD24A0BBE30074B713 /* HighlightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE27445424A0BBE20074B713 /* HighlightView.swift */; };
+		CE2744DE24A0BBE30074B713 /* HighLightToolView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE27445524A0BBE20074B713 /* HighLightToolView.xib */; };
+		CE2744DF24A0BBE30074B713 /* HighlightView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE27445624A0BBE20074B713 /* HighlightView.xib */; };
+		CE2744E024A0BBE30074B713 /* HighLightToolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE27445724A0BBE20074B713 /* HighLightToolView.swift */; };
+		CE2744E124A0BBE30074B713 /* SearchResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE27445924A0BBE20074B713 /* SearchResultCell.swift */; };
+		CE2744E224A0BBE30074B713 /* TextSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE27445A24A0BBE20074B713 /* TextSearchView.swift */; };
+		CE2744E324A0BBE30074B713 /* SearchResultCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE27445B24A0BBE20074B713 /* SearchResultCell.xib */; };
+		CE2744E424A0BBE30074B713 /* KitabooPenToolColorPalleteViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = CE27445D24A0BBE20074B713 /* KitabooPenToolColorPalleteViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE2744E524A0BBE30074B713 /* KitabooPenToolThicknessPalleteViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = CE27445E24A0BBE20074B713 /* KitabooPenToolThicknessPalleteViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE2744E624A0BBE30074B713 /* KitabooPenToolColorPalleteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE27445F24A0BBE20074B713 /* KitabooPenToolColorPalleteViewController.m */; };
+		CE2744E724A0BBE30074B713 /* KitabooPenToolThicknessPalleteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE27446024A0BBE20074B713 /* KitabooPenToolThicknessPalleteViewController.m */; };
+		CE2744E824A0BBE30074B713 /* readerDefault_theme.json in Resources */ = {isa = PBXBuildFile; fileRef = CE27446224A0BBE20074B713 /* readerDefault_theme.json */; };
+		CE2744E924A0BBE30074B713 /* KBHDThemeVO.m in Sources */ = {isa = PBXBuildFile; fileRef = CE27446324A0BBE20074B713 /* KBHDThemeVO.m */; };
+		CE2744EA24A0BBE30074B713 /* KBHDThemeVO.h in Headers */ = {isa = PBXBuildFile; fileRef = CE27446424A0BBE20074B713 /* KBHDThemeVO.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE2744EB24A0BBE30074B713 /* HelpScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE27446624A0BBE20074B713 /* HelpScreen.swift */; };
+		CE2744EC24A0BBE30074B713 /* MultiLinkController.h in Headers */ = {isa = PBXBuildFile; fileRef = CE27446824A0BBE20074B713 /* MultiLinkController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE2744ED24A0BBE30074B713 /* MultiLinkCell.h in Headers */ = {isa = PBXBuildFile; fileRef = CE27446924A0BBE20074B713 /* MultiLinkCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE2744EE24A0BBE30074B713 /* MultiLinkController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE27446A24A0BBE20074B713 /* MultiLinkController.m */; };
+		CE2744EF24A0BBE30074B713 /* MultiLinkCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE27446B24A0BBE20074B713 /* MultiLinkCell.m */; };
+		CE2744F024A0BBE30074B713 /* HDReadToMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE27446D24A0BBE20074B713 /* HDReadToMeViewController.swift */; };
+		CE2744F124A0BBE30074B713 /* ReaderViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = CE27446E24A0BBE20074B713 /* ReaderViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE2744F224A0BBE30074B713 /* TextAnnotationPalleteActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE27447024A0BBE20074B713 /* TextAnnotationPalleteActionView.swift */; };
+		CE2744F324A0BBE30074B713 /* TextAnnotationAlignmentActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE27447124A0BBE20074B713 /* TextAnnotationAlignmentActionView.swift */; };
+		CE2744F424A0BBE30074B713 /* TextAnnotationActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE27447224A0BBE20074B713 /* TextAnnotationActionView.swift */; };
+		CE2744F624A0BBE30074B713 /* HSUIColor-Expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = CE27447A24A0BBE30074B713 /* HSUIColor-Expanded.m */; };
+		CE2744F724A0BBE30074B713 /* CustomSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE27447B24A0BBE30074B713 /* CustomSlider.swift */; };
+		CE2744F824A0BBE30074B713 /* FontManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE27447C24A0BBE30074B713 /* FontManager.swift */; };
+		CE2744FA24A0BBE30074B713 /* HDPopOverBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE27447E24A0BBE30074B713 /* HDPopOverBackgroundView.m */; };
+		CE2744FB24A0BBE30074B713 /* IconFontConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = CE27447F24A0BBE30074B713 /* IconFontConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE2744FC24A0BBE30074B713 /* SystemInformation.h in Headers */ = {isa = PBXBuildFile; fileRef = CE27448024A0BBE30074B713 /* SystemInformation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE2744FD24A0BBE30074B713 /* UIViewController-Expanded.h in Headers */ = {isa = PBXBuildFile; fileRef = CE27448124A0BBE30074B713 /* UIViewController-Expanded.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE2744FE24A0BBE30074B713 /* UIButton-Expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = CE27448224A0BBE30074B713 /* UIButton-Expanded.m */; };
+		CE2744FF24A0BBE30074B713 /* NSString-Supplement.h in Headers */ = {isa = PBXBuildFile; fileRef = CE27448324A0BBE30074B713 /* NSString-Supplement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE27450024A0BBE30074B713 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = CE27448524A0BBE30074B713 /* Reachability.m */; };
+		CE27450124A0BBE30074B713 /* KitabooNetworkManager.h in Headers */ = {isa = PBXBuildFile; fileRef = CE27448624A0BBE30074B713 /* KitabooNetworkManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE27450224A0BBE30074B713 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = CE27448724A0BBE30074B713 /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE27450324A0BBE30074B713 /* KitabooNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CE27448824A0BBE30074B713 /* KitabooNetworkManager.m */; };
+		CE27450424A0BBE30074B713 /* HSUIColor-Expanded.h in Headers */ = {isa = PBXBuildFile; fileRef = CE27448924A0BBE30074B713 /* HSUIColor-Expanded.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE27450524A0BBE30074B713 /* UIViewController-Expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = CE27448A24A0BBE30074B713 /* UIViewController-Expanded.m */; };
+		CE27450624A0BBE30074B713 /* IconFontConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = CE27448B24A0BBE30074B713 /* IconFontConstants.m */; };
+		CE27450724A0BBE30074B713 /* SystemInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = CE27448C24A0BBE30074B713 /* SystemInformation.m */; };
+		CE27450824A0BBE30074B713 /* HDPopOverBackgroundView.h in Headers */ = {isa = PBXBuildFile; fileRef = CE27448D24A0BBE30074B713 /* HDPopOverBackgroundView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE27450924A0BBE30074B713 /* NSString-Supplement.m in Sources */ = {isa = PBXBuildFile; fileRef = CE27448E24A0BBE30074B713 /* NSString-Supplement.m */; };
+		CE27450A24A0BBE30074B713 /* UIButton-Expanded.h in Headers */ = {isa = PBXBuildFile; fileRef = CE27448F24A0BBE30074B713 /* UIButton-Expanded.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE27450B24A0BBE30074B713 /* UITextView+PH.h in Headers */ = {isa = PBXBuildFile; fileRef = CE27449124A0BBE30074B713 /* UITextView+PH.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE27450C24A0BBE30074B713 /* UITextView+PH.m in Sources */ = {isa = PBXBuildFile; fileRef = CE27449224A0BBE30074B713 /* UITextView+PH.m */; };
+		CE562F2E24A9D5E30046F93B /* OpenSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE562F2924A9D5E30046F93B /* OpenSans-SemiBold.ttf */; };
+		CE562F2F24A9D5E30046F93B /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE562F2A24A9D5E30046F93B /* OpenSans-Light.ttf */; };
+		CE562F3024A9D5E30046F93B /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE562F2B24A9D5E30046F93B /* OpenSans-ExtraBold.ttf */; };
+		CE562F3124A9D5E30046F93B /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE562F2C24A9D5E30046F93B /* OpenSans-Bold.ttf */; };
+		CE562F3224A9D5E30046F93B /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE562F2D24A9D5E30046F93B /* OpenSans-Regular.ttf */; };
+		CEC50D5A24E19ABD0078B9A9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE27447424A0BBE30074B713 /* Localizable.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		48EFD36D24AB6F9200AF5026 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE2743E324A0BB890074B713 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE2743EB24A0BB890074B713;
+			remoteInfo = KitabooSDKWithReader;
+		};
+		84698CA827BA1C1000FE6C08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE2743E324A0BB890074B713 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE2743EB24A0BB890074B713;
+			remoteInfo = KitabooSDKWithReader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		48EFD37524AB707600AF5026 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				84698CB427BA477100FE6C08 /* KitabooSDKWithReader.framework in Embed Frameworks */,
+				84C627EE27BFF56A005BF680 /* Kitaboo_Reader_SDK.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		212D5C2326272461001D1E47 /* icomoon.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = icomoon.ttf; sourceTree = "<group>"; };
+		21588F8625D11BE100119231 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
+		21588F8725D11BE300119231 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		21588F8825D11BE400119231 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		21B0984325FF7458006EEBB0 /* ThumnailSliderThumbImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ThumnailSliderThumbImage.png; sourceTree = "<group>"; };
+		21B4F9EF25E7C74E008575D8 /* RTLorLTRFlowLayoutForReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RTLorLTRFlowLayoutForReader.swift; sourceTree = "<group>"; };
+		3B863FE326F4D6EC0054D1B4 /* KBMyDataPrintOptionsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KBMyDataPrintOptionsController.swift; sourceTree = "<group>"; };
+		3BC7508F2680B43000060C86 /* Kitaboo_Reader_SDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Kitaboo_Reader_SDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C473A8A25D5035D006972BB /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3C473A8B25D50365006972BB /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3C473A8C25D5036C006972BB /* kl-GL */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "kl-GL"; path = "kl-GL.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		3C473A8D25D5036F006972BB /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/Localizable.strings; sourceTree = "<group>"; };
+		48046D2F252B43FD00E219DD /* KitabooReaderEventConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitabooReaderEventConstant.swift; sourceTree = "<group>"; };
+		487F099B24ACC87E00F1557A /* fetchUserSettingsResponse.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fetchUserSettingsResponse.json; sourceTree = "<group>"; };
+		487F09AE24ACCEC200F1557A /* HDScreenCaptureResistController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HDScreenCaptureResistController.swift; sourceTree = "<group>"; };
+		48C898062510BF8A005F3F70 /* SampleReaderConfiguration.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = SampleReaderConfiguration.plist; sourceTree = "<group>"; };
+		48C898082510C13B005F3F70 /* SampleReaderConfigurationData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleReaderConfigurationData.h; sourceTree = "<group>"; };
+		48C898092510C13B005F3F70 /* SampleReaderConfigurationData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleReaderConfigurationData.m; sourceTree = "<group>"; };
+		48C8980B2510C61E005F3F70 /* SampleReaderBookInfoManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleReaderBookInfoManager.h; sourceTree = "<group>"; };
+		48C8980C2510C61E005F3F70 /* SampleReaderBookInfoManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleReaderBookInfoManager.m; sourceTree = "<group>"; };
+		48C8980E2510D85C005F3F70 /* SampleReaderDownloadController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleReaderDownloadController.h; sourceTree = "<group>"; };
+		48C8980F2510D85C005F3F70 /* SampleReaderDownloadController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleReaderDownloadController.m; sourceTree = "<group>"; };
+		48E9A40D255A641D00D0BC88 /* KBFixedEpubThumbnailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KBFixedEpubThumbnailViewController.h; sourceTree = "<group>"; };
+		48E9A40E255A641D00D0BC88 /* KBFixedEpubThumbnailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KBFixedEpubThumbnailViewController.m; sourceTree = "<group>"; };
+		48EFD34524AB610E00AF5026 /* kitabooread.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = kitabooread.ttf; sourceTree = "<group>"; };
+		48EFD34E24AB698400AF5026 /* ReaderTheme.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ReaderTheme.json; sourceTree = "<group>"; };
+		48EFD35424AB6F7300AF5026 /* KitabooSDKWithReaderDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KitabooSDKWithReaderDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48EFD35624AB6F7300AF5026 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		48EFD35724AB6F7300AF5026 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		48EFD35924AB6F7300AF5026 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		48EFD35A24AB6F7300AF5026 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		48EFD35C24AB6F7300AF5026 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		48EFD35D24AB6F7300AF5026 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		48EFD36024AB6F7300AF5026 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		48EFD36524AB6F7600AF5026 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		48EFD36724AB6F7600AF5026 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48EFD36824AB6F7600AF5026 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		48EFD3DB24AB78C500AF5026 /* SliderThumbImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SliderThumbImage.png; sourceTree = "<group>"; };
+		48EFD3DE24AB7E0C00AF5026 /* TestingBooks */ = {isa = PBXFileReference; lastKnownFileType = folder; path = TestingBooks; sourceTree = "<group>"; };
+		48F4FFD324E42F0700840C63 /* audio-video-theme.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "audio-video-theme.json"; sourceTree = "<group>"; };
+		84698CA327BA1C0600FE6C08 /* Kitaboo_Reader_SDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kitaboo_Reader_SDK.framework; path = KitabooSDKWithReader/KitabooSDKFramework/Kitaboo_Reader_SDK.framework; sourceTree = "<group>"; };
+		84698CAE27BA46C500FE6C08 /* Kitaboo_Reader_SDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Kitaboo_Reader_SDK.framework; sourceTree = "<group>"; };
+		84698CB827BA62DA00FE6C08 /* UGCXMLClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UGCXMLClass.h; sourceTree = "<group>"; };
+		84698CB927BA62DA00FE6C08 /* UGCXMLClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UGCXMLClass.m; sourceTree = "<group>"; };
+		84698CBE27BA996100FE6C08 /* NSXMLParser+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSXMLParser+Block.m"; sourceTree = "<group>"; };
+		84698CBF27BA996100FE6C08 /* NSXMLParser+Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSXMLParser+Block.h"; sourceTree = "<group>"; };
+		84698CC227BA9B5300FE6C08 /* XMLReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLReader.h; sourceTree = "<group>"; };
+		84698CC327BA9B5300FE6C08 /* XMLReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLReader.m; sourceTree = "<group>"; };
+		84698CC827BAA78100FE6C08 /* ParseUGCData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParseUGCData.h; sourceTree = "<group>"; };
+		84698CC927BAA78100FE6C08 /* ParseUGCData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParseUGCData.m; sourceTree = "<group>"; };
+		84B21AF7276B7BDF00E10E30 /* Kitaboo_Reader_SDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Kitaboo_Reader_SDK.xcframework; path = KitabooSDKWithReader/KitabooSDKFramework/Kitaboo_Reader_SDK.xcframework; sourceTree = "<group>"; };
+		84B9DF0327A98928007AC634 /* MHEReaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHEReaderViewController.h; sourceTree = "<group>"; };
+		84B9DF0427A98928007AC634 /* MHEReaderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHEReaderViewController.m; sourceTree = "<group>"; };
+		B30AA51A267A191300C2C77A /* TeacherReviewClassListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherReviewClassListViewController.swift; sourceTree = "<group>"; };
+		B30AA51D267A492300C2C77A /* TeacherReviewClassListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherReviewClassListTableViewCell.swift; sourceTree = "<group>"; };
+		B30AA51E267A492300C2C77A /* TeacherReviewClassListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TeacherReviewClassListTableViewCell.xib; sourceTree = "<group>"; };
+		B33E05F624AA2E3C00756B3B /* HDFontManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDFontManager.h; sourceTree = "<group>"; };
+		B33E05F724AA2E3C00756B3B /* HDFontManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDFontManager.m; sourceTree = "<group>"; };
+		B33E05FA24AA31D500756B3B /* HDFontManagerHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDFontManagerHelper.h; sourceTree = "<group>"; };
+		B33E05FB24AA31D500756B3B /* HDFontManagerHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDFontManagerHelper.m; sourceTree = "<group>"; };
+		B34DF11B2680570B00BD94FB /* TeacherReviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherReviewViewController.swift; sourceTree = "<group>"; };
+		B34DF1242680AE0300BD94FB /* TeacherReviewStudentListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherReviewStudentListTableViewCell.swift; sourceTree = "<group>"; };
+		B34DF1CA268A635100BD94FB /* ResetAllViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetAllViewController.swift; sourceTree = "<group>"; };
+		B3DD6CBF25C95F82006A73F6 /* HDKitabooAnalyticsHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDKitabooAnalyticsHandler.swift; sourceTree = "<group>"; };
+		B3E7434224B46BA50025553D /* HDLanguageBundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HDLanguageBundle.swift; sourceTree = "<group>"; };
+		B3E743A024B615D60025553D /* es */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = es; path = es.lproj/KitabooAccessibility.json; sourceTree = "<group>"; };
+		B3E743A224B615E70025553D /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = nb; path = nb.lproj/KitabooAccessibility.json; sourceTree = "<group>"; };
+		C12FB74125F786FD00EC1FF2 /* HDKitabooMediaBookReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDKitabooMediaBookReader.swift; sourceTree = "<group>"; };
+		C1E0E09825AD6A860015CC7D /* HDKitabooHLSDownloaderManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDKitabooHLSDownloaderManager.h; sourceTree = "<group>"; };
+		C1E0E09925AD6A860015CC7D /* HDKitabooHLSDownloaderManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDKitabooHLSDownloaderManager.m; sourceTree = "<group>"; };
+		CE2743EC24A0BB890074B713 /* KitabooSDKWithReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KitabooSDKWithReader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE2743EF24A0BB890074B713 /* KitabooSDKWithReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KitabooSDKWithReader.h; sourceTree = "<group>"; };
+		CE2743F024A0BB890074B713 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE2743FB24A0BBE20074B713 /* KitabooThumbnailCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KitabooThumbnailCollectionViewCell.m; sourceTree = "<group>"; };
+		CE2743FC24A0BBE20074B713 /* KBThumbnailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBThumbnailViewController.m; sourceTree = "<group>"; };
+		CE2743FD24A0BBE20074B713 /* KitabooThumbnailCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KitabooThumbnailCollectionViewCell.h; sourceTree = "<group>"; };
+		CE2743FE24A0BBE20074B713 /* KBThumbnailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBThumbnailViewController.h; sourceTree = "<group>"; };
+		CE2743FF24A0BBE20074B713 /* HDReaderSettingModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDReaderSettingModel.m; sourceTree = "<group>"; };
+		CE27440124A0BBE20074B713 /* TOCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TOCViewController.swift; sourceTree = "<group>"; };
+		CE27440224A0BBE20074B713 /* TOCContentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TOCContentCell.swift; sourceTree = "<group>"; };
+		CE27440324A0BBE20074B713 /* TOCTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TOCTableViewCell.swift; sourceTree = "<group>"; };
+		CE27440424A0BBE20074B713 /* TOCTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TOCTableViewCell.xib; sourceTree = "<group>"; };
+		CE27440524A0BBE20074B713 /* TOCContentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TOCContentCell.xib; sourceTree = "<group>"; };
+		CE27440624A0BBE20074B713 /* KitabooReaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KitabooReaderViewController.h; sourceTree = "<group>"; };
+		CE27440824A0BBE20074B713 /* KBShareSettingsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KBShareSettingsCell.xib; sourceTree = "<group>"; };
+		CE27440924A0BBE20074B713 /* KBShareSettingsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBShareSettingsController.h; sourceTree = "<group>"; };
+		CE27440A24A0BBE20074B713 /* KBShareSettingsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBShareSettingsCell.m; sourceTree = "<group>"; };
+		CE27440B24A0BBE20074B713 /* KitabooSharedUserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KitabooSharedUserInfo.h; sourceTree = "<group>"; };
+		CE27440C24A0BBE20074B713 /* ShareSettingsController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShareSettingsController.xib; sourceTree = "<group>"; };
+		CE27440D24A0BBE20074B713 /* KitabooSharedUserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KitabooSharedUserInfo.m; sourceTree = "<group>"; };
+		CE27440E24A0BBE20074B713 /* KBShareSettingsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBShareSettingsCell.h; sourceTree = "<group>"; };
+		CE27440F24A0BBE20074B713 /* KBShareSettingsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBShareSettingsController.m; sourceTree = "<group>"; };
+		CE27441124A0BBE20074B713 /* PlayerActionTopBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerActionTopBar.h; sourceTree = "<group>"; };
+		CE27441224A0BBE20074B713 /* PlayerActionBottomBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerActionBottomBar.h; sourceTree = "<group>"; };
+		CE27441324A0BBE20074B713 /* PlayerActionBottomBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerActionBottomBar.m; sourceTree = "<group>"; };
+		CE27441424A0BBE20074B713 /* PlayerActionTopBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerActionTopBar.m; sourceTree = "<group>"; };
+		CE27441624A0BBE20074B713 /* StickyNoteCommentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StickyNoteCommentCell.h; sourceTree = "<group>"; };
+		CE27441724A0BBE20074B713 /* StickyNotesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StickyNotesViewController.xib; sourceTree = "<group>"; };
+		CE27441824A0BBE20074B713 /* TextHighlightColorBtnCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextHighlightColorBtnCollectionViewCell.m; sourceTree = "<group>"; };
+		CE27441924A0BBE20074B713 /* StickyNotesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StickyNotesViewController.h; sourceTree = "<group>"; };
+		CE27441A24A0BBE20074B713 /* StickyNoteCommentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StickyNoteCommentCell.m; sourceTree = "<group>"; };
+		CE27441B24A0BBE20074B713 /* TextHighlightColorBtnCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextHighlightColorBtnCollectionViewCell.xib; sourceTree = "<group>"; };
+		CE27441C24A0BBE20074B713 /* TextHighlightColorBtnCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextHighlightColorBtnCollectionViewCell.h; sourceTree = "<group>"; };
+		CE27441D24A0BBE20074B713 /* StickyNoteCommentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StickyNoteCommentCell.xib; sourceTree = "<group>"; };
+		CE27441E24A0BBE20074B713 /* StickyNotesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StickyNotesViewController.m; sourceTree = "<group>"; };
+		CE27442024A0BBE20074B713 /* HDKitabooMediaBookController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDKitabooMediaBookController.m; sourceTree = "<group>"; };
+		CE27442124A0BBE20074B713 /* HDKitabooMediaBookController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDKitabooMediaBookController.h; sourceTree = "<group>"; };
+		CE27442324A0BBE20074B713 /* HDReaderServiceConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HDReaderServiceConstants.swift; sourceTree = "<group>"; };
+		CE27442424A0BBE20074B713 /* ReaderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderViewController.m; sourceTree = "<group>"; };
+		CE27442624A0BBE20074B713 /* TeacherAnnotationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeacherAnnotationViewController.h; sourceTree = "<group>"; };
+		CE27442724A0BBE20074B713 /* TeacherAnnotationTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeacherAnnotationTableViewCell.h; sourceTree = "<group>"; };
+		CE27442824A0BBE20074B713 /* TeacherAnnotationViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeacherAnnotationViewCell.m; sourceTree = "<group>"; };
+		CE27442924A0BBE20074B713 /* TeacherAnnotationTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeacherAnnotationTableViewCell.m; sourceTree = "<group>"; };
+		CE27442A24A0BBE20074B713 /* TeacherAnnotationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeacherAnnotationViewController.m; sourceTree = "<group>"; };
+		CE27442B24A0BBE20074B713 /* TeacherAnnotationTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TeacherAnnotationTableViewCell.xib; sourceTree = "<group>"; };
+		CE27442C24A0BBE20074B713 /* TeacherAnnotationViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeacherAnnotationViewCell.h; sourceTree = "<group>"; };
+		CE27442E24A0BBE20074B713 /* KBMyDataNoteAnswerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBMyDataNoteAnswerCell.h; sourceTree = "<group>"; };
+		CE27442F24A0BBE20074B713 /* MyDataViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyDataViewController.xib; sourceTree = "<group>"; };
+		CE27443024A0BBE20074B713 /* FilterDataObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterDataObject.h; sourceTree = "<group>"; };
+		CE27443124A0BBE20074B713 /* FilterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterViewController.h; sourceTree = "<group>"; };
+		CE27443224A0BBE20074B713 /* KBMyDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBMyDataViewController.h; sourceTree = "<group>"; };
+		CE27443324A0BBE20074B713 /* KBMyDataHighlightCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBMyDataHighlightCell.h; sourceTree = "<group>"; };
+		CE27443424A0BBE20074B713 /* FilterCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterCollectionCell.m; sourceTree = "<group>"; };
+		CE27443524A0BBE20074B713 /* MyDataNoteCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyDataNoteCell.xib; sourceTree = "<group>"; };
+		CE27443624A0BBE20074B713 /* KBMyDataNoteCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBMyDataNoteCell.m; sourceTree = "<group>"; };
+		CE27443724A0BBE20074B713 /* FilterDataObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterDataObject.m; sourceTree = "<group>"; };
+		CE27443824A0BBE20074B713 /* MyDataNoteAnswerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyDataNoteAnswerCell.xib; sourceTree = "<group>"; };
+		CE27443924A0BBE20074B713 /* KBMyDataNoteAnswerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBMyDataNoteAnswerCell.m; sourceTree = "<group>"; };
+		CE27443A24A0BBE20074B713 /* MyDataHighlightCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyDataHighlightCell.xib; sourceTree = "<group>"; };
+		CE27443B24A0BBE20074B713 /* KBMyDataHighlightCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBMyDataHighlightCell.m; sourceTree = "<group>"; };
+		CE27443C24A0BBE20074B713 /* KBMyDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBMyDataViewController.m; sourceTree = "<group>"; };
+		CE27443D24A0BBE20074B713 /* FilterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterViewController.m; sourceTree = "<group>"; };
+		CE27443E24A0BBE20074B713 /* FilterCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterCollectionCell.h; sourceTree = "<group>"; };
+		CE27443F24A0BBE20074B713 /* FilterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FilterViewController.xib; sourceTree = "<group>"; };
+		CE27444024A0BBE20074B713 /* KBMyDataNoteCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBMyDataNoteCell.h; sourceTree = "<group>"; };
+		CE27444224A0BBE20074B713 /* AlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertView.h; sourceTree = "<group>"; };
+		CE27444324A0BBE20074B713 /* ReaderHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderHeader.h; sourceTree = "<group>"; };
+		CE27444424A0BBE20074B713 /* Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		CE27444524A0BBE20074B713 /* AlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertView.m; sourceTree = "<group>"; };
+		CE27444724A0BBE20074B713 /* AccessibilityIdentifierConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccessibilityIdentifierConstants.h; sourceTree = "<group>"; };
+		CE27444924A0BBE20074B713 /* da */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = da; path = da.lproj/KitabooAccessibility.json; sourceTree = "<group>"; };
+		CE27444A24A0BBE20074B713 /* AccessibilityInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AccessibilityInfo.plist; sourceTree = "<group>"; };
+		CE27444B24A0BBE20074B713 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = Base; path = Base.lproj/KitabooAccessibility.json; sourceTree = "<group>"; };
+		CE27444C24A0BBE20074B713 /* AccessibilityIdentifierConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccessibilityIdentifierConstants.m; sourceTree = "<group>"; };
+		CE27444D24A0BBE20074B713 /* kl-GL */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = "kl-GL"; path = "kl-GL.lproj/KitabooAccessibility.json"; sourceTree = "<group>"; };
+		CE27444E24A0BBE20074B713 /* AccessibilityHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccessibilityHelper.swift; sourceTree = "<group>"; };
+		CE27445024A0BBE20074B713 /* LocalizeHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizeHelper.swift; sourceTree = "<group>"; };
+		CE27445124A0BBE20074B713 /* KitabooReaderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KitabooReaderViewController.m; sourceTree = "<group>"; };
+		CE27445224A0BBE20074B713 /* HDReaderSettingModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDReaderSettingModel.h; sourceTree = "<group>"; };
+		CE27445424A0BBE20074B713 /* HighlightView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HighlightView.swift; sourceTree = "<group>"; };
+		CE27445524A0BBE20074B713 /* HighLightToolView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HighLightToolView.xib; sourceTree = "<group>"; };
+		CE27445624A0BBE20074B713 /* HighlightView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HighlightView.xib; sourceTree = "<group>"; };
+		CE27445724A0BBE20074B713 /* HighLightToolView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HighLightToolView.swift; sourceTree = "<group>"; };
+		CE27445924A0BBE20074B713 /* SearchResultCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultCell.swift; sourceTree = "<group>"; };
+		CE27445A24A0BBE20074B713 /* TextSearchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextSearchView.swift; sourceTree = "<group>"; };
+		CE27445B24A0BBE20074B713 /* SearchResultCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchResultCell.xib; sourceTree = "<group>"; };
+		CE27445D24A0BBE20074B713 /* KitabooPenToolColorPalleteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KitabooPenToolColorPalleteViewController.h; sourceTree = "<group>"; };
+		CE27445E24A0BBE20074B713 /* KitabooPenToolThicknessPalleteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KitabooPenToolThicknessPalleteViewController.h; sourceTree = "<group>"; };
+		CE27445F24A0BBE20074B713 /* KitabooPenToolColorPalleteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KitabooPenToolColorPalleteViewController.m; sourceTree = "<group>"; };
+		CE27446024A0BBE20074B713 /* KitabooPenToolThicknessPalleteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KitabooPenToolThicknessPalleteViewController.m; sourceTree = "<group>"; };
+		CE27446224A0BBE20074B713 /* readerDefault_theme.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = readerDefault_theme.json; sourceTree = "<group>"; };
+		CE27446324A0BBE20074B713 /* KBHDThemeVO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBHDThemeVO.m; sourceTree = "<group>"; };
+		CE27446424A0BBE20074B713 /* KBHDThemeVO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBHDThemeVO.h; sourceTree = "<group>"; };
+		CE27446624A0BBE20074B713 /* HelpScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpScreen.swift; sourceTree = "<group>"; };
+		CE27446824A0BBE20074B713 /* MultiLinkController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiLinkController.h; sourceTree = "<group>"; };
+		CE27446924A0BBE20074B713 /* MultiLinkCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiLinkCell.h; sourceTree = "<group>"; };
+		CE27446A24A0BBE20074B713 /* MultiLinkController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiLinkController.m; sourceTree = "<group>"; };
+		CE27446B24A0BBE20074B713 /* MultiLinkCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiLinkCell.m; sourceTree = "<group>"; };
+		CE27446D24A0BBE20074B713 /* HDReadToMeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HDReadToMeViewController.swift; sourceTree = "<group>"; };
+		CE27446E24A0BBE20074B713 /* ReaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderViewController.h; sourceTree = "<group>"; };
+		CE27447024A0BBE20074B713 /* TextAnnotationPalleteActionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextAnnotationPalleteActionView.swift; sourceTree = "<group>"; };
+		CE27447124A0BBE20074B713 /* TextAnnotationAlignmentActionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextAnnotationAlignmentActionView.swift; sourceTree = "<group>"; };
+		CE27447224A0BBE20074B713 /* TextAnnotationActionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextAnnotationActionView.swift; sourceTree = "<group>"; };
+		CE27447A24A0BBE30074B713 /* HSUIColor-Expanded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HSUIColor-Expanded.m"; sourceTree = "<group>"; };
+		CE27447B24A0BBE30074B713 /* CustomSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSlider.swift; sourceTree = "<group>"; };
+		CE27447C24A0BBE30074B713 /* FontManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontManager.swift; sourceTree = "<group>"; };
+		CE27447D24A0BBE30074B713 /* KitabooLocalizationHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KitabooLocalizationHelper.swift; sourceTree = "<group>"; };
+		CE27447E24A0BBE30074B713 /* HDPopOverBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDPopOverBackgroundView.m; sourceTree = "<group>"; };
+		CE27447F24A0BBE30074B713 /* IconFontConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IconFontConstants.h; sourceTree = "<group>"; };
+		CE27448024A0BBE30074B713 /* SystemInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemInformation.h; sourceTree = "<group>"; };
+		CE27448124A0BBE30074B713 /* UIViewController-Expanded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController-Expanded.h"; sourceTree = "<group>"; };
+		CE27448224A0BBE30074B713 /* UIButton-Expanded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton-Expanded.m"; sourceTree = "<group>"; };
+		CE27448324A0BBE30074B713 /* NSString-Supplement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString-Supplement.h"; sourceTree = "<group>"; };
+		CE27448524A0BBE30074B713 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		CE27448624A0BBE30074B713 /* KitabooNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KitabooNetworkManager.h; sourceTree = "<group>"; };
+		CE27448724A0BBE30074B713 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		CE27448824A0BBE30074B713 /* KitabooNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KitabooNetworkManager.m; sourceTree = "<group>"; };
+		CE27448924A0BBE30074B713 /* HSUIColor-Expanded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HSUIColor-Expanded.h"; sourceTree = "<group>"; };
+		CE27448A24A0BBE30074B713 /* UIViewController-Expanded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController-Expanded.m"; sourceTree = "<group>"; };
+		CE27448B24A0BBE30074B713 /* IconFontConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IconFontConstants.m; sourceTree = "<group>"; };
+		CE27448C24A0BBE30074B713 /* SystemInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemInformation.m; sourceTree = "<group>"; };
+		CE27448D24A0BBE30074B713 /* HDPopOverBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDPopOverBackgroundView.h; sourceTree = "<group>"; };
+		CE27448E24A0BBE30074B713 /* NSString-Supplement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString-Supplement.m"; sourceTree = "<group>"; };
+		CE27448F24A0BBE30074B713 /* UIButton-Expanded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton-Expanded.h"; sourceTree = "<group>"; };
+		CE27449124A0BBE30074B713 /* UITextView+PH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+PH.h"; sourceTree = "<group>"; };
+		CE27449224A0BBE30074B713 /* UITextView+PH.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+PH.m"; sourceTree = "<group>"; };
+		CE562F2924A9D5E30046F93B /* OpenSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		CE562F2A24A9D5E30046F93B /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		CE562F2B24A9D5E30046F93B /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		CE562F2C24A9D5E30046F93B /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		CE562F2D24A9D5E30046F93B /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		CE672E4326293E550077CFBD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CE672E4626293E580077CFBD /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CE672E4726293E5A0077CFBD /* kl-GL */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "kl-GL"; path = "kl-GL.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		CE672E4826293E5D0077CFBD /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CE824A8D24A0D7DA009B4D72 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		CEA05A8A24A1D4F000EA9A41 /* Kitaboo_Reader_SDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Kitaboo_Reader_SDK.framework; sourceTree = "<group>"; };
+		CEA05A8C24A1D4F000EA9A41 /* Kitaboo_Reader_SDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Kitaboo_Reader_SDK.framework; sourceTree = "<group>"; };
+		CEA8BA2025E7BBF200572CCE /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48EFD35124AB6F7300AF5026 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84698CB327BA477100FE6C08 /* KitabooSDKWithReader.framework in Frameworks */,
+				84C627ED27BFF56A005BF680 /* Kitaboo_Reader_SDK.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE2743E924A0BB890074B713 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C627EA27BFF55C005BF680 /* Kitaboo_Reader_SDK.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21B4F9EE25E7C71A008575D8 /* RTL */ = {
+			isa = PBXGroup;
+			children = (
+				21B4F9EF25E7C74E008575D8 /* RTLorLTRFlowLayoutForReader.swift */,
+			);
+			path = RTL;
+			sourceTree = "<group>";
+		};
+		3B863FE226F4D24F0054D1B4 /* PrintMyData */ = {
+			isa = PBXGroup;
+			children = (
+				3B863FE326F4D6EC0054D1B4 /* KBMyDataPrintOptionsController.swift */,
+			);
+			path = PrintMyData;
+			sourceTree = "<group>";
+		};
+		3C2BE13524DBDA2F0052D722 /* Device */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Device;
+			path = KitabooSDKWithReader/KitabooSDKFramework/Device;
+			sourceTree = "<group>";
+		};
+		487F09AD24ACCEC200F1557A /* ScreenRecordResistor */ = {
+			isa = PBXGroup;
+			children = (
+				487F09AE24ACCEC200F1557A /* HDScreenCaptureResistController.swift */,
+			);
+			path = ScreenRecordResistor;
+			sourceTree = "<group>";
+		};
+		48EFD34D24AB697400AF5026 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				48F4FFD324E42F0700840C63 /* audio-video-theme.json */,
+				48EFD34E24AB698400AF5026 /* ReaderTheme.json */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		48EFD35524AB6F7300AF5026 /* KitabooSDKWithReaderDemo */ = {
+			isa = PBXGroup;
+			children = (
+				48EFD3DE24AB7E0C00AF5026 /* TestingBooks */,
+				48EFD35624AB6F7300AF5026 /* AppDelegate.h */,
+				48EFD35724AB6F7300AF5026 /* AppDelegate.m */,
+				48EFD35924AB6F7300AF5026 /* SceneDelegate.h */,
+				48EFD35A24AB6F7300AF5026 /* SceneDelegate.m */,
+				48EFD35C24AB6F7300AF5026 /* ViewController.h */,
+				48EFD35D24AB6F7300AF5026 /* ViewController.m */,
+				48EFD35F24AB6F7300AF5026 /* Main.storyboard */,
+				48EFD36424AB6F7600AF5026 /* LaunchScreen.storyboard */,
+				48EFD36724AB6F7600AF5026 /* Info.plist */,
+				48EFD36824AB6F7600AF5026 /* main.m */,
+				487F099B24ACC87E00F1557A /* fetchUserSettingsResponse.json */,
+				48C898062510BF8A005F3F70 /* SampleReaderConfiguration.plist */,
+				48C898082510C13B005F3F70 /* SampleReaderConfigurationData.h */,
+				48C898092510C13B005F3F70 /* SampleReaderConfigurationData.m */,
+				48C8980B2510C61E005F3F70 /* SampleReaderBookInfoManager.h */,
+				48C8980C2510C61E005F3F70 /* SampleReaderBookInfoManager.m */,
+				48C8980E2510D85C005F3F70 /* SampleReaderDownloadController.h */,
+				48C8980F2510D85C005F3F70 /* SampleReaderDownloadController.m */,
+			);
+			path = KitabooSDKWithReaderDemo;
+			sourceTree = "<group>";
+		};
+		48EFD3D724AB780600AF5026 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				21B0984325FF7458006EEBB0 /* ThumnailSliderThumbImage.png */,
+				48EFD3DB24AB78C500AF5026 /* SliderThumbImage.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		84698CB727BA62B100FE6C08 /* GenerateXMLFormat */ = {
+			isa = PBXGroup;
+			children = (
+				84698CBD27BA993800FE6C08 /* XMLParser */,
+				84698CB827BA62DA00FE6C08 /* UGCXMLClass.h */,
+				84698CB927BA62DA00FE6C08 /* UGCXMLClass.m */,
+			);
+			path = GenerateXMLFormat;
+			sourceTree = "<group>";
+		};
+		84698CBD27BA993800FE6C08 /* XMLParser */ = {
+			isa = PBXGroup;
+			children = (
+				84698CC227BA9B5300FE6C08 /* XMLReader.h */,
+				84698CC327BA9B5300FE6C08 /* XMLReader.m */,
+				84698CBF27BA996100FE6C08 /* NSXMLParser+Block.h */,
+				84698CBE27BA996100FE6C08 /* NSXMLParser+Block.m */,
+			);
+			path = XMLParser;
+			sourceTree = "<group>";
+		};
+		84698CC727BAA75600FE6C08 /* MHEUGCData */ = {
+			isa = PBXGroup;
+			children = (
+				84698CC827BAA78100FE6C08 /* ParseUGCData.h */,
+				84698CC927BAA78100FE6C08 /* ParseUGCData.m */,
+			);
+			path = MHEUGCData;
+			sourceTree = "<group>";
+		};
+		B30AA519267A128500C2C77A /* TeacherReview */ = {
+			isa = PBXGroup;
+			children = (
+				B30AA51A267A191300C2C77A /* TeacherReviewClassListViewController.swift */,
+				B30AA51D267A492300C2C77A /* TeacherReviewClassListTableViewCell.swift */,
+				B30AA51E267A492300C2C77A /* TeacherReviewClassListTableViewCell.xib */,
+				B34DF11B2680570B00BD94FB /* TeacherReviewViewController.swift */,
+				B34DF1242680AE0300BD94FB /* TeacherReviewStudentListTableViewCell.swift */,
+				B34DF1CA268A635100BD94FB /* ResetAllViewController.swift */,
+			);
+			path = TeacherReview;
+			sourceTree = "<group>";
+		};
+		B3DD6CBE25C95F5F006A73F6 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				B3DD6CBF25C95F82006A73F6 /* HDKitabooAnalyticsHandler.swift */,
+			);
+			path = Analytics;
+			sourceTree = "<group>";
+		};
+		C1E0E09725AD6A4D0015CC7D /* HLSDonwloader */ = {
+			isa = PBXGroup;
+			children = (
+				C1E0E09825AD6A860015CC7D /* HDKitabooHLSDownloaderManager.h */,
+				C1E0E09925AD6A860015CC7D /* HDKitabooHLSDownloaderManager.m */,
+			);
+			path = HLSDonwloader;
+			sourceTree = "<group>";
+		};
+		CE2743E224A0BB890074B713 = {
+			isa = PBXGroup;
+			children = (
+				CE2743EE24A0BB890074B713 /* KitabooSDKWithReader */,
+				48EFD35524AB6F7300AF5026 /* KitabooSDKWithReaderDemo */,
+				CE2743ED24A0BB890074B713 /* Products */,
+				CE562F2724A9D5E30046F93B /* Resources */,
+				CE27451424A0BE160074B713 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CE2743ED24A0BB890074B713 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE2743EC24A0BB890074B713 /* KitabooSDKWithReader.framework */,
+				48EFD35424AB6F7300AF5026 /* KitabooSDKWithReaderDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE2743EE24A0BB890074B713 /* KitabooSDKWithReader */ = {
+			isa = PBXGroup;
+			children = (
+				CE824A8D24A0D7DA009B4D72 /* module.modulemap */,
+				CE2743F024A0BB890074B713 /* Info.plist */,
+				CE2743EF24A0BB890074B713 /* KitabooSDKWithReader.h */,
+				CEA05A8824A1D4F000EA9A41 /* KitabooSDKFramework */,
+				CE2743F924A0BBE20074B713 /* KitabooReader5.0 */,
+			);
+			path = KitabooSDKWithReader;
+			sourceTree = "<group>";
+		};
+		CE2743F924A0BBE20074B713 /* KitabooReader5.0 */ = {
+			isa = PBXGroup;
+			children = (
+				84698CC727BAA75600FE6C08 /* MHEUGCData */,
+				84698CB727BA62B100FE6C08 /* GenerateXMLFormat */,
+				3B863FE226F4D24F0054D1B4 /* PrintMyData */,
+				21B4F9EE25E7C71A008575D8 /* RTL */,
+				B3DD6CBE25C95F5F006A73F6 /* Analytics */,
+				C1E0E09725AD6A4D0015CC7D /* HLSDonwloader */,
+				CE2743FA24A0BBE20074B713 /* Thumbnail */,
+				CE2743FF24A0BBE20074B713 /* HDReaderSettingModel.m */,
+				CE27440024A0BBE20074B713 /* TOC */,
+				CE27440624A0BBE20074B713 /* KitabooReaderViewController.h */,
+				CE27440724A0BBE20074B713 /* ShareSetting */,
+				CE27441024A0BBE20074B713 /* TopAndBottomBar */,
+				CE27441524A0BBE20074B713 /* StickyNoteViewController */,
+				CE27441F24A0BBE20074B713 /* MediaBook */,
+				CE27442224A0BBE20074B713 /* ReaderConstants */,
+				CE27442424A0BBE20074B713 /* ReaderViewController.m */,
+				B30AA519267A128500C2C77A /* TeacherReview */,
+				CE27442524A0BBE20074B713 /* TeacherAnnotation */,
+				CE27442D24A0BBE20074B713 /* MyData */,
+				CE27444124A0BBE20074B713 /* ReaderHelper */,
+				CE27445124A0BBE20074B713 /* KitabooReaderViewController.m */,
+				CE27445224A0BBE20074B713 /* HDReaderSettingModel.h */,
+				CE27445324A0BBE20074B713 /* HighlightView */,
+				CE27445824A0BBE20074B713 /* SearchView */,
+				CE27445C24A0BBE20074B713 /* PenTool */,
+				CE27446124A0BBE20074B713 /* Theme */,
+				CE27446524A0BBE20074B713 /* HelpScreen */,
+				CE27446724A0BBE20074B713 /* MultiLinkMarkup */,
+				CE27446C24A0BBE20074B713 /* ReadAloud */,
+				CE27446E24A0BBE20074B713 /* ReaderViewController.h */,
+				84B9DF0327A98928007AC634 /* MHEReaderViewController.h */,
+				84B9DF0427A98928007AC634 /* MHEReaderViewController.m */,
+				CE27446F24A0BBE20074B713 /* TextAnnotation */,
+				CE27447324A0BBE30074B713 /* Localization */,
+				CE27447924A0BBE30074B713 /* Utility */,
+			);
+			path = KitabooReader5.0;
+			sourceTree = "<group>";
+		};
+		CE2743FA24A0BBE20074B713 /* Thumbnail */ = {
+			isa = PBXGroup;
+			children = (
+				CE2743FE24A0BBE20074B713 /* KBThumbnailViewController.h */,
+				CE2743FC24A0BBE20074B713 /* KBThumbnailViewController.m */,
+				CE2743FD24A0BBE20074B713 /* KitabooThumbnailCollectionViewCell.h */,
+				CE2743FB24A0BBE20074B713 /* KitabooThumbnailCollectionViewCell.m */,
+				48E9A40D255A641D00D0BC88 /* KBFixedEpubThumbnailViewController.h */,
+				48E9A40E255A641D00D0BC88 /* KBFixedEpubThumbnailViewController.m */,
+			);
+			path = Thumbnail;
+			sourceTree = "<group>";
+		};
+		CE27440024A0BBE20074B713 /* TOC */ = {
+			isa = PBXGroup;
+			children = (
+				CE27440124A0BBE20074B713 /* TOCViewController.swift */,
+				CE27440224A0BBE20074B713 /* TOCContentCell.swift */,
+				CE27440324A0BBE20074B713 /* TOCTableViewCell.swift */,
+				CE27440424A0BBE20074B713 /* TOCTableViewCell.xib */,
+				CE27440524A0BBE20074B713 /* TOCContentCell.xib */,
+			);
+			path = TOC;
+			sourceTree = "<group>";
+		};
+		CE27440724A0BBE20074B713 /* ShareSetting */ = {
+			isa = PBXGroup;
+			children = (
+				CE27440824A0BBE20074B713 /* KBShareSettingsCell.xib */,
+				CE27440924A0BBE20074B713 /* KBShareSettingsController.h */,
+				CE27440A24A0BBE20074B713 /* KBShareSettingsCell.m */,
+				CE27440B24A0BBE20074B713 /* KitabooSharedUserInfo.h */,
+				CE27440C24A0BBE20074B713 /* ShareSettingsController.xib */,
+				CE27440D24A0BBE20074B713 /* KitabooSharedUserInfo.m */,
+				CE27440E24A0BBE20074B713 /* KBShareSettingsCell.h */,
+				CE27440F24A0BBE20074B713 /* KBShareSettingsController.m */,
+			);
+			path = ShareSetting;
+			sourceTree = "<group>";
+		};
+		CE27441024A0BBE20074B713 /* TopAndBottomBar */ = {
+			isa = PBXGroup;
+			children = (
+				CE27441124A0BBE20074B713 /* PlayerActionTopBar.h */,
+				CE27441224A0BBE20074B713 /* PlayerActionBottomBar.h */,
+				CE27441324A0BBE20074B713 /* PlayerActionBottomBar.m */,
+				CE27441424A0BBE20074B713 /* PlayerActionTopBar.m */,
+			);
+			path = TopAndBottomBar;
+			sourceTree = "<group>";
+		};
+		CE27441524A0BBE20074B713 /* StickyNoteViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CE27441624A0BBE20074B713 /* StickyNoteCommentCell.h */,
+				CE27441724A0BBE20074B713 /* StickyNotesViewController.xib */,
+				CE27441824A0BBE20074B713 /* TextHighlightColorBtnCollectionViewCell.m */,
+				CE27441924A0BBE20074B713 /* StickyNotesViewController.h */,
+				CE27441A24A0BBE20074B713 /* StickyNoteCommentCell.m */,
+				CE27441B24A0BBE20074B713 /* TextHighlightColorBtnCollectionViewCell.xib */,
+				CE27441C24A0BBE20074B713 /* TextHighlightColorBtnCollectionViewCell.h */,
+				CE27441D24A0BBE20074B713 /* StickyNoteCommentCell.xib */,
+				CE27441E24A0BBE20074B713 /* StickyNotesViewController.m */,
+			);
+			path = StickyNoteViewController;
+			sourceTree = "<group>";
+		};
+		CE27441F24A0BBE20074B713 /* MediaBook */ = {
+			isa = PBXGroup;
+			children = (
+				CE27442024A0BBE20074B713 /* HDKitabooMediaBookController.m */,
+				CE27442124A0BBE20074B713 /* HDKitabooMediaBookController.h */,
+				C12FB74125F786FD00EC1FF2 /* HDKitabooMediaBookReader.swift */,
+			);
+			path = MediaBook;
+			sourceTree = "<group>";
+		};
+		CE27442224A0BBE20074B713 /* ReaderConstants */ = {
+			isa = PBXGroup;
+			children = (
+				CE27442324A0BBE20074B713 /* HDReaderServiceConstants.swift */,
+				48046D2F252B43FD00E219DD /* KitabooReaderEventConstant.swift */,
+			);
+			path = ReaderConstants;
+			sourceTree = "<group>";
+		};
+		CE27442524A0BBE20074B713 /* TeacherAnnotation */ = {
+			isa = PBXGroup;
+			children = (
+				CE27442624A0BBE20074B713 /* TeacherAnnotationViewController.h */,
+				CE27442724A0BBE20074B713 /* TeacherAnnotationTableViewCell.h */,
+				CE27442824A0BBE20074B713 /* TeacherAnnotationViewCell.m */,
+				CE27442924A0BBE20074B713 /* TeacherAnnotationTableViewCell.m */,
+				CE27442A24A0BBE20074B713 /* TeacherAnnotationViewController.m */,
+				CE27442B24A0BBE20074B713 /* TeacherAnnotationTableViewCell.xib */,
+				CE27442C24A0BBE20074B713 /* TeacherAnnotationViewCell.h */,
+			);
+			path = TeacherAnnotation;
+			sourceTree = "<group>";
+		};
+		CE27442D24A0BBE20074B713 /* MyData */ = {
+			isa = PBXGroup;
+			children = (
+				CE27442F24A0BBE20074B713 /* MyDataViewController.xib */,
+				CE27443224A0BBE20074B713 /* KBMyDataViewController.h */,
+				CE27443C24A0BBE20074B713 /* KBMyDataViewController.m */,
+				CE27443A24A0BBE20074B713 /* MyDataHighlightCell.xib */,
+				CE27443324A0BBE20074B713 /* KBMyDataHighlightCell.h */,
+				CE27443B24A0BBE20074B713 /* KBMyDataHighlightCell.m */,
+				CE27443524A0BBE20074B713 /* MyDataNoteCell.xib */,
+				CE27444024A0BBE20074B713 /* KBMyDataNoteCell.h */,
+				CE27443624A0BBE20074B713 /* KBMyDataNoteCell.m */,
+				CE27443824A0BBE20074B713 /* MyDataNoteAnswerCell.xib */,
+				CE27442E24A0BBE20074B713 /* KBMyDataNoteAnswerCell.h */,
+				CE27443924A0BBE20074B713 /* KBMyDataNoteAnswerCell.m */,
+				CE27443F24A0BBE20074B713 /* FilterViewController.xib */,
+				CE27443124A0BBE20074B713 /* FilterViewController.h */,
+				CE27443D24A0BBE20074B713 /* FilterViewController.m */,
+				CE27443024A0BBE20074B713 /* FilterDataObject.h */,
+				CE27443724A0BBE20074B713 /* FilterDataObject.m */,
+				CE27443E24A0BBE20074B713 /* FilterCollectionCell.h */,
+				CE27443424A0BBE20074B713 /* FilterCollectionCell.m */,
+			);
+			path = MyData;
+			sourceTree = "<group>";
+		};
+		CE27444124A0BBE20074B713 /* ReaderHelper */ = {
+			isa = PBXGroup;
+			children = (
+				CE27444224A0BBE20074B713 /* AlertView.h */,
+				CE27444324A0BBE20074B713 /* ReaderHeader.h */,
+				CE27444424A0BBE20074B713 /* Constant.h */,
+				CE27444524A0BBE20074B713 /* AlertView.m */,
+				CE27444624A0BBE20074B713 /* Accessibility */,
+				CE27445024A0BBE20074B713 /* LocalizeHelper.swift */,
+			);
+			path = ReaderHelper;
+			sourceTree = "<group>";
+		};
+		CE27444624A0BBE20074B713 /* Accessibility */ = {
+			isa = PBXGroup;
+			children = (
+				CE27444724A0BBE20074B713 /* AccessibilityIdentifierConstants.h */,
+				CE27444824A0BBE20074B713 /* KitabooAccessibility.json */,
+				CE27444A24A0BBE20074B713 /* AccessibilityInfo.plist */,
+				CE27444C24A0BBE20074B713 /* AccessibilityIdentifierConstants.m */,
+				CE27444E24A0BBE20074B713 /* AccessibilityHelper.swift */,
+			);
+			path = Accessibility;
+			sourceTree = "<group>";
+		};
+		CE27445324A0BBE20074B713 /* HighlightView */ = {
+			isa = PBXGroup;
+			children = (
+				CE27445424A0BBE20074B713 /* HighlightView.swift */,
+				CE27445524A0BBE20074B713 /* HighLightToolView.xib */,
+				CE27445624A0BBE20074B713 /* HighlightView.xib */,
+				CE27445724A0BBE20074B713 /* HighLightToolView.swift */,
+			);
+			path = HighlightView;
+			sourceTree = "<group>";
+		};
+		CE27445824A0BBE20074B713 /* SearchView */ = {
+			isa = PBXGroup;
+			children = (
+				CE27445924A0BBE20074B713 /* SearchResultCell.swift */,
+				CE27445A24A0BBE20074B713 /* TextSearchView.swift */,
+				CE27445B24A0BBE20074B713 /* SearchResultCell.xib */,
+			);
+			path = SearchView;
+			sourceTree = "<group>";
+		};
+		CE27445C24A0BBE20074B713 /* PenTool */ = {
+			isa = PBXGroup;
+			children = (
+				CE27445D24A0BBE20074B713 /* KitabooPenToolColorPalleteViewController.h */,
+				CE27445E24A0BBE20074B713 /* KitabooPenToolThicknessPalleteViewController.h */,
+				CE27445F24A0BBE20074B713 /* KitabooPenToolColorPalleteViewController.m */,
+				CE27446024A0BBE20074B713 /* KitabooPenToolThicknessPalleteViewController.m */,
+			);
+			path = PenTool;
+			sourceTree = "<group>";
+		};
+		CE27446124A0BBE20074B713 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				CE27446224A0BBE20074B713 /* readerDefault_theme.json */,
+				CE27446324A0BBE20074B713 /* KBHDThemeVO.m */,
+				CE27446424A0BBE20074B713 /* KBHDThemeVO.h */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		CE27446524A0BBE20074B713 /* HelpScreen */ = {
+			isa = PBXGroup;
+			children = (
+				CE27446624A0BBE20074B713 /* HelpScreen.swift */,
+			);
+			path = HelpScreen;
+			sourceTree = "<group>";
+		};
+		CE27446724A0BBE20074B713 /* MultiLinkMarkup */ = {
+			isa = PBXGroup;
+			children = (
+				CE27446824A0BBE20074B713 /* MultiLinkController.h */,
+				CE27446924A0BBE20074B713 /* MultiLinkCell.h */,
+				CE27446A24A0BBE20074B713 /* MultiLinkController.m */,
+				CE27446B24A0BBE20074B713 /* MultiLinkCell.m */,
+			);
+			path = MultiLinkMarkup;
+			sourceTree = "<group>";
+		};
+		CE27446C24A0BBE20074B713 /* ReadAloud */ = {
+			isa = PBXGroup;
+			children = (
+				CE27446D24A0BBE20074B713 /* HDReadToMeViewController.swift */,
+			);
+			path = ReadAloud;
+			sourceTree = "<group>";
+		};
+		CE27446F24A0BBE20074B713 /* TextAnnotation */ = {
+			isa = PBXGroup;
+			children = (
+				CE27447024A0BBE20074B713 /* TextAnnotationPalleteActionView.swift */,
+				CE27447124A0BBE20074B713 /* TextAnnotationAlignmentActionView.swift */,
+				CE27447224A0BBE20074B713 /* TextAnnotationActionView.swift */,
+			);
+			path = TextAnnotation;
+			sourceTree = "<group>";
+		};
+		CE27447324A0BBE30074B713 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				CE27447424A0BBE30074B713 /* Localizable.strings */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		CE27447924A0BBE30074B713 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				B3E7434224B46BA50025553D /* HDLanguageBundle.swift */,
+				487F09AD24ACCEC200F1557A /* ScreenRecordResistor */,
+				CE27447A24A0BBE30074B713 /* HSUIColor-Expanded.m */,
+				CE27447B24A0BBE30074B713 /* CustomSlider.swift */,
+				CE27447C24A0BBE30074B713 /* FontManager.swift */,
+				CE27447D24A0BBE30074B713 /* KitabooLocalizationHelper.swift */,
+				CE27447E24A0BBE30074B713 /* HDPopOverBackgroundView.m */,
+				CE27447F24A0BBE30074B713 /* IconFontConstants.h */,
+				CE27448024A0BBE30074B713 /* SystemInformation.h */,
+				CE27448124A0BBE30074B713 /* UIViewController-Expanded.h */,
+				CE27448224A0BBE30074B713 /* UIButton-Expanded.m */,
+				CE27448324A0BBE30074B713 /* NSString-Supplement.h */,
+				CE27448424A0BBE30074B713 /* Network */,
+				CE27448924A0BBE30074B713 /* HSUIColor-Expanded.h */,
+				CE27448A24A0BBE30074B713 /* UIViewController-Expanded.m */,
+				CE27448B24A0BBE30074B713 /* IconFontConstants.m */,
+				CE27448C24A0BBE30074B713 /* SystemInformation.m */,
+				CE27448D24A0BBE30074B713 /* HDPopOverBackgroundView.h */,
+				CE27448E24A0BBE30074B713 /* NSString-Supplement.m */,
+				CE27448F24A0BBE30074B713 /* UIButton-Expanded.h */,
+				CE27449024A0BBE30074B713 /* UITextView+PH */,
+				B33E05F624AA2E3C00756B3B /* HDFontManager.h */,
+				B33E05F724AA2E3C00756B3B /* HDFontManager.m */,
+				B33E05FA24AA31D500756B3B /* HDFontManagerHelper.h */,
+				B33E05FB24AA31D500756B3B /* HDFontManagerHelper.m */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		CE27448424A0BBE30074B713 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				CE27448524A0BBE30074B713 /* Reachability.m */,
+				CE27448624A0BBE30074B713 /* KitabooNetworkManager.h */,
+				CE27448724A0BBE30074B713 /* Reachability.h */,
+				CE27448824A0BBE30074B713 /* KitabooNetworkManager.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		CE27449024A0BBE30074B713 /* UITextView+PH */ = {
+			isa = PBXGroup;
+			children = (
+				CE27449124A0BBE30074B713 /* UITextView+PH.h */,
+				CE27449224A0BBE30074B713 /* UITextView+PH.m */,
+			);
+			path = "UITextView+PH";
+			sourceTree = "<group>";
+		};
+		CE27451424A0BE160074B713 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84698CA327BA1C0600FE6C08 /* Kitaboo_Reader_SDK.framework */,
+				84B21AF7276B7BDF00E10E30 /* Kitaboo_Reader_SDK.xcframework */,
+				3BC7508F2680B43000060C86 /* Kitaboo_Reader_SDK.framework */,
+				CEEE0510257A627B004E6518 /* Device */,
+				3C2BE13524DBDA2F0052D722 /* Device */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE562F2724A9D5E30046F93B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				48EFD3D724AB780600AF5026 /* Images */,
+				48EFD34D24AB697400AF5026 /* Theme */,
+				CE562F2824A9D5E30046F93B /* Font */,
+			);
+			name = Resources;
+			path = KitabooSDKWithReader/Resources;
+			sourceTree = "<group>";
+		};
+		CE562F2824A9D5E30046F93B /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				212D5C2326272461001D1E47 /* icomoon.ttf */,
+				48EFD34524AB610E00AF5026 /* kitabooread.ttf */,
+				CE562F2924A9D5E30046F93B /* OpenSans-SemiBold.ttf */,
+				CE562F2A24A9D5E30046F93B /* OpenSans-Light.ttf */,
+				CE562F2B24A9D5E30046F93B /* OpenSans-ExtraBold.ttf */,
+				CE562F2C24A9D5E30046F93B /* OpenSans-Bold.ttf */,
+				CE562F2D24A9D5E30046F93B /* OpenSans-Regular.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		CEA05A8824A1D4F000EA9A41 /* KitabooSDKFramework */ = {
+			isa = PBXGroup;
+			children = (
+				84698CAE27BA46C500FE6C08 /* Kitaboo_Reader_SDK.framework */,
+				CEA05A8924A1D4F000EA9A41 /* Simulator */,
+				CEA05A8B24A1D4F000EA9A41 /* Device */,
+			);
+			path = KitabooSDKFramework;
+			sourceTree = "<group>";
+		};
+		CEA05A8924A1D4F000EA9A41 /* Simulator */ = {
+			isa = PBXGroup;
+			children = (
+				CEA05A8A24A1D4F000EA9A41 /* Kitaboo_Reader_SDK.framework */,
+			);
+			path = Simulator;
+			sourceTree = "<group>";
+		};
+		CEA05A8B24A1D4F000EA9A41 /* Device */ = {
+			isa = PBXGroup;
+			children = (
+				CEA05A8C24A1D4F000EA9A41 /* Kitaboo_Reader_SDK.framework */,
+			);
+			path = Device;
+			sourceTree = "<group>";
+		};
+		CEEE0510257A627B004E6518 /* Device */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Device;
+			path = KitabooSDKWithReader/KitabooSDKFramework/Device;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CE2743E724A0BB890074B713 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84698CBA27BA62DA00FE6C08 /* UGCXMLClass.h in Headers */,
+				84B9DF0527A98928007AC634 /* MHEReaderViewController.h in Headers */,
+				CE2744D124A0BBE30074B713 /* AlertView.h in Headers */,
+				CE27450224A0BBE30074B713 /* Reachability.h in Headers */,
+				CE2744FF24A0BBE30074B713 /* NSString-Supplement.h in Headers */,
+				B33E05FC24AA31D500756B3B /* HDFontManagerHelper.h in Headers */,
+				CE27450124A0BBE30074B713 /* KitabooNetworkManager.h in Headers */,
+				CE2744D224A0BBE30074B713 /* ReaderHeader.h in Headers */,
+				CE27449624A0BBE30074B713 /* KBThumbnailViewController.h in Headers */,
+				CE27450824A0BBE30074B713 /* HDPopOverBackgroundView.h in Headers */,
+				CE2744FD24A0BBE30074B713 /* UIViewController-Expanded.h in Headers */,
+				CE2744C024A0BBE30074B713 /* FilterDataObject.h in Headers */,
+				CE27450A24A0BBE30074B713 /* UIButton-Expanded.h in Headers */,
+				CE27450B24A0BBE30074B713 /* UITextView+PH.h in Headers */,
+				CE2744ED24A0BBE30074B713 /* MultiLinkCell.h in Headers */,
+				CE2744EA24A0BBE30074B713 /* KBHDThemeVO.h in Headers */,
+				CE2744CE24A0BBE30074B713 /* FilterCollectionCell.h in Headers */,
+				CE2744C224A0BBE30074B713 /* KBMyDataViewController.h in Headers */,
+				CE2744FC24A0BBE30074B713 /* SystemInformation.h in Headers */,
+				CE2744C124A0BBE30074B713 /* FilterViewController.h in Headers */,
+				CE2744EC24A0BBE30074B713 /* MultiLinkController.h in Headers */,
+				CE2744AA24A0BBE30074B713 /* StickyNoteCommentCell.h in Headers */,
+				CE2744A424A0BBE30074B713 /* KBShareSettingsCell.h in Headers */,
+				CE2744BD24A0BBE30074B713 /* TeacherAnnotationViewCell.h in Headers */,
+				CE27449524A0BBE30074B713 /* KitabooThumbnailCollectionViewCell.h in Headers */,
+				CE2744A724A0BBE30074B713 /* PlayerActionBottomBar.h in Headers */,
+				CE2744C324A0BBE30074B713 /* KBMyDataHighlightCell.h in Headers */,
+				CE2744A124A0BBE30074B713 /* KitabooSharedUserInfo.h in Headers */,
+				CE2744B024A0BBE30074B713 /* TextHighlightColorBtnCollectionViewCell.h in Headers */,
+				CE2744D524A0BBE30074B713 /* AccessibilityIdentifierConstants.h in Headers */,
+				CE2744B724A0BBE30074B713 /* TeacherAnnotationViewController.h in Headers */,
+				CE2744E524A0BBE30074B713 /* KitabooPenToolThicknessPalleteViewController.h in Headers */,
+				84698CC427BA9B5300FE6C08 /* XMLReader.h in Headers */,
+				CE2744E424A0BBE30074B713 /* KitabooPenToolColorPalleteViewController.h in Headers */,
+				CE2744D024A0BBE30074B713 /* KBMyDataNoteCell.h in Headers */,
+				CE2744AD24A0BBE30074B713 /* StickyNotesViewController.h in Headers */,
+				84698CCA27BAA78100FE6C08 /* ParseUGCData.h in Headers */,
+				CE2744B824A0BBE30074B713 /* TeacherAnnotationTableViewCell.h in Headers */,
+				CE2744B424A0BBE30074B713 /* HDKitabooMediaBookController.h in Headers */,
+				48E9A40F255A641D00D0BC88 /* KBFixedEpubThumbnailViewController.h in Headers */,
+				CE2744A624A0BBE30074B713 /* PlayerActionTopBar.h in Headers */,
+				CE2744BE24A0BBE30074B713 /* KBMyDataNoteAnswerCell.h in Headers */,
+				B33E05F824AA2E3C00756B3B /* HDFontManager.h in Headers */,
+				CE27449F24A0BBE30074B713 /* KBShareSettingsController.h in Headers */,
+				CE2744FB24A0BBE30074B713 /* IconFontConstants.h in Headers */,
+				CE2744D324A0BBE30074B713 /* Constant.h in Headers */,
+				CE27450424A0BBE30074B713 /* HSUIColor-Expanded.h in Headers */,
+				C1E0E09A25AD6A860015CC7D /* HDKitabooHLSDownloaderManager.h in Headers */,
+				CE2744F124A0BBE30074B713 /* ReaderViewController.h in Headers */,
+				CE2744DC24A0BBE30074B713 /* HDReaderSettingModel.h in Headers */,
+				CE27449D24A0BBE30074B713 /* KitabooReaderViewController.h in Headers */,
+				CE2743F124A0BB890074B713 /* KitabooSDKWithReader.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		48EFD35324AB6F7300AF5026 /* KitabooSDKWithReaderDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48EFD36A24AB6F7600AF5026 /* Build configuration list for PBXNativeTarget "KitabooSDKWithReaderDemo" */;
+			buildPhases = (
+				48EFD35024AB6F7300AF5026 /* Sources */,
+				48EFD35124AB6F7300AF5026 /* Frameworks */,
+				48EFD35224AB6F7300AF5026 /* Resources */,
+				48EFD37524AB707600AF5026 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48EFD36E24AB6F9200AF5026 /* PBXTargetDependency */,
+				84698CA927BA1C1000FE6C08 /* PBXTargetDependency */,
+			);
+			name = KitabooSDKWithReaderDemo;
+			productName = KitabooSDKWithReaderDemo;
+			productReference = 48EFD35424AB6F7300AF5026 /* KitabooSDKWithReaderDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE2743EB24A0BB890074B713 /* KitabooSDKWithReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE2743F424A0BB890074B713 /* Build configuration list for PBXNativeTarget "KitabooSDKWithReader" */;
+			buildPhases = (
+				CE2743E724A0BB890074B713 /* Headers */,
+				CE2743E824A0BB890074B713 /* Sources */,
+				CE2743E924A0BB890074B713 /* Frameworks */,
+				CE2743EA24A0BB890074B713 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KitabooSDKWithReader;
+			productName = SDKWithReader;
+			productReference = CE2743EC24A0BB890074B713 /* KitabooSDKWithReader.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE2743E324A0BB890074B713 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Hurix Systems";
+				TargetAttributes = {
+					48EFD35324AB6F7300AF5026 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					CE2743EB24A0BB890074B713 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = CE2743E624A0BB890074B713 /* Build configuration list for PBXProject "KitabooSDKWithReader" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				da,
+				"kl-GL",
+				es,
+				nb,
+				ar,
+			);
+			mainGroup = CE2743E224A0BB890074B713;
+			productRefGroup = CE2743ED24A0BB890074B713 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48EFD35324AB6F7300AF5026 /* KitabooSDKWithReaderDemo */,
+				CE2743EB24A0BB890074B713 /* KitabooSDKWithReader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48EFD35224AB6F7300AF5026 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				487F099C24ACC87F00F1557A /* fetchUserSettingsResponse.json in Resources */,
+				48EFD3DF24AB7E0C00AF5026 /* TestingBooks in Resources */,
+				48EFD36624AB6F7600AF5026 /* LaunchScreen.storyboard in Resources */,
+				48C898072510BF8A005F3F70 /* SampleReaderConfiguration.plist in Resources */,
+				48EFD3DC24AB78C500AF5026 /* SliderThumbImage.png in Resources */,
+				48F4FFD424E42F0800840C63 /* audio-video-theme.json in Resources */,
+				48EFD36124AB6F7300AF5026 /* Main.storyboard in Resources */,
+				21B0984425FF7458006EEBB0 /* ThumnailSliderThumbImage.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE2743EA24A0BB890074B713 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE2744A224A0BBE30074B713 /* ShareSettingsController.xib in Resources */,
+				48EFD3DD24AB78C500AF5026 /* SliderThumbImage.png in Resources */,
+				CE2744BC24A0BBE30074B713 /* TeacherAnnotationTableViewCell.xib in Resources */,
+				CE562F3124A9D5E30046F93B /* OpenSans-Bold.ttf in Resources */,
+				CE2744AF24A0BBE30074B713 /* TextHighlightColorBtnCollectionViewCell.xib in Resources */,
+				48F4FFD524E42F0800840C63 /* audio-video-theme.json in Resources */,
+				CE562F3024A9D5E30046F93B /* OpenSans-ExtraBold.ttf in Resources */,
+				CE27449E24A0BBE30074B713 /* KBShareSettingsCell.xib in Resources */,
+				CE2744E824A0BBE30074B713 /* readerDefault_theme.json in Resources */,
+				48EFD34F24AB698400AF5026 /* ReaderTheme.json in Resources */,
+				48EFD34624AB610E00AF5026 /* kitabooread.ttf in Resources */,
+				CE2744E324A0BBE30074B713 /* SearchResultCell.xib in Resources */,
+				CE2744CF24A0BBE30074B713 /* FilterViewController.xib in Resources */,
+				CE2744CA24A0BBE30074B713 /* MyDataHighlightCell.xib in Resources */,
+				CE2744BF24A0BBE30074B713 /* MyDataViewController.xib in Resources */,
+				CE2744DE24A0BBE30074B713 /* HighLightToolView.xib in Resources */,
+				CE2744DF24A0BBE30074B713 /* HighlightView.xib in Resources */,
+				CE2744B124A0BBE30074B713 /* StickyNoteCommentCell.xib in Resources */,
+				CEC50D5A24E19ABD0078B9A9 /* Localizable.strings in Resources */,
+				212D5C2426272461001D1E47 /* icomoon.ttf in Resources */,
+				CE2744D624A0BBE30074B713 /* KitabooAccessibility.json in Resources */,
+				CE2744AB24A0BBE30074B713 /* StickyNotesViewController.xib in Resources */,
+				CE2744C824A0BBE30074B713 /* MyDataNoteAnswerCell.xib in Resources */,
+				CE562F2E24A9D5E30046F93B /* OpenSans-SemiBold.ttf in Resources */,
+				21B0984525FF7458006EEBB0 /* ThumnailSliderThumbImage.png in Resources */,
+				CE2744C524A0BBE30074B713 /* MyDataNoteCell.xib in Resources */,
+				CE562F3224A9D5E30046F93B /* OpenSans-Regular.ttf in Resources */,
+				B30AA520267A492300C2C77A /* TeacherReviewClassListTableViewCell.xib in Resources */,
+				CE27449C24A0BBE30074B713 /* TOCContentCell.xib in Resources */,
+				CE2744D724A0BBE30074B713 /* AccessibilityInfo.plist in Resources */,
+				CE562F2F24A9D5E30046F93B /* OpenSans-Light.ttf in Resources */,
+				CE27449B24A0BBE30074B713 /* TOCTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48EFD35024AB6F7300AF5026 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48EFD35E24AB6F7300AF5026 /* ViewController.m in Sources */,
+				48EFD35824AB6F7300AF5026 /* AppDelegate.m in Sources */,
+				48C898102510D85C005F3F70 /* SampleReaderDownloadController.m in Sources */,
+				487F09AF24ACCEC200F1557A /* HDScreenCaptureResistController.swift in Sources */,
+				B3E7434324B46BA60025553D /* HDLanguageBundle.swift in Sources */,
+				48C8980A2510C13B005F3F70 /* SampleReaderConfigurationData.m in Sources */,
+				48046D30252B43FD00E219DD /* KitabooReaderEventConstant.swift in Sources */,
+				84698CBC27BA63C800FE6C08 /* UGCXMLClass.m in Sources */,
+				48EFD36924AB6F7600AF5026 /* main.m in Sources */,
+				84698CCB27BAA78200FE6C08 /* ParseUGCData.m in Sources */,
+				48EFD35B24AB6F7300AF5026 /* SceneDelegate.m in Sources */,
+				84698CC527BA9B5300FE6C08 /* XMLReader.m in Sources */,
+				48C8980D2510C61E005F3F70 /* SampleReaderBookInfoManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE2743E824A0BB890074B713 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE27449424A0BBE30074B713 /* KBThumbnailViewController.m in Sources */,
+				CE2744D824A0BBE30074B713 /* AccessibilityIdentifierConstants.m in Sources */,
+				B30AA51B267A191300C2C77A /* TeacherReviewClassListViewController.swift in Sources */,
+				CE2744D424A0BBE30074B713 /* AlertView.m in Sources */,
+				84B9DF0627A98928007AC634 /* MHEReaderViewController.m in Sources */,
+				CE2744DD24A0BBE30074B713 /* HighlightView.swift in Sources */,
+				C1E0E09B25AD6A860015CC7D /* HDKitabooHLSDownloaderManager.m in Sources */,
+				CE2744F224A0BBE30074B713 /* TextAnnotationPalleteActionView.swift in Sources */,
+				B34DF1252680AE0300BD94FB /* TeacherReviewStudentListTableViewCell.swift in Sources */,
+				CE2744EB24A0BBE30074B713 /* HelpScreen.swift in Sources */,
+				B30AA51F267A492300C2C77A /* TeacherReviewClassListTableViewCell.swift in Sources */,
+				48046D31252B43FD00E219DD /* KitabooReaderEventConstant.swift in Sources */,
+				487F09B024ACCEC200F1557A /* HDScreenCaptureResistController.swift in Sources */,
+				CE2744B624A0BBE30074B713 /* ReaderViewController.m in Sources */,
+				CE2744E724A0BBE30074B713 /* KitabooPenToolThicknessPalleteViewController.m in Sources */,
+				CE2744D924A0BBE30074B713 /* AccessibilityHelper.swift in Sources */,
+				CE2744BB24A0BBE30074B713 /* TeacherAnnotationViewController.m in Sources */,
+				CE2744F424A0BBE30074B713 /* TextAnnotationActionView.swift in Sources */,
+				CE2744F324A0BBE30074B713 /* TextAnnotationAlignmentActionView.swift in Sources */,
+				CE27449724A0BBE30074B713 /* HDReaderSettingModel.m in Sources */,
+				CE27450C24A0BBE30074B713 /* UITextView+PH.m in Sources */,
+				CE2744BA24A0BBE30074B713 /* TeacherAnnotationTableViewCell.m in Sources */,
+				CE2744E224A0BBE30074B713 /* TextSearchView.swift in Sources */,
+				CE2744C424A0BBE30074B713 /* FilterCollectionCell.m in Sources */,
+				CE2744F824A0BBE30074B713 /* FontManager.swift in Sources */,
+				CE2744B324A0BBE30074B713 /* HDKitabooMediaBookController.m in Sources */,
+				CE2744F024A0BBE30074B713 /* HDReadToMeViewController.swift in Sources */,
+				CE2744A524A0BBE30074B713 /* KBShareSettingsController.m in Sources */,
+				CE2744AC24A0BBE30074B713 /* TextHighlightColorBtnCollectionViewCell.m in Sources */,
+				84698CCC27BAA78200FE6C08 /* ParseUGCData.m in Sources */,
+				CE2744AE24A0BBE30074B713 /* StickyNoteCommentCell.m in Sources */,
+				CE2744E124A0BBE30074B713 /* SearchResultCell.swift in Sources */,
+				C12FB74325F786FD00EC1FF2 /* HDKitabooMediaBookReader.swift in Sources */,
+				CE2744B524A0BBE30074B713 /* HDReaderServiceConstants.swift in Sources */,
+				CE2744EF24A0BBE30074B713 /* MultiLinkCell.m in Sources */,
+				84698CC627BA9B5300FE6C08 /* XMLReader.m in Sources */,
+				CE2744B224A0BBE30074B713 /* StickyNotesViewController.m in Sources */,
+				CE27449A24A0BBE30074B713 /* TOCTableViewCell.swift in Sources */,
+				CE2744DA24A0BBE30074B713 /* LocalizeHelper.swift in Sources */,
+				CE2744B924A0BBE30074B713 /* TeacherAnnotationViewCell.m in Sources */,
+				CE2744C924A0BBE30074B713 /* KBMyDataNoteAnswerCell.m in Sources */,
+				CE27450924A0BBE30074B713 /* NSString-Supplement.m in Sources */,
+				B3DD6CC025C95F82006A73F6 /* HDKitabooAnalyticsHandler.swift in Sources */,
+				CE2744DB24A0BBE30074B713 /* KitabooReaderViewController.m in Sources */,
+				CE2744EE24A0BBE30074B713 /* MultiLinkController.m in Sources */,
+				21B4F9F025E7C74E008575D8 /* RTLorLTRFlowLayoutForReader.swift in Sources */,
+				CE2744F624A0BBE30074B713 /* HSUIColor-Expanded.m in Sources */,
+				CE2744C624A0BBE30074B713 /* KBMyDataNoteCell.m in Sources */,
+				B33E05F924AA2E3C00756B3B /* HDFontManager.m in Sources */,
+				CE27450324A0BBE30074B713 /* KitabooNetworkManager.m in Sources */,
+				B33E05FD24AA31D500756B3B /* HDFontManagerHelper.m in Sources */,
+				CE27450624A0BBE30074B713 /* IconFontConstants.m in Sources */,
+				CE2744FE24A0BBE30074B713 /* UIButton-Expanded.m in Sources */,
+				84698CBB27BA62DA00FE6C08 /* UGCXMLClass.m in Sources */,
+				CE2744FA24A0BBE30074B713 /* HDPopOverBackgroundView.m in Sources */,
+				84698CAD27BA452B00FE6C08 /* KitabooLocalizationHelper.swift in Sources */,
+				CE27449324A0BBE30074B713 /* KitabooThumbnailCollectionViewCell.m in Sources */,
+				CE2744CC24A0BBE30074B713 /* KBMyDataViewController.m in Sources */,
+				B34DF1CB268A635200BD94FB /* ResetAllViewController.swift in Sources */,
+				CE2744CB24A0BBE30074B713 /* KBMyDataHighlightCell.m in Sources */,
+				CE2744CD24A0BBE30074B713 /* FilterViewController.m in Sources */,
+				B34DF11C2680570B00BD94FB /* TeacherReviewViewController.swift in Sources */,
+				3B863FE426F4D6EC0054D1B4 /* KBMyDataPrintOptionsController.swift in Sources */,
+				CE2744A024A0BBE30074B713 /* KBShareSettingsCell.m in Sources */,
+				CE2744E024A0BBE30074B713 /* HighLightToolView.swift in Sources */,
+				CE2744A924A0BBE30074B713 /* PlayerActionTopBar.m in Sources */,
+				CE2744A324A0BBE30074B713 /* KitabooSharedUserInfo.m in Sources */,
+				CE2744A824A0BBE30074B713 /* PlayerActionBottomBar.m in Sources */,
+				CE2744E624A0BBE30074B713 /* KitabooPenToolColorPalleteViewController.m in Sources */,
+				CE2744F724A0BBE30074B713 /* CustomSlider.swift in Sources */,
+				CE2744C724A0BBE30074B713 /* FilterDataObject.m in Sources */,
+				48E9A410255A641D00D0BC88 /* KBFixedEpubThumbnailViewController.m in Sources */,
+				CE27450524A0BBE30074B713 /* UIViewController-Expanded.m in Sources */,
+				CE27450024A0BBE30074B713 /* Reachability.m in Sources */,
+				B3E7434424B46BA60025553D /* HDLanguageBundle.swift in Sources */,
+				CE2744E924A0BBE30074B713 /* KBHDThemeVO.m in Sources */,
+				CE27449924A0BBE30074B713 /* TOCContentCell.swift in Sources */,
+				CE27449824A0BBE30074B713 /* TOCViewController.swift in Sources */,
+				CE27450724A0BBE30074B713 /* SystemInformation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		48EFD36E24AB6F9200AF5026 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE2743EB24A0BB890074B713 /* KitabooSDKWithReader */;
+			targetProxy = 48EFD36D24AB6F9200AF5026 /* PBXContainerItemProxy */;
+		};
+		84698CA927BA1C1000FE6C08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE2743EB24A0BB890074B713 /* KitabooSDKWithReader */;
+			targetProxy = 84698CA827BA1C1000FE6C08 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		48EFD35F24AB6F7300AF5026 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48EFD36024AB6F7300AF5026 /* Base */,
+				21588F8625D11BE100119231 /* ar */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		48EFD36424AB6F7600AF5026 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48EFD36524AB6F7600AF5026 /* Base */,
+				21588F8725D11BE300119231 /* ar */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CE27444824A0BBE20074B713 /* KitabooAccessibility.json */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE27444924A0BBE20074B713 /* da */,
+				CE27444B24A0BBE20074B713 /* Base */,
+				CE27444D24A0BBE20074B713 /* kl-GL */,
+				B3E743A024B615D60025553D /* es */,
+				B3E743A224B615E70025553D /* nb */,
+			);
+			name = KitabooAccessibility.json;
+			sourceTree = "<group>";
+		};
+		CE27447424A0BBE30074B713 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21588F8825D11BE400119231 /* ar */,
+				3C473A8A25D5035D006972BB /* nb */,
+				3C473A8B25D50365006972BB /* es */,
+				3C473A8C25D5036C006972BB /* kl-GL */,
+				3C473A8D25D5036F006972BB /* da */,
+				CEA8BA2025E7BBF200572CCE /* es */,
+				CE672E4326293E550077CFBD /* en */,
+				CE672E4626293E580077CFBD /* da */,
+				CE672E4726293E5A0077CFBD /* kl-GL */,
+				CE672E4826293E5D0077CFBD /* nb */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		48EFD36B24AB6F7600AF5026 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R3F4DQZ88Y;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KitabooSDKWithReader/KitabooSDKFramework/**",
+					"$(PROJECT_DIR)/KitabooSDKWithReader/KitabooSDKFramework",
+				);
+				INFOPLIST_FILE = KitabooSDKWithReaderDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hurix.KitabooReader9999;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "KitabooSDKWithReader-Swift.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		48EFD36C24AB6F7600AF5026 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KitabooSDKWithReader/KitabooSDKFramework/**",
+					"$(PROJECT_DIR)/KitabooSDKWithReader/KitabooSDKFramework",
+				);
+				INFOPLIST_FILE = KitabooSDKWithReaderDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hurix.KitabooReader9999;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "KitabooSDKWithReader-Swift.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CE2743F224A0BB890074B713 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CE2743F324A0BB890074B713 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CE2743F524A0BB890074B713 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Manual;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KitabooSDKWithReader/KitabooSDKFramework",
+				);
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/";
+				INFOPLIST_FILE = KitabooSDKWithReader/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "-fembed-bitcode";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hurix.SDKWithReader;
+				PRODUCT_NAME = KitabooSDKWithReader;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SKIP_INSTALL = YES;
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "KitabooSDKWithReader-Swift.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WARNING_CFLAGS = "-Wno-implicit-retain-self";
+			};
+			name = Debug;
+		};
+		CE2743F624A0BB890074B713 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Manual;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KitabooSDKWithReader/KitabooSDKFramework",
+				);
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/";
+				INFOPLIST_FILE = KitabooSDKWithReader/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_CFLAGS = "-fembed-bitcode";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hurix.SDKWithReader;
+				PRODUCT_NAME = KitabooSDKWithReader;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SKIP_INSTALL = YES;
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "KitabooSDKWithReader-Swift.h";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WARNING_CFLAGS = "-Wno-implicit-retain-self";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48EFD36A24AB6F7600AF5026 /* Build configuration list for PBXNativeTarget "KitabooSDKWithReaderDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48EFD36B24AB6F7600AF5026 /* Debug */,
+				48EFD36C24AB6F7600AF5026 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE2743E624A0BB890074B713 /* Build configuration list for PBXProject "KitabooSDKWithReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE2743F224A0BB890074B713 /* Debug */,
+				CE2743F324A0BB890074B713 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE2743F424A0BB890074B713 /* Build configuration list for PBXNativeTarget "KitabooSDKWithReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE2743F524A0BB890074B713 /* Debug */,
+				CE2743F624A0BB890074B713 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE2743E324A0BB890074B713 /* Project object */;
+}

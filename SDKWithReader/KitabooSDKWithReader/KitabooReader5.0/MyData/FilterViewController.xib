@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FilterViewController">
+            <connections>
+                <outlet property="applyButton" destination="IVE-A2-Vsp" id="a3Q-zL-kRZ"/>
+                <outlet property="collectionContainerView" destination="8hx-lC-0Fj" id="gsm-gD-TGh"/>
+                <outlet property="collectionView" destination="V8O-fe-kRl" id="iuQ-3S-Icc"/>
+                <outlet property="filterByLabel" destination="P06-Cf-2k0" id="fGE-TX-a2a"/>
+                <outlet property="heightConstraintOfView" destination="RFt-u0-che" id="Lzs-fA-xw8"/>
+                <outlet property="transaparentBackgroundView" destination="ucT-xp-fKb" id="VcC-xA-v5c"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="viewContainer" destination="xsm-Pm-FSF" id="QVl-5Y-dBD"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view alpha="0.29999999999999999" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ucT-xp-fKb">
+                    <rect key="frame" x="0.0" y="44" width="375" height="734"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xsm-Pm-FSF">
+                    <rect key="frame" x="0.0" y="468" width="375" height="310"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IVE-A2-Vsp">
+                            <rect key="frame" x="15" y="235" width="345" height="60"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="134" id="QdP-wg-hPq"/>
+                                <constraint firstAttribute="height" constant="60" id="uLU-9p-Xjq">
+                                    <variation key="heightClass=regular-widthClass=regular" constant="42"/>
+                                </constraint>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <state key="normal" title="Apply"/>
+                            <variation key="default">
+                                <mask key="constraints">
+                                    <exclude reference="QdP-wg-hPq"/>
+                                </mask>
+                            </variation>
+                            <variation key="heightClass=regular-widthClass=regular">
+                                <mask key="constraints">
+                                    <include reference="QdP-wg-hPq"/>
+                                </mask>
+                            </variation>
+                            <connections>
+                                <action selector="applyButtonAction:" destination="-1" eventType="touchUpInside" id="RR5-Y3-Pvs"/>
+                            </connections>
+                        </button>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8hx-lC-0Fj">
+                            <rect key="frame" x="15" y="0.0" width="344" height="215"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Notes filter by" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P06-Cf-2k0">
+                                    <rect key="frame" x="0.0" y="5" width="344" height="50"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="50" id="SsY-fp-9wN"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                    <color key="textColor" red="0.1215686275" green="0.66274509800000003" blue="0.93725490199999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                    <variation key="heightClass=regular-widthClass=regular">
+                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                    </variation>
+                                </label>
+                                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" bouncesZoom="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="V8O-fe-kRl">
+                                    <rect key="frame" x="8" y="55" width="328" height="160"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="WLp-py-8LQ">
+                                        <size key="itemSize" width="50" height="50"/>
+                                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                    </collectionViewFlowLayout>
+                                    <connections>
+                                        <outlet property="dataSource" destination="-1" id="7fb-zZ-bE1"/>
+                                        <outlet property="delegate" destination="-1" id="U7J-nE-qhq"/>
+                                    </connections>
+                                </collectionView>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="P06-Cf-2k0" firstAttribute="top" secondItem="8hx-lC-0Fj" secondAttribute="top" constant="5" id="F1f-U3-kFS">
+                                    <variation key="heightClass=regular-widthClass=regular" constant="15"/>
+                                </constraint>
+                                <constraint firstAttribute="trailing" secondItem="P06-Cf-2k0" secondAttribute="trailing" id="igQ-mp-eWv"/>
+                                <constraint firstAttribute="trailingMargin" secondItem="V8O-fe-kRl" secondAttribute="trailing" id="pNa-cU-SsM"/>
+                                <constraint firstAttribute="bottom" secondItem="V8O-fe-kRl" secondAttribute="bottom" id="qOL-PF-NKT"/>
+                                <constraint firstItem="V8O-fe-kRl" firstAttribute="top" secondItem="P06-Cf-2k0" secondAttribute="bottom" id="tTg-32-vAx">
+                                    <variation key="heightClass=regular-widthClass=regular" constant="10"/>
+                                </constraint>
+                                <constraint firstItem="V8O-fe-kRl" firstAttribute="leading" secondItem="8hx-lC-0Fj" secondAttribute="leadingMargin" id="uqQ-HV-jgb"/>
+                                <constraint firstItem="P06-Cf-2k0" firstAttribute="leading" secondItem="8hx-lC-0Fj" secondAttribute="leading" id="v8H-Ki-F0J"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="IVE-A2-Vsp" firstAttribute="centerX" secondItem="xsm-Pm-FSF" secondAttribute="centerX" id="7fI-WW-fS9"/>
+                        <constraint firstAttribute="bottom" secondItem="IVE-A2-Vsp" secondAttribute="bottom" constant="15" id="ECl-JT-oK9">
+                            <variation key="heightClass=regular-widthClass=regular" constant="30"/>
+                        </constraint>
+                        <constraint firstAttribute="width" constant="474" id="GkN-5C-F3X"/>
+                        <constraint firstItem="IVE-A2-Vsp" firstAttribute="top" secondItem="8hx-lC-0Fj" secondAttribute="bottom" constant="20" id="P0e-ik-IPs"/>
+                        <constraint firstAttribute="height" constant="310" id="RFt-u0-che">
+                            <variation key="heightClass=regular-widthClass=regular" constant="335"/>
+                        </constraint>
+                        <constraint firstAttribute="trailing" secondItem="8hx-lC-0Fj" secondAttribute="trailing" constant="16" id="Vml-Wy-Tlh">
+                            <variation key="heightClass=regular-widthClass=regular" constant="0.0"/>
+                        </constraint>
+                        <constraint firstItem="8hx-lC-0Fj" firstAttribute="top" secondItem="xsm-Pm-FSF" secondAttribute="top" id="bxZ-pP-ERf"/>
+                        <constraint firstItem="IVE-A2-Vsp" firstAttribute="leading" secondItem="xsm-Pm-FSF" secondAttribute="leading" constant="15" id="jCS-aD-61M"/>
+                        <constraint firstItem="8hx-lC-0Fj" firstAttribute="leading" secondItem="xsm-Pm-FSF" secondAttribute="leading" constant="15" id="sQa-93-22B">
+                            <variation key="heightClass=regular-widthClass=regular" constant="0.0"/>
+                        </constraint>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="GkN-5C-F3X"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=regular">
+                        <mask key="constraints">
+                            <include reference="GkN-5C-F3X"/>
+                            <exclude reference="jCS-aD-61M"/>
+                        </mask>
+                    </variation>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="uKe-cd-9HD" firstAttribute="trailing" secondItem="ucT-xp-fKb" secondAttribute="trailing" id="9Ge-78-QPS"/>
+                <constraint firstItem="uKe-cd-9HD" firstAttribute="bottom" secondItem="xsm-Pm-FSF" secondAttribute="bottom" id="KEW-rS-S8m"/>
+                <constraint firstItem="ucT-xp-fKb" firstAttribute="leading" secondItem="uKe-cd-9HD" secondAttribute="leading" id="Wuy-Hw-UIL"/>
+                <constraint firstItem="ucT-xp-fKb" firstAttribute="top" secondItem="uKe-cd-9HD" secondAttribute="top" id="fHG-hI-d32"/>
+                <constraint firstItem="uKe-cd-9HD" firstAttribute="trailing" secondItem="xsm-Pm-FSF" secondAttribute="trailing" id="flt-UX-cgG"/>
+                <constraint firstItem="xsm-Pm-FSF" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="nOh-GE-isi"/>
+                <constraint firstItem="xsm-Pm-FSF" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="qox-1h-rVa"/>
+                <constraint firstItem="xsm-Pm-FSF" firstAttribute="leading" secondItem="uKe-cd-9HD" secondAttribute="leading" id="sgt-nO-A6E"/>
+                <constraint firstItem="uKe-cd-9HD" firstAttribute="bottom" secondItem="ucT-xp-fKb" secondAttribute="bottom" id="uIs-08-Etf"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="uKe-cd-9HD"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="nOh-GE-isi"/>
+                    <exclude reference="qox-1h-rVa"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=regular-widthClass=regular">
+                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.25476241438356162" colorSpace="custom" customColorSpace="sRGB"/>
+                <mask key="constraints">
+                    <exclude reference="KEW-rS-S8m"/>
+                    <exclude reference="flt-UX-cgG"/>
+                    <include reference="nOh-GE-isi"/>
+                    <include reference="qox-1h-rVa"/>
+                    <exclude reference="sgt-nO-A6E"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="32.5" y="53"/>
+        </view>
+    </objects>
+</document>

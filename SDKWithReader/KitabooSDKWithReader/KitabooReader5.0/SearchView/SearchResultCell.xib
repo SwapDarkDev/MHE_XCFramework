@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="SearchResultCell" rowHeight="99.5" id="KGk-i7-Jjw" customClass="SearchResultCell" customModule="Kitaboo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="113"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="112.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l6k-cT-RLw">
+                        <rect key="frame" x="10" y="10" width="300" height="82.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RZH-Hd-JGn">
+                        <rect key="frame" x="310" y="102.5" width="0.0" height="0.0"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="0.80000000000000004" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="heightClass=compact-widthClass=compact">
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        </variation>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rDg-gt-9Oa">
+                        <rect key="frame" x="10" y="102.5" width="290" height="0.0"/>
+                        <fontDescription key="fontDescription" type="italicSystem" pointSize="16"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="0.80000000000000004" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="heightClass=compact-widthClass=compact">
+                            <fontDescription key="fontDescription" type="italicSystem" pointSize="14"/>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <fontDescription key="fontDescription" type="italicSystem" pointSize="14"/>
+                        </variation>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="RZH-Hd-JGn" secondAttribute="trailing" constant="28" id="CXU-hi-DR0">
+                        <variation key="heightClass=compact-widthClass=compact" constant="10"/>
+                        <variation key="heightClass=regular-widthClass=compact" constant="10"/>
+                    </constraint>
+                    <constraint firstItem="rDg-gt-9Oa" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="28" id="Qco-ey-K4l">
+                        <variation key="heightClass=compact-widthClass=compact" constant="10"/>
+                        <variation key="heightClass=regular-widthClass=compact" constant="10"/>
+                    </constraint>
+                    <constraint firstItem="RZH-Hd-JGn" firstAttribute="leading" secondItem="rDg-gt-9Oa" secondAttribute="trailing" constant="10" id="S85-ik-6oE"/>
+                    <constraint firstItem="rDg-gt-9Oa" firstAttribute="top" secondItem="l6k-cT-RLw" secondAttribute="bottom" constant="10" id="ZJz-1u-Gew"/>
+                    <constraint firstAttribute="bottom" secondItem="rDg-gt-9Oa" secondAttribute="bottom" constant="20" id="d8P-uO-UHa">
+                        <variation key="heightClass=compact-widthClass=compact" constant="10"/>
+                        <variation key="heightClass=regular-widthClass=compact" constant="10"/>
+                    </constraint>
+                    <constraint firstAttribute="bottom" secondItem="RZH-Hd-JGn" secondAttribute="bottom" constant="10" id="h5a-y7-cuP"/>
+                    <constraint firstItem="l6k-cT-RLw" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="ibX-Yp-yNw"/>
+                    <constraint firstItem="l6k-cT-RLw" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="28" id="pvd-Qp-zmS">
+                        <variation key="heightClass=compact-widthClass=compact" constant="10"/>
+                        <variation key="heightClass=regular-widthClass=compact" constant="10"/>
+                    </constraint>
+                    <constraint firstItem="l6k-cT-RLw" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="20" id="qmD-Ys-GeZ">
+                        <variation key="heightClass=compact-widthClass=compact" constant="10"/>
+                        <variation key="heightClass=regular-widthClass=compact" constant="10"/>
+                    </constraint>
+                    <constraint firstItem="RZH-Hd-JGn" firstAttribute="top" secondItem="l6k-cT-RLw" secondAttribute="bottom" constant="10" id="wdC-5w-YkL"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="chapterNameLabel" destination="rDg-gt-9Oa" id="SvW-14-5gc"/>
+                <outlet property="contentLabel" destination="l6k-cT-RLw" id="CoZ-cf-tmr"/>
+                <outlet property="pageNumberLabel" destination="RZH-Hd-JGn" id="rtm-qT-gl4"/>
+            </connections>
+            <point key="canvasLocation" x="86" y="-100.5"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,135 @@
+<?xml version="1.0"  encoding="utf-8"?>
+
+
+<config>
+  <eBook id = "171129" />
+  <isbn id = "9780079017253" />
+  <clientId id = "2,407" />
+  <locale langID = "en_US" url="assets/locale/en_US/en_US.xml"/>
+  <theme id = "winter-eve" path="css/style.swf" />
+  <searchXMLPath  url="assets/xml-bin/search/search.xml"/>
+   
+  <logInPage  url ="http://172.18.10.170:8280/eBookServices/index.html"/>
+  <print value="true"/>
+  <actualPageNDisplayPageDiff value="0"/>
+  <searchHighlightColor value="ffcc00"/>
+  <thumbnailImagePrefer value="880284_027_C01_"/>
+  <linkHighlightColor value=""/>
+  <glossaryHighlightColor value="FF00FF"/>
+  <resourceHighlightColor value="FF0000"/>
+  <tocHighlightColor value="3366FF"/>
+  <forgotPasswordSiteValue>Reading/Writing Companion Grade 3 Units 1-2 V5</forgotPasswordSiteValue>
+  <printdata></printdata>
+  <activityInjection useButtonSkin="false"/>
+
+	<bookshelf isVisible="true" isEnable="true"/>
+	<analytics isEnable="true" isVisible="true"/>
+	<reviewButton isVisible = "true" isEnable = "true"/>
+
+	 
+	 
+	  <chapterPath value="assets/xml-bin/chapters.xml"/>
+	  <glossaryPath value="assets/xml-bin/glossary/glossary.xml"/>
+	  <resourceXMLPath value="assets/xml-bin/resources.xml"/>
+	  <standardTrackerXMLPath value="assets/xml-bin/standardtracker.xml"/>
+	  <tocXMLPath  value="assets/xml-bin/toc.xml"/>
+	  <interactiveIndexXMLPath value="assets/xml-bin/interactiveIndex.xml"/>
+	  <reportTemplatePath value="assets/templates/ReportTemplate.html"/>
+	  <view mode="offline"/>
+	  <torOpenAutomatic value="true"/>
+	  <service_keepAlive url="ebx_keepalive.do" methodName="sendKeepAliveMessage" data="keepalive=true" methodType="POST"/>
+	  <serviceUrl url="http://dss-uat.eppg.com/service.dss" method="POST" format="xml" />
+	  <pageCaching noofpages="5" enable="false" />
+	 
+	  <marqueeZoom isEnable="true" isVisible="true"/>
+	
+	  <interactiveIndex isVisible = "true" /> 
+	  <loadOtherXML value = "true" />
+
+
+  
+ 
+  <printStyle value="portrait"/>	
+	 <defaultView isSinglePage="false"/>
+  
+  <winName value="Windowname"/>
+  <winLangName value="WindowLangname"/>
+
+	<mode playerMode="teacher"/>
+
+
+	 <standardTracker isEnable="true" isVisible="true" viewType="teacher"/>
+	<toc isVisible = "true" isEnable = "true"/>
+	 <saveload isVisible="true" isEnable="false"/>
+	 <helpFilePath  url="http://www.hurix.com/"/>
+
+
+  <security check = "1040"  />
+ <defaultScreenFit fitHeight="true" />
+
+	
+
+
+
+	<historynext isVisible = "true" isEnable = "false"/>
+	<historyback isVisible = "true" isEnable = "false"/>
+	<zoomIn isVisible = "true" isEnable = "true"/>
+	<zoomOut isVisible = "true" isEnable = "true"/>
+	<fullScreen isVisible = "true" isEnable = "true"/>
+	<audioVolumeBtn isVisible = "false" isEnable = "true"/>
+	<audioOnBtn isVisible = "false" isEnable = "true"/>
+	<audioOffBtn isVisible = "false" isEnable = "true"/>
+	<lineBtn isVisible = "true" isEnable = "true"/>
+	
+	<whiteboard isVisible = "true" isEnable = "true"/>
+	<myDataBtn isEnable="true" isVisible="true"/>
+  <!-- Feature Enable/Visible tags -->
+	<GATrackerId value="UA-21584546-2"/>
+	<GATrackerDebug value="false"/>
+	<GATrackingEnabled value="true"/> 
+	<deliveryMode value="online"/>
+	<newEpubEngine isEnable="true" isVisible="true"/>
+    <whiteboardTools isEnable="true" isVisible="true"/>
+    <highlight isEnable="true" isVisible="true"/>
+    <bookMarkShow isEnable="true" isVisible="true"/>
+    <bookResources isEnable="true" isVisible="true"/>
+    <thumbnailView isEnable="true" isVisible="true"/>
+    <contactUs isEnable="true" isVisible="true"/>
+    <corporatePresentationLink isEnable="true" isVisible="true"/>
+    <curtainMaskingTool isEnable="true" isVisible="true"/>
+    <tableOfContents isEnable="true" isVisible="true"/>
+    <eraser isEnable="true" isVisible="true"/>
+    <fitToPageHeight isEnable="true" isVisible="true"/>
+    <fitToPageWidth isEnable="true" isVisible="true"/>
+    <fitToScreen isEnable="true" isVisible="true"/>
+    <fitScreenWidth isEnable="true" isVisible="true"/>
+    <lastPageVisited isEnable="true" isVisible="true"/>
+    <glossary isEnable="true" isVisible="true"/>
+    <goToFirstPage isEnable="true" isVisible="true"/>
+    <goToLastPage isEnable="true" isVisible="true"/>
+    <magnifierTool isEnable="true" isVisible="true"/>
+    <singlePageView isEnable="true" isVisible="true"/>
+    <searchBtn isEnable="true" isVisible="true"/>
+    <panTool isEnable="true" isVisible="true"/>
+    <pen isEnable="true" isVisible="true"/>
+    <linkToOwnResources isEnable="true" isVisible="true"/>
+    <progressivePageZoom isEnable="true" isVisible="true"/>
+    <pageZoom isEnable="true" isVisible="true"/>
+    <onPageResourceLink isEnable="true" isVisible="true"/>
+    <pageNotes isEnable="true" isVisible="true"/>
+    <pageResources isEnable="true" isVisible="true"/>
+    <linkToPublishingHouse isEnable="true" isVisible="true"/>
+    <doublePageView isEnable="true" isVisible="true"/>
+    <close isEnable="true" isVisible="true"/>
+    <fullScreen isEnable="true" isVisible="true"/>
+    <next isEnable="true" isVisible="true"/>
+    <prevChapter isEnable="true" isVisible="true"/>
+    <help isEnable="true" isVisible="true"/>
+    <nextChapter isEnable="true" isVisible="true"/>
+    <jumpToPage isEnable="true" isVisible="true"/>
+    <back isEnable="true" isVisible="true"/>
+    <imageZoom isEnable="true" isVisible="true"/>
+
+	<onlyChapters>yes</onlyChapters>
+	<eBookmode>kitaboodraw</eBookmode>
+</config>

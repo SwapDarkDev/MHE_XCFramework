@@ -1,0 +1,19 @@
+<?xml version="1.0"  encoding="UTF-8"?>
+<icons>	
+	<icon id="01" name="Image" type="image" toolTip="Image" url="assets/images/icons/image.swf" isFlexible="false" isCompulsory="true"/>
+	<icon id="02" name="Video" type="video" toolTip="Video" url="assets/images/icons/video.swf" isFlexible="false" isCompulsory="true"/>
+	<icon id="03" name="Audio" type="audio" toolTip="Audio" url="assets/images/icons/audio.swf" isFlexible="false" isCompulsory="true"/>
+	<icon id="04" name="Animations" type="activity" toolTip="Animations" url="assets/images/icons/activity.swf" isFlexible="false" isCompulsory="true"/>
+	<icon id="08" name="HTML" type="htmlwrap" toolTip="HTML" url="assets/images/icons/htmlwrap.swf" isFlexible="false" isCompulsory="true" />
+	<icon id="09" name="Documents" type="documents" toolTip="Documents" url="assets/images/icons/document.swf" isFlexible="false" isCompulsory="true"/>
+	<icon id="17" name="TOC" type="toc" toolTip="toc" url="assets/images/icons/toc.swf"  isFlexible="false" isCompulsory="true"/>
+	<icon id="27" name="Web Links" type="web links" toolTip="Web Links" url="assets/images/icons/weblink.swf" isFlexible="false" isCompulsory="true"/>
+	<icon id="38" name="Kitaboo Widget" type="kitaboowidget" toolTip="Kitaboo Widget" url="assets/images/icons/kitaboowidget.swf" isFlexible="false" isCompulsory="true"/>	
+	<icon id="39" name="Slide Show" type="slideshow" toolTip="Slide Show" url="assets/images/icons/slideshow.swf" isFlexible="false" isCompulsory="true"/>
+	<icon id="50" name="Survey" type="survey" toolTip="Survey" url="assets/images/icons/survey.swf" isFlexible="false" isCompulsory="true"/>
+	<icon id="52" name="Link To Book" type="jumptobook" toolTip="Link To Book" url="assets/images/icons/linktobook.swf" isFlexible="false" isCompulsory="true"/>
+	<icon id="51" name="ImageMagnification" type="imagezoom" toolTip="Image" url="assets/images/icons/imagezoombtn_med.swf" isFlexible="false" isCompulsory="true"/>
+	<icon id="53" name="Instruction" type="standalone_instruction" toolTip="Instruction" url="assets/images/icons/instruction.swf" isFlexible="false" isCompulsory="true"/>
+	<icon id="29" name="No Icon" type="Flexi" toolTip="No Icon" url="assets/images/icons/flexibleicon.swf" isFlexible="true" isCompulsory="true"/>
+	<icon id="11" name="Audiosync" type="audiosync" toolTip="Audiosync" url="assets/images/icons/audio.swf" isFlexible="true" isCompulsory="false" />
+</icons>

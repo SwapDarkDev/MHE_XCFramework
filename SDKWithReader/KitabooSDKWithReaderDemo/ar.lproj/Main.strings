@@ -1,0 +1,24 @@
+
+/* Class = "UIButton"; normalTitle = "Play Online HLS Audio"; ObjectID = "3Ey-dQ-rob"; */
+"3Ey-dQ-rob.normalTitle" = "Play Online HLS Audio";
+
+/* Class = "UILabel"; text = "This is a demo Reader Application which consumes Kitaboo SDK and Kitaboo 5.0 Reader SDK and launches a pre-package Book."; ObjectID = "8cW-Cp-tPn"; */
+"8cW-Cp-tPn.text" = "This is a demo Reader Application which consumes Kitaboo SDK and Kitaboo 5.0 Reader SDK and launches a pre-package Book.";
+
+/* Class = "UIButton"; normalTitle = "Download AudioBook"; ObjectID = "DTg-vB-VD8"; */
+"DTg-vB-VD8.normalTitle" = "Download AudioBook";
+
+/* Class = "UIButton"; normalTitle = "Download Epub Book"; ObjectID = "Oif-kS-Awo"; */
+"Oif-kS-Awo.normalTitle" = "Download Epub Book";
+
+/* Class = "UILabel"; text = "KITABOO DEMO READER"; ObjectID = "gcc-b0-VDh"; */
+"gcc-b0-VDh.text" = "KITABOO DEMO READER";
+
+/* Class = "UIButton"; normalTitle = "Download HLS Audio"; ObjectID = "guS-nv-NgH"; */
+"guS-nv-NgH.normalTitle" = "Download HLS Audio";
+
+/* Class = "UIButton"; normalTitle = "Download Kitaboo Fixed "; ObjectID = "tIY-kl-G7U"; */
+"tIY-kl-G7U.normalTitle" = "Download Kitaboo Fixed ";
+
+/* Class = "UIButton"; normalTitle = "Download Fixed Epub"; ObjectID = "z70-gE-tvW"; */
+"z70-gE-tvW.normalTitle" = "Download Fixed Epub";

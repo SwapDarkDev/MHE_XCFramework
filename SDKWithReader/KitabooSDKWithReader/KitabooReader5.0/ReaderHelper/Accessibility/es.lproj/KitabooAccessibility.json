@@ -1,0 +1,206 @@
+{
+    "LoginScreenUsernameTF":
+    {
+        "hint":"Enter your Username",
+        "label":"",
+        "isAccessiblityEnabled":true
+    },
+    "LoginScreenPasswordTF":
+    {
+        "hint":"Enter Your Password.",
+        "label":"",
+        "isAccessiblityEnabled":true
+    },
+    "LoginScreenForgotPasswordButton":
+    {
+        "hint":"Tap this button for navigation to Forgot Password page.",
+        "label":"Forgot Password Button",
+        "isAccessiblityEnabled":true
+    },
+    "LoginScreenSignInButton":
+    {
+        "hint":"Tap this button for Sign In.",
+        "label":"Sign In Button",
+        "isAccessiblityEnabled":true
+    },
+    "LoginScreenRememberMeButton":
+    {
+        "hint":"",
+        "label":"Remember Me Button",
+        "isAccessiblityEnabled":true
+    },
+    "ForgotPasswordUsernameTF":
+    {
+        "hint":"Enter your Username Here.",
+        "label":"",
+        "isAccessiblityEnabled":true
+    },
+    "ForgotPasswordCancelButton":
+    {
+        "hint":"Tap this button to Cancel your Request. And Return to Login Screen.",
+        "label":"Cancel Button",
+        "isAccessiblityEnabled":true
+    },
+    "ForgotPasswordSaveButton":
+    {
+        "hint":"Tap this button to Proceed your Request. And Return to Login Screen after updation of the data.",
+        "label":"Submit Button",
+        "isAccessiblityEnabled":true
+    },
+    "ForgotPasswordDescriptionLabel":
+    {
+        "hint":"Enter your email address below and we will send you a link with a new password.",
+        "label":"",
+        "isAccessiblityEnabled":true
+    },
+    "ProfileSettingsBackButton":
+    {
+        "hint":"Tap this Button to Close the Profile Settings. And back to Bookshelf.",
+        "label":"Back Button",
+        "isAccessiblityEnabled":true
+    },
+    "ProfileSettingsChangePasswordButton":
+    {
+        "hint":"Tap this Button to Change Your Password.",
+        "label":"Change Password Button",
+        "isAccessiblityEnabled":true
+    },
+    "ProfileSettingsEditProfileButton":
+    {
+        "hint":"Tap this Button to Edit Your Profile Photo and Username.",
+        "label":"Edit Profile Button",
+        "isAccessiblityEnabled":true
+    },
+    "ProfileSettingsAboutUsButton":
+    {
+        "hint":"Tap this Button for navigation to About us Page.",
+        "label":"About Us Button",
+        "isAccessiblityEnabled":true
+    },
+    "ProfileSettingsPrivacyPolicyButton":
+    {
+        "hint":"Tap this Button for navigation to Privacy Policy Page.",
+        "label":"Privacy Policy Button",
+        "isAccessiblityEnabled":true
+    },
+    "ProfileSettingsTermsAndConditionsButton":
+    {
+        "hint":"Tap this Button for navigation to Terms And Conditions Page.",
+        "label":"Terms and Conditions Button",
+        "isAccessiblityEnabled":true
+    },
+    "ProfileSettingsSignOutButton":
+    {
+        "hint":"Tap this Button to Signout.",
+        "label":"Signout Button",
+        "isAccessiblityEnabled":true
+    },
+    "ProfileSettingsVersionLabel":
+    {
+        "hint":"",
+        "label":"Version 1.0",
+        "isAccessiblityEnabled":true
+    },
+    "ChangePasswordBackButton":
+    {
+        "hint":"Back to Profile Settings.",
+        "label":"Back Button",
+        "isAccessiblityEnabled":true
+    },
+    "ChangePasswordCurrentPasswordTF":
+    {
+        "hint":"Enter Your Current Password Here.",
+        "label":"",
+        "isAccessiblityEnabled":true
+    },
+    "ChangePasswordNewPasswordTF":
+    {
+        "hint":"Enter Your New Password Here.",
+        "label":"",
+        "isAccessiblityEnabled":true
+    },
+    "ChangePasswordReEntrePasswordTF":
+    {
+        "hint":"Re Enter Your Password Here.",
+        "label":"",
+        "isAccessiblityEnabled":true
+    },
+    "ChangePasswordCancelButton":
+    {
+        "hint":"Tap this button to Cancel your Request. And Return to Profile Settings.",
+        "label":"Cancel Button",
+        "isAccessiblityEnabled":true
+    },
+    "ChangePasswordSaveButton":
+    {
+        "hint":"Tap this button to save your request for change Password. And return to Profile Settings after updation of the data.",
+        "label":"Save Button",
+        "isAccessiblityEnabled":true
+    },
+    "ChangePasswordOpenEyeIcon":
+    {
+        "hint":"Passwords are visible",
+        "label":"",
+        "isAccessiblityEnabled":true
+    },
+    "ChangePasswordCloseEyeIcon":
+    {
+        "hint":"Passwords are Invisible",
+        "label":"",
+        "isAccessiblityEnabled":true
+    },
+    "EditProfileBackButton":
+    {
+        "hint":"Back to Profile Settings.",
+        "label":"Back Button",
+        "isAccessiblityEnabled":true
+    },
+    "EditProfileEditImageButton":
+    {
+        "hint":"Tap this button to change your profile photo.",
+        "label":"Edit Profile Photo Button",
+        "isAccessiblityEnabled":true
+    },
+    "EditProfileFirstNameTF":
+    {
+        "hint":"Enter your First Name Here.",
+        "label":"First Name",
+        "isAccessiblityEnabled":true
+    },
+    "EditProfileLastNameTF":
+    {
+        "hint":"Enter Your Last name here.",
+        "label":"Last Name",
+        "isAccessiblityEnabled":true
+    },
+    "EditProfileCancelButton":
+    {
+        "hint":"Tap this button to Cancel your Request. And Return to Profile Settings.",
+        "label":"Cancel Button",
+        "isAccessiblityEnabled":true
+    },
+    "EditProfileSaveButton":
+    {
+        "hint":"Tap this button to save your request for update Profile. And return to Profile Settings after updation of the data.",
+        "label":"Save Button",
+        "isAccessiblityEnabled":true
+    },
+    "ImageControlDefault":
+    {
+        "hint":"Tap this button for Default Profile Photo",
+        "label":"Default",
+        "isAccessiblityEnabled":true
+    },
+    "ImageControlCamera":
+    {
+        "hint":"Tap this button to Open Camera.",
+        "label":"Camera",
+        "isAccessiblityEnabled":true
+    },
+    "ImageControlLibrary":
+    {
+        "hint":"Tap this button to open Library",
+        "label":"Library",
+        "isAccessiblityEnabled":true
+    }
+}

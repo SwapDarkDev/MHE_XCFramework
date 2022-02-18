@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cues gender="male" pausePeriod="0.02" type="wordsync">
+    <cue end="0.825" start="0.645">
+        <text><![CDATA[My]]></text>
+        <x>98</x>
+        <y>362.48699999999997</y>
+        <width>27.61</width>
+        <height>19.042</height>
+    </cue>
+    <cue end="1.265" start="0.825">
+        <text><![CDATA[mother]]></text>
+        <x>129.232</x>
+        <y>362.48699999999997</y>
+        <width>47.739</width>
+        <height>19.042</height>
+    </cue>
+    <cue end="1.575" start="1.265">
+        <text><![CDATA[taught]]></text>
+        <x>180.593</x>
+        <y>362.48699999999997</y>
+        <width>41.956</width>
+        <height>19.042</height>
+    </cue>
+    <cue end="1.725" start="1.575">
+        <text><![CDATA[me]]></text>
+        <x>226.172</x>
+        <y>362.48699999999997</y>
+        <width>20.365</width>
+        <height>19.042</height>
+    </cue>
+    <cue end="1.985" start="1.725">
+        <text><![CDATA[how]]></text>
+        <x>250.159</x>
+        <y>362.48699999999997</y>
+        <width>28.098</width>
+        <height>19.042</height>
+    </cue>
+    <cue end="2.195" start="1.985">
+        <text><![CDATA[to]]></text>
+        <x>281.88</x>
+        <y>362.48699999999997</y>
+        <width>12.867</width>
+        <height>19.042</height>
+    </cue>
+    <cue end="2.445" start="2.195">
+        <text><![CDATA[make]]></text>
+        <x>298.37</x>
+        <y>362.48699999999997</y>
+        <width>35.908</width>
+        <height>19.042</height>
+    </cue>
+    <cue end="2.875" start="2.482">
+        <text><![CDATA[tea]]></text>
+        <x>337.901</x>
+        <y>362.48699999999997</y>
+        <width>29.358</width>
+        <height>19.042</height>
+    </cue>
+    <cue end="3.195" start="2.875">
+        <text><![CDATA[said]]></text>
+        <x>370.881</x>
+        <y>362.48699999999997</y>
+        <width>26.193</width>
+        <height>19.042</height>
+    </cue>
+    <cue end="3.655" start="3.195">
+        <text><![CDATA[Mama]]></text>
+        <x>79.998</x>
+        <y>382.49</y>
+        <width>45.391</width>
+        <height>19.042</height>
+    </cue>
+    <cue end="4.145" start="4.005">
+        <text><![CDATA[She]]></text>
+        <x>129.012</x>
+        <y>382.49</y>
+        <width>30.76</width>
+        <height>19.042</height>
+    </cue>
+    <cue end="4.495" start="4.145">
+        <text><![CDATA[also]]></text>
+        <x>163.394</x>
+        <y>382.49</y>
+        <width>25.468</width>
+        <height>19.042</height>
+    </cue>
+    <cue end="4.805" start="4.495">
+        <text><![CDATA[taught]]></text>
+        <x>192.484</x>
+        <y>382.49</y>
+        <width>41.957</width>
+        <height>19.042</height>
+    </cue>
+    <cue end="4.915" start="4.805">
+        <text><![CDATA[me]]></text>
+        <x>238.063</x>
+        <y>382.49</y>
+        <width>20.365</width>
+        <height>19.042</height>
+    </cue>
+    <cue end="5.115" start="4.915">
+        <text><![CDATA[how]]></text>
+        <x>262.05</x>
+        <y>382.49</y>
+        <width>28.098</width>
+        <height>19.042</height>
+    </cue>
+    <cue end="5.305" start="5.115">
+        <text><![CDATA[to]]></text>
+        <x>293.771</x>
+        <y>382.49</y>
+        <width>12.868</width>
+        <height>19.042</height>
+    </cue>
+    <cue end="5.648" start="5.305">
+        <text><![CDATA[plant]]></text>
+        <x>310.261</x>
+        <y>382.49</y>
+        <width>33.737</width>
+        <height>19.042</height>
+    </cue>
+    <cue end="5.765" start="5.648">
+        <text><![CDATA[a]]></text>
+        <x>347.62</x>
+        <y>382.49</y>
+        <width>7.371</width>
+        <height>19.042</height>
+    </cue>
+    <cue end="6.505" start="5.765">
+        <text><![CDATA[traditional]]></text>
+        <x>358.614</x>
+        <y>382.49</y>
+        <width>67.441</width>
+        <height>19.042</height>
+    </cue>
+    <cue end="7.075" start="6.505">
+        <text><![CDATA[Japanese]]></text>
+        <x>79.998</x>
+        <y>402.49199999999996</y>
+        <width>57.676</width>
+        <height>19.042</height>
+    </cue>
+    <cue end="7.675" start="7.075">
+        <text><![CDATA[garden]]></text>
+        <x>141.297</x>
+        <y>402.49199999999996</y>
+        <width>49.486</width>
+        <height>19.042</height>
+    </cue>
+    <cue end="8.255" start="8.068">
+        <text><![CDATA[I]]></text>
+        <x>194.406</x>
+        <y>402.49199999999996</y>
+        <width>4.93</width>
+        <height>19.042</height>
+    </cue>
+    <cue end="8.665" start="8.255">
+        <text><![CDATA[learned]]></text>
+        <x>202.958</x>
+        <y>402.49199999999996</y>
+        <width>49.219</width>
+        <height>19.042</height>
+    </cue>
+    <cue end="8.945" start="8.665">
+        <text><![CDATA[to]]></text>
+        <x>255.799</x>
+        <y>402.49199999999996</y>
+        <width>12.866</width>
+        <height>19.042</height>
+    </cue>
+    <cue end="9.175" start="8.945">
+        <text><![CDATA[make]]></text>
+        <x>272.288</x>
+        <y>402.49199999999996</y>
+        <width>35.91</width>
+        <height>19.042</height>
+    </cue>
+    <cue end="9.265" start="9.175">
+        <text><![CDATA[the]]></text>
+        <x>311.82</x>
+        <y>402.49199999999996</y>
+        <width>21.104</width>
+        <height>19.042</height>
+    </cue>
+    <cue end="9.682" start="9.265">
+        <text><![CDATA[most]]></text>
+        <x>336.546</x>
+        <y>402.49199999999996</y>
+        <width>32.052</width>
+        <height>19.042</height>
+    </cue>
+    <cue end="9.865" start="9.682">
+        <text><![CDATA[of]]></text>
+        <x>372.22</x>
+        <y>402.49199999999996</y>
+        <width>12.821</width>
+        <height>19.042</height>
+    </cue>
+    <cue end="9.965" start="9.865">
+        <text><![CDATA[a]]></text>
+        <x>388.663</x>
+        <y>402.49199999999996</y>
+        <width>7.371</width>
+        <height>19.042</height>
+    </cue>
+    <cue end="10.485" start="9.968">
+        <text><![CDATA[small]]></text>
+        <x>79.998</x>
+        <y>422.495</y>
+        <width>38.445</width>
+        <height>19.042</height>
+    </cue>
+    <cue end="11.215" start="10.485">
+        <text><![CDATA[compact]]></text>
+        <x>122.066</x>
+        <y>422.495</y>
+        <width>55.015</width>
+        <height>19.042</height>
+    </cue>
+    <cue end="11.865" start="11.215">
+        <text><![CDATA[space]]></text>
+        <x>180.703</x>
+        <y>422.495</y>
+        <width>45.833</width>
+        <height>19.042</height>
+    </cue>
+    <cue end="13.095" start="12.935">
+        <text><![CDATA[All]]></text>
+        <x>98</x>
+        <y>451.491</y>
+        <width>19.12</width>
+        <height>19.042</height>
+    </cue>
+    <cue end="13.205" start="13.095">
+        <text><![CDATA[of]]></text>
+        <x>120.743</x>
+        <y>451.491</y>
+        <width>12.821</width>
+        <height>19.042</height>
+    </cue>
+    <cue end="13.295" start="13.205">
+        <text><![CDATA[a]]></text>
+        <x>137.186</x>
+        <y>451.491</y>
+        <width>7.371</width>
+        <height>19.042</height>
+    </cue>
+    <cue end="13.755" start="13.295">
+        <text><![CDATA[sudden]]></text>
+        <x>148.18</x>
+        <y>451.491</y>
+        <width>52.226</width>
+        <height>19.042</height>
+    </cue>
+    <cue end="14.095" start="13.755">
+        <text><![CDATA[Jills]]></text>
+        <x>204.029</x>
+        <y>451.491</y>
+        <width>26.712</width>
+        <height>19.042</height>
+    </cue>
+    <cue end="14.455" start="14.095">
+        <text><![CDATA[mother]]></text>
+        <x>234.364</x>
+        <y>451.491</y>
+        <width>47.738</width>
+        <height>19.042</height>
+    </cue>
+    <cue end="15.165" start="14.455">
+        <text><![CDATA[smiled]]></text>
+        <x>285.724</x>
+        <y>451.491</y>
+        <width>47.187</width>
+        <height>19.042</height>
+    </cue>
+    <cue end="16.255" start="15.995">
+        <text><![CDATA[Can]]></text>
+        <x>336.534</x>
+        <y>451.491</y>
+        <width>32.98</width>
+        <height>19.042</height>
+    </cue>
+    <cue end="16.465" start="16.255">
+        <text><![CDATA[you]]></text>
+        <x>373.137</x>
+        <y>451.491</y>
+        <width>23.751</width>
+        <height>19.042</height>
+    </cue>
+    <cue end="16.805" start="16.465">
+        <text><![CDATA[help]]></text>
+        <x>79.998</x>
+        <y>471.163</y>
+        <width>28.57</width>
+        <height>19.372</height>
+    </cue>
+    <cue end="17.005" start="16.805">
+        <text><![CDATA[us]]></text>
+        <x>112.191</x>
+        <y>471.163</y>
+        <width>14.82</width>
+        <height>19.372</height>
+    </cue>
+    <cue end="17.195" start="17.055">
+        <text><![CDATA[with]]></text>
+        <x>130.634</x>
+        <y>471.163</y>
+        <width>29.453</width>
+        <height>19.372</height>
+    </cue>
+    <cue end="17.374" start="17.195">
+        <text><![CDATA[a]]></text>
+        <x>163.709</x>
+        <y>471.163</y>
+        <width>7.371</width>
+        <height>19.372</height>
+    </cue>
+    <cue end="18.025" start="17.374">
+        <text><![CDATA[project]]></text>
+        <x>174.703</x>
+        <y>471.163</y>
+        <width>57.471</width>
+        <height>19.372</height>
+    </cue>
+    <cue end="18.355" start="18.141">
+        <text><![CDATA[she]]></text>
+        <x>235.797</x>
+        <y>471.163</y>
+        <width>22.144</width>
+        <height>19.372</height>
+    </cue>
+    <cue end="18.845" start="18.355">
+        <text><![CDATA[asked]]></text>
+        <x>261.564</x>
+        <y>471.163</y>
+        <width>41.611</width>
+        <height>19.372</height>
+    </cue>
+    <cue end="19.525" start="19.345">
+        <text><![CDATA[Our]]></text>
+        <x>306.798</x>
+        <y>471.163</y>
+        <width>32.76</width>
+        <height>19.372</height>
+    </cue>
+    <cue end="20.165" start="19.554">
+        <text><![CDATA[community]]></text>
+        <x>343.18</x>
+        <y>471.163</y>
+        <width>75.6</width>
+        <height>19.372</height>
+    </cue>
+    <cue end="20.495" start="20.165">
+        <text><![CDATA[wants]]></text>
+        <x>79.998</x>
+        <y>491.496</y>
+        <width>38.745</width>
+        <height>19.042</height>
+    </cue>
+    <cue end="20.665" start="20.495">
+        <text><![CDATA[to]]></text>
+        <x>122.365</x>
+        <y>491.496</y>
+        <width>12.868</width>
+        <height>19.042</height>
+    </cue>
+    <cue end="20.982" start="20.665">
+        <text><![CDATA[plant]]></text>
+        <x>138.856</x>
+        <y>491.496</y>
+        <width>33.736</width>
+        <height>19.042</height>
+    </cue>
+    <cue end="21.125" start="20.982">
+        <text><![CDATA[a]]></text>
+        <x>176.215</x>
+        <y>491.496</y>
+        <width>7.371</width>
+        <height>19.042</height>
+    </cue>
+    <cue end="21.735" start="21.125">
+        <text><![CDATA[garden]]></text>
+        <x>187.208</x>
+        <y>491.496</y>
+        <width>49.487</width>
+        <height>19.042</height>
+    </cue>
+    <cue end="22.335" start="22.195">
+        <text><![CDATA[Our]]></text>
+        <x>240.317</x>
+        <y>491.496</y>
+        <width>26.539</width>
+        <height>19.042</height>
+    </cue>
+    <cue end="22.715" start="22.335">
+        <text><![CDATA[plot]]></text>
+        <x>270.478</x>
+        <y>491.496</y>
+        <width>25.515</width>
+        <height>19.042</height>
+    </cue>
+    <cue end="22.925" start="22.715">
+        <text><![CDATA[is]]></text>
+        <x>299.616</x>
+        <y>491.496</y>
+        <width>10.379</width>
+        <height>19.042</height>
+    </cue>
+    <cue end="23.315" start="22.925">
+        <text><![CDATA[very]]></text>
+        <x>313.618</x>
+        <y>491.496</y>
+        <width>28.271</width>
+        <height>19.042</height>
+    </cue>
+    <cue end="23.895" start="23.315">
+        <text><![CDATA[small]]></text>
+        <x>345.511</x>
+        <y>491.496</y>
+        <width>38.446</width>
+        <height>19.042</height>
+    </cue>
+    <cue end="24.365" start="24.145">
+        <text><![CDATA[There]]></text>
+        <x>387.58</x>
+        <y>491.496</y>
+        <width>37.642</width>
+        <height>19.042</height>
+    </cue>
+    <cue end="24.495" start="24.365">
+        <text><![CDATA[is]]></text>
+        <x>79.998</x>
+        <y>511.49799999999993</y>
+        <width>10.379</width>
+        <height>19.042</height>
+    </cue>
+    <cue end="24.805" start="24.495">
+        <text><![CDATA[so]]></text>
+        <x>94</x>
+        <y>511.49799999999993</y>
+        <width>14.316</width>
+        <height>19.042</height>
+    </cue>
+    <cue end="25.235" start="24.805">
+        <text><![CDATA[much]]></text>
+        <x>111.939</x>
+        <y>511.49799999999993</y>
+        <width>37.044</width>
+        <height>19.042</height>
+    </cue>
+    <cue end="25.395" start="25.237">
+        <text><![CDATA[we]]></text>
+        <x>152.605</x>
+        <y>511.49799999999993</y>
+        <width>18.617</width>
+        <height>19.042</height>
+    </cue>
+    <cue end="25.775" start="25.395">
+        <text><![CDATA[want]]></text>
+        <x>174.844</x>
+        <y>511.49799999999993</y>
+        <width>32.587</width>
+        <height>19.042</height>
+    </cue>
+    <cue end="25.855" start="25.775">
+        <text><![CDATA[to]]></text>
+        <x>211.054</x>
+        <y>511.49799999999993</y>
+        <width>12.867</width>
+        <height>19.042</height>
+    </cue>
+    <cue end="26.345" start="25.904">
+        <text><![CDATA[grow]]></text>
+        <x>227.544</x>
+        <y>511.49799999999993</y>
+        <width>41.972</width>
+        <height>19.042</height>
+    </cue>
+    <cue end="27.615" start="27.295">
+        <text><![CDATA[Papa]]></text>
+        <x>98</x>
+        <y>540.4939999999999</y>
+        <width>31.705</width>
+        <height>19.042</height>
+    </cue>
+    <cue end="27.915" start="27.615">
+        <text><![CDATA[looked]]></text>
+        <x>133.327</x>
+        <y>540.4939999999999</y>
+        <width>44.258</width>
+        <height>19.042</height>
+    </cue>
+    <cue end="28.085" start="27.915">
+        <text><![CDATA[at]]></text>
+        <x>181.207</x>
+        <y>540.4939999999999</y>
+        <width>12.238</width>
+        <height>19.042</height>
+    </cue>
+    <cue end="28.625" start="28.085">
+        <text><![CDATA[Mama]]></text>
+        <x>197.068</x>
+        <y>540.4939999999999</y>
+        <width>45.391</width>
+        <height>19.042</height>
+    </cue>
+    <cue end="29.015" start="28.755">
+        <text><![CDATA[and]]></text>
+        <x>246.082</x>
+        <y>540.4939999999999</y>
+        <width>24.885</width>
+        <height>19.042</height>
+    </cue>
+    <cue end="29.155" start="29.015">
+        <text><![CDATA[they]]></text>
+        <x>274.589</x>
+        <y>540.4939999999999</y>
+        <width>28.443</width>
+        <height>19.042</height>
+    </cue>
+    <cue end="29.495" start="29.155">
+        <text><![CDATA[both]]></text>
+        <x>306.654</x>
+        <y>540.4939999999999</y>
+        <width>30.036</width>
+        <height>19.042</height>
+    </cue>
+    <cue end="30.125" start="29.495">
+        <text><![CDATA[bowed]]></text>
+        <x>340.312</x>
+        <y>540.4939999999999</y>
+        <width>47.36</width>
+        <height>19.042</height>
+    </cue>
+    <cue end="31.465" start="30.935">
+        <text><![CDATA[Yes]]></text>
+        <x>98</x>
+        <y>569.49</y>
+        <width>38.491</width>
+        <height>19.042</height>
+    </cue>
+    <cue end="31.865" start="31.715">
+        <text><![CDATA[they]]></text>
+        <x>140.114</x>
+        <y>569.49</y>
+        <width>28.444</width>
+        <height>19.042</height>
+    </cue>
+    <cue end="32.215" start="31.865">
+        <text><![CDATA[said]]></text>
+        <x>172.181</x>
+        <y>569.49</y>
+        <width>30.256</width>
+        <height>19.042</height>
+    </cue>
+    <cue detection-type="user" end="33.375" start="32.585">
+        <text><![CDATA[grandmother]]></text>
+        <x>233</x>
+        <y>280</y>
+        <width>102.63</width>
+        <height>46.54</height>
+    </cue>
+    <cue detection-type="user" end="33.585" start="33.375">
+        <text><![CDATA[in]]></text>
+        <x>335</x>
+        <y>272</y>
+        <width>19.09</width>
+        <height>33.41</height>
+    </cue>
+    <cue detection-type="user" end="34.255" start="33.585">
+        <text><![CDATA[japan]]></text>
+        <x>354</x>
+        <y>266</y>
+        <width>50.12</width>
+        <height>36.99</height>
+    </cue>
+</cues>

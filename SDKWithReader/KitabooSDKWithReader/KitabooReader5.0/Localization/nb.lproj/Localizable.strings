@@ -1,0 +1,379 @@
+/*
+ Localizable.strings
+ KItabooSDK
+ 
+ Copyright © 2017 Hurix Systems. All rights reserved.
+ */
+"EPUB_LOADED_MSG" = "EPUB spilleren lastet";
+"PAGE_LOADED" = "Siden er lastet";
+"PAGE_ZOOM_IN" = "Side er zoomet inn";
+"PAGE_ZOOM_OUT" = "Den siden er zoomet ut";
+"FONT_FILE_MISSING" = "Font fil mangler";
+"PAGE" ="Side";
+"OK" = "Ok";
+"ARE_YOU_SURE_YOU_WANT_TO_SHARE_THIS_NOTE_ALERT" = "Er du sikker på at du vil dele dette notatet?";
+"Me" = "Meg";
+"BOOK_OPEN_MSG" = "Book initialisering startet";
+"BOOK_OPEN_ERROR_MSG" = "Initial bok mislyktes";
+
+//Reader
+"FAILED_TO_SAVE_SCROM_DATA" = "Kan ikke lagre scrom data";
+"FAILED_TO_FETCH_SCROM_DATA" = "Ute av stand til å hente scrom data";
+"FAILED_TO_SAVE_HIGHLIGHT_DATA" = "Kan ikke lagre høydepunkter data";
+"FAILED_TO_ACCEPT_OR_REJECT_DATA" = "Kan ikke godta eller forkaste data";
+"FAILED_TO_SAVE_COLLAB_DATA" = "Kan ikke lagre collab data;";
+
+//Help Screen
+"HELP_GOT_IT_BUTTON" = "HAR DET";
+"HELP_SKIP_BUTTON" = "HOPP";
+
+"HELP_HOME_BUTTON_TITLE" = "Hjem";
+"HELP_HOME_BUTTON_DETAIL" = "Omdirigering til bibliotek";
+"HELP_TOC_BUTTON_TITLE" = "Innholdsfortegnelse";
+"HELP_TOC_BUTTON_DETAIL" = "Kort liste over innholdet";
+"HELP_MY_DATA_BUTTON_TITLE" = "Mine data";
+"HELP_MY_DATA_BUTTON_DETAIL" = "Konsolidert visning av notater og høydepunkter";
+"HELP_MY_DATA_HIGHLIGHT_BUTTON_DETAIL" = "Konsolidert visning av høydepunkter";
+"HELP_MY_DATA_NOTE_BUTTON_DETAIL" = "Konsolidert visning av notater";
+"HELP_PEN_TOOL_BUTTON_TITLE" = "Pen Tool";
+"HELP_PEN_TOOL_BUTTON_DETAIL" = "Kommentere og doodle i forskjellige farger";
+"HELP_NOTE_BUTTON_TITLE" = "Legge til notat";
+"HELP_NOTE_BUTTON_DETAIL" = "Gjøre notater og dele";
+"HELP_SUBMIT_BUTTON_TITLE" = "Sende inn";
+"HELP_SUBMIT_BUTTON_DETAIL" = "Send inn alle data";
+"HELP_THUMBNAIL_BUTTON_TITLE"="thumbnail";
+"HELP_THUMBNAIL_BUTTON_DETAIL" = "Miniatyr visning av innholdet";
+"HELP_SEARCH_BUTTON_DETAIL" = "Søk ord i innhold";
+"HELP_SETTING_BUTTON_DETAIL" = "Se detalj analyse";
+"HELP_PROFILE_BUTTON_TITLE" = "Profil";
+"HELP_PROFILE_BUTTON_DETAIL" = "Tilpass innstillingene";
+"HELP_FONT_SETTING_BUTTON_TITLE" = "Font-innstilling";
+"HELP_FONT_SETTING_BUTTON_DETAIL" = "Tilpass skrift";
+"HELP_MORE_SETTINGS_BUTTON_TITLE" = "Flere innstillinger";
+"HELP_MORE_SETTINGS_BUTTON_DETAIL" = "Klikk for å se flere verktøy";
+"HELP_PROTRACTOR_BUTTON_TITLE" = "vinkelmåler;";
+"HELP_PROTRACTOR_BUTTON_DETAIL" = "Trykk her for å tegne vinkler";
+"HELP_ADDTEXT_BUTTON_TITLE" = "Tekst Kommentar";
+"HELP_ADDTEXT_BUTTON_DETAIL" = "Legg til tekst merknader på side";
+"HELP_BOOKMARK_BUTTON_TITLE" = "Bokmerke";
+"HELP_BOOKMARK_BUTTON_DETAIL" = "Bokmerk denne siden";
+"HELP_ERASER_BUTTON_TITLE" = "Viskelær";
+"HELP_ERASER_BUTTON_DETAIL" = "Slett dine data";
+"HELP_CLEAR_BUTTON_TITLE" = "Klar";
+"HELP_CLEAR_BUTTON_DETAIL" = "Tømme data";
+"HELP_UNDO_BUTTON_TITLE" = "Angre";
+"HELP_UNDO_BUTTON_DETAIL" = "Angre data";
+"HELP_ARROW_BUTTON_TITLE" = "Pil";
+"HELP_ARROW_BUTTON_DETAIL" = "Gå forword og backword i innholdet";
+"HELP_DONE_BUTTON_DETAIL" = "Send redigere din";
+"HELP_STUDENT_PROFILE_BUTTON_TITLE" = "Student profil";
+"HELP_STUDENT_PROFILE_BUTTON_DETAIL" = "Vis og endring fra student liste";
+"HELP_MARKER_BUTTON_TITLE" = "Marker";
+"HELP_MARKER_BUTTON_DETAIL" = "Kommentere og doodle i grønt og rødt";
+"HELP_PREV_STUDENT_TITLE" = "Tidligere student";
+"HELP_PREV_STUDENT_DETAIL" = "Gå til forrige student";
+"HELP_NEXT_STUDENT_TITLE" = "Neste student";
+"HELP_NEXT_STUDENT_DETAIL" = "Gå til neste student";
+"HELP_DRAG_BOX_STUDENT_TITLE" = "Dra boks";
+"HELP_DRAG_BOX_STUDENT_DETAIL" = "Klikk og dra for gruppevalg";
+"HELP_GENERATE_REPORT_STUDENT_TITLE" = "Generer rapport";
+"HELP_GENERATE_REPORT_STUDENT_DETAIL" = "Klikk for å laste ned Studentrapport";
+"HELP_FURTHEST_PAGE_TITLE" = "Lengst side";
+"HELP_FURTHEST_PAGE_DETAIL" = "Klikk for å gå til den lengste siden";
+
+//VARSLER
+"DO_YOU_WISH_TO_DELETE_THIS_NOTE_ALERT" = "Ønsker du å slette dette notatet ?";
+"YES_ALERT_BUTTON" = "Ja";
+"NO_ALERT_BUTTON" = "Nei";
+"THIS_ANSWER_IS_ALREADY_SUBMITTED_AND_CANNOT_CHANGED" = "Beklager, dette svaret allerede sendt og kan ikke endres";
+"NO_DATA_TO_SUBMIT" = "Ingen data å Send";
+"SUBMIT_DATA" = "Send inn data";
+"ANSWER_WILL_BE_SUBMITTED_AND_CANNOT_BE_CHANGED" = "Svaret vil bli sendt, og kan ikke være Changed.Do du ønsker å fortsette?";
+"YOUR_DATA_HAS_BEEN_SUCCESSFULLY_SAVED" = "Dine data har vært \ n lagret";
+"FAILED_TO_SUBMIT_ANOTATIONS" = "Kunne ikke sende Anotations";
+"FAILED_TO_SAVE_STUDENT_ANOTATION" = "Kan ikke lagre data, vennligst prøv igjen ...";
+"FAILED_TO_FETCH_UGC" = "Kunne ikke hente UGC";
+"UGC_SYNCHING_FAILED" = "UGC Synkronisering mislyktes";
+"HAS_NOT_SUBMITTED_ANY_ANSWER" = " har ikke sendt \ n noen svar";
+"FAILED_TO_SAVE_ANOTATION" = "Kunne ikke lagre annoteringen";
+"YOUR_SESSION_HAS_EXPIRED" = "Økten din har utløpt";
+"PLEASE_SIGN_IN_AGAIN" = "Vennligst Logg inn igjen;";
+"INCORRECT_ANSWER_TEXT" = "Det er feil svar! Riktige, \ nog svaret ";
+
+//My data
+"NO_SHARED_NOTES_KEY" = "Ingen delte notater funnet";
+"NO_SHARED_HIGHLIGHTS_KEY" = "Ingen felles høydepunkter funnet";
+"NO_HIGHLIGHTS_KEY" = "Ingen høydepunkter funnet .";
+"NO_NOTES_KEY" = "Ingen notater funnet .";
+"My_Data:_Notification" = "Mine data: høydepunkter";
+"Notes_added/shared_with_will_appear_color_coded_on_the_basis_of_recently_create/shared" = "Merknader lagt til / delt vises fargekodet på grunnlag av nylig opprettet / felles";
+"Highlight_text_to_add_a_note_or_mark them_as_important" = "Uthev tekst å legge til et notat eller merke dem som viktig";
+"HIGHLIGHTS_KEY" = "Høydepunkter";
+"NOTES_KEY" = "Merknader";
+"MY_DATA_COMMENTS" = "  Bemerkninger% @";
+"MY_DATA_RECEIVE" = "Motta";
+"MY_DATA_STARTED_SHARING_DATA_WITH_YOU" = "begynte å dele data med deg.";
+
+//Months
+"January" = "Januar";
+"February" = "Februar";
+"March" = "Mars";
+"April" = "April";
+"May" = "Kan";
+"June" = "Juni";
+"July" = "Juli";
+"August" = "August";
+"September" = "September";
+"October" = "Oktober";
+"November" = "November";
+"December" = "Desember";
+
+/*
+ Read To me Header Texts
+ */
+"READALOUD_READ_TO_ME_TEXT" = "Velg for å åpne boken i skrive høyt modus på side-by-side basis";
+"READALOUD_LET_ME_READ_TEXT" = "Velg for å åpne boken uten lyd";
+"READALOUD_AUTOPLAY_TEXT" = "Velg for å åpne boken i lese høyt modus med auto-flip til neste side";
+"READALOUD_CHOOSE_YOUR_MODE_TEXT" = "Velg modus";
+
+"READALOUD_LET_ME_READ_BUTTON_TEXT" = "La meg lese";
+"READALOUD_AUTOPLAY_BUTTON_TEXT" = "Auto spill";
+"READALOUD_READ_TO_ME_BUTTON_TEXT" = "Les for meg";
+
+"NO_DATA" = "Ingen data";
+"MY_NOTES" = "Mine notater";
+"MY_HIGHLIGHTS" = "Mine høydepunkter";
+
+//Teacher Review
+"SELECT_STUDENT" = "Velg Student";
+"DONE" = "Ferdig";
+"CLASS" = "Klasse";
+"ALL_STUDENTS" = "alle studenter";
+"REFRESH" = "FORFRISKE";
+"SELECT_CLASS" = "Velg klasse";
+"SELECT_STUDENT" = "Velg Student";
+"ANNOTATIONS" = "Merknader";
+"CHANGE_CLASS" = "Endring";
+"RESET_ALL" = "Tilbakestill alt";
+"RESET_DETAIL" = "Dette vil nullstille de innsendte tekstinngangs- og annotasjonsoppføringene, det er en irreversibel prosess.";
+"CURRENT_PAGE" = "Nåværende side";
+"ALL_PAGES" = "Alle sidene";
+"LEARNER" = "Lærer";
+
+//Text Search
+"SEARCH_WITH_KEYWORDS" = "Søk med nøkkelord";
+
+//ShareSettings
+"ANNOTATIONS_SHARING_NOT_ALLOWED" = "Stempler deling ikke tillatt for denne klassen";
+"SETTINGS" = "innstillinger";
+"SHARE_NOTE" = "Del Note";
+"SHARE" = "Dele";
+"ALL TEACHERS" = "Alle lærere";
+
+//Thumbnail
+"GO_TO" ="Gå til";
+"THUMBNAILS" = "miniatyrbilder";
+"PLEASE_ENTER_PAGE_NUMBER_ALERT" = "Fyll inn Sidenummer";
+"ERROR_ALERT_TITLE" = "Feil";
+"PLEASE_ENTER_VALID_PAGE_NUMBER_ALERT" = "Fyll inn gyldig sidetall";
+
+//StickyNote
+"PLEASE_TAP_INSIDE_THE_PAGE_TO_ADD STICKYNOTE" = "Vennligst trykk inne på siden for å legge stickynote";
+"Enter_Note" = "skriv inn kommentar";
+"Save_Changes" = "Lagre endringer";
+"Do_you_wish_to_save_changes" = "Ønsker du å lagre endringene ?";
+"Delete_note" = "Slett notat";
+"NOTE" = "Merk";
+"WRITE_YOUR_COMMENT_HERE" = "Skriv inn din kommentar her";
+
+//KitabooTOC
+"NO_TOC_Data" = "Ingen TOC data";
+"NO_RESOURCE_DATA" = "Ingen Resource data";
+"NO_BOOKMARK_DATA" = "Ingen bokmerke data";
+"Table_of_Resources" = "Tabell av ressurser";
+"Table_of_Content" = "Innholdsfortegnelse";
+"Your_added_bookmarks_will_be_listed_here" = "Dine lagt bokmerker vises her";
+"NO_INTERNAL_RESOURCES" = "Ingen interne ressurser er tilgjengelig";
+"INTERNAL_RESOURCES" = "Interne ressurser";
+"EXTERNAL_RESOURCES" = "Eksterne ressurser";
+"Content" = "Innhold";
+"TEKS" = "TEKS";
+"ELPS" = "ELPS";
+"Standards" = "Standarder";
+"Resources" = "ressurser";
+
+//TextAnnotation
+"DELETE_TEXT_ANNOTATION_MESSAGE" = "Er du sikker på at du vil slette \ nDenne handlingen er irreversibel";
+"TEXT_ANNOTATION_CAN_NOT_ADD_VIEW" = "Tekst Annotation kan ikke legges på dette synet";
+"TEXT_ANNOTATION_CAN_NOT_ADD" = "Vennligst legg tekst merknader på noen av sidene.";
+
+//ReaderViewController
+"SEARCH" = "Søk";
+"LOADING_DATA" = "Laster data ..";
+"Delete_Highlight" = "Slett Marker";
+"Do_you_wish_to_delete_highlight" = "Ønsker du å slette høydepunkt?";
+
+//Kaltura Video Player Alert
+"KALTURA_INITIALIZATION_ERROR_MESSAGE_KEY"  =   "Feil oppsto under initialisering av Kaltura video";
+
+//SEARCH VIEW
+"search_result_not_found" = "søkeresultat ikke funnet";
+"GENERATING_SEARCH_RESULT" = "Genererer søkeresultat ...";
+
+//Just now
+"JUST_NOW" = "Akkurat nå";
+
+//Teacher Annotation.
+"RETRY" = "PRØV";
+"DO_YOU_WISH_TO_DELETE_ALL_DOODLES" = "Alle dataene på denne siden vil bli slettet. Ønsker du å fortsette ?";
+"DATA_SUBMITTED_SUCCESSFULLY" = "Data sendt.";
+"ALERT_BUTTON" = "Varsling!";
+"SAVING_THE_DATA" = "Lagre data ...";
+
+//FilerViewController
+"Filter_All" = "Alle";
+"Contextual_notes" = "Kontekstuelle notater";
+"FILTER_BY" = "Filtrer etter";
+"NOTES_FILTER_BY" = "Merknader filter av";
+"Highlights_filter_by" = "Høydepunkter filter av";
+"CONTEXTUAL_NOTES_FILTER_BY" = "Kontekstuell notater filter av";
+
+//Protractor
+"PROTRACTOR_NOT_AVAILABLE_IN_LANDSCAPE_ALERT_TITLE" = "";
+"THE_FEATURE_CAN_BE_BEST_USED_IN_ONE_PAGE_VIEW_PLEASE_SWITCH_TO_ONE_PAGE_VIEW" = "Funksjonen kan best brukt i en sidevisning, Må du bytte til en sidevisning.";
+"PROTRACTOR_ALERT_MSG"="Er du sikker på at du vil slette?";
+
+//Bookmark
+"ADD_BOOKMARK_PLACEHOLDER_KEY"  =   "Legg bokmerketittel";
+
+//Equation Editor
+"EE_DATA_DELETE_TITLE"="Switch Keyboard";
+"EE_DATA_DELETE_MESSAGE"="Dine data vil bli slettet, Er du sikker på at du vil bytte ?";
+"NOTE_CAN_NOT_MOVE_NEAR_BOOKMARK_MESSAGE_KEY"  =  "Du kan ikke flytte notat nær bokmerke eller markup området.";
+"SORRY_KEY" = "Beklager";
+
+//BOTTOMBAR FOR PHONE
+"INTERNET_UNAVAILABLE_MESSAGE" = "Du er frakoblet. Sjekk din internettforbindelse og prøv igjen .";
+"FAILED_ALERT_TITLE" = "mislyktes";
+
+//DropDown
+"SELECT_KEY"   =   "Å velge";
+
+"MY_DATA_ACCEPT" = "Aksepterer";
+"MY_DATA_DECLINE" = "Avslå";
+
+
+//Clear All Data
+"CLEAR_DATA_ALERT_TITILE_KEY"           =   "Slett data";
+"CLEAR_DATA_ALERT_MESSAGE"              =   "Svarene vil bli slettet. Ønsker du å fortsette?";
+
+//Html Activity
+"INTERNET_NOT_AVAILABLE_ACTIVITY"="Ingen Internett-tilkobling.";
+
+//Epub font setting
+"FONTSETTING_LAYOUT_TITLE" = "Skriftinnstillinger";
+"FONTSETTING_RESET_TITLE" = "Tilbakestill til standard";
+
+"FONTSETTING_FONTFAMILY_TITLE" = "Font";
+"FONTSETTING_FONTFAMILY_DEFAULT" = "Misligholde";
+"FONTSETTING_ALIGNMENT_TITLE" = "Tilpasse";
+"FONTSETTING_LINESPACING_TITLE" = "Linjeavstand";
+"FONTSETTING_MARGIN_TITLE" = "marginene";
+"FONTSETTING_READERMODE_TITLE" = "Modus";
+"FONTSETTING_SCROLLMODE_TITLE" = "Bla Mode";
+
+//AudioBook
+
+//Narration Speed
+"NARRATION_SPEED_TITLE" = "fortelling Speed";
+"CANCEL" = "Avbryt";
+"APPLY" = "Søke om";
+
+//TOC
+"CHAPTERS" = "Kapitler";
+"TRANSCRIPT" = "Transkripsjon";
+"BOOKMARKS" = "Bokmerker";
+
+//TOC MultiLevel Chapter
+"HOURS" = "HR.";
+"MINUTE" = "Mpl";
+"MINUTES" = "Min";
+"SECONDS" = "Sek";
+
+//Bookmark
+"Add Bookmark" = "Legg til bokmerke";
+"Delete Bookmark" = "Slett bokmerke";
+"DELETE" = "Slett";
+"ADD" = "Legg til";
+"TYPE_SOMETHING_HERE" = "Skriv inn noe her";
+
+//Reflowable Slider Page Count
+"CHAPTER_KEY" = "Kapittel";
+"OF_KEY" = "av";
+"MIN_LEFT" = "min venstre";
+
+//Resources
+"The Internet connection appears to be offline." = "Internett-tilkoblingen ser ut til å være frakoblet.";
+"RESOURCE_NOT_FOUND"= "Ressurser ikke funnet!";
+"MARKUP_NOT_SUPPORTED" = "Dette markup typen støttes ikke.";
+
+//Error Message
+"UNKNOWN_ERROR" = "Ukjent feil oppstod";
+"INVALID_RESPONSE_RECEIVED" = "Ugyldig svar mottatt.";
+
+//AudioBook Sleep Timer
+"SLEEP_MODE" = "Sove modus";
+"SLEEP_TIMER_OFF" = "Sleep timer off";
+"MIN" = "min";
+"CUSTOM" = "Tilpasset";
+"SET_CUSTOM_TIME" = "Set tilpasset tid";
+"OK_BUTTON" = "OK";
+
+//Generate Report
+"GENERATE_REPORT" = "Generer rapport";
+"SELECT_STUDENT_FOR_REVIEW" = "Velg student til gjennomgang";
+"GENERATE_REPORT_TITLE" = "generert Rapporter";
+"GENERATE_REPORT_MESSAGE" = "\n Generert rapporten vil dele på din registrerte e-ID";
+"GENERATE_REPORT_PLACEHOLDER" = "Skriv inn en annen e-ID";
+"GENERATE_REPORT_MESSAGE_CONF" = "Du vil motta rapporten på e-delt innen 30min fra";
+"GENERATE_REPORT_LABEL_TITLE" = "Generer rapport";
+"GENERATE_REPORT_LABEL_MESSAGE" = "Velg kapittel & Student for å generere rapporten";
+"GENERATE_REPORT_CANCEL_BUTTON" = "Avbryt";
+"GENERATE_REPORT_NEXT_BUTTON" = "neste";
+"SELECT_CHAPTER" = "Velg kapittel";
+"SELECT_STUDENT" = "Velg Student";
+"GENERATE_REPORT_ALL" = "Alle";
+"GENERATE_REPORT_ALL_STUDENTS" = "alle studenter";
+"GENERATE_REPORT_ONLY_ATTEMPTED" = "bare Forsøkte";
+"GENERATE_REPORT_ALL_STUDENTS_COUNT" = "Alle elever";
+"GENERATE_REPORT_MAIL_SUCCESS_TITLE" = "Suksess";
+"GENERATE_REPORT_MAIL_SUCCESS_MESSAGE" = "Rapporter vellykket sendt til brukeren";
+"SOMETHING_WENT_WRONG" = "Beklager, noe gikk wrong.Please prøv igjen";
+"GENERATE_REPORT_NO_KEY" = "Vennligst oppdater eBok på nytt for å se innholdsfortegnelse eller kontakt administratoren for mer informasjon.";
+"INVALID_EMAIL_MESSAGE" = "Vennligst skriv inn en gyldig e-id.";
+
+"WATERMARK_TEXT" = "Dette arbeidet er beskyttet ved lov, inkludert, men ikke begrenset til USA Loven om opphavsrett og internasjonale avtaler. Alle rettigheter reservert av utgiver og / eller lisensgiveren";
+
+//Furthest Page
+"FURTHEST_PAGE_NOT_SUPPORTED" = "Lengst Page støttes ikke";
+"YOU_ARE_ALREADY_ON_FURTHEST_PAGE" = "Du er allerede på lengst siden";
+
+//MultiAudio Support
+"LANGUAGE" = "Språk";
+"QUALITY" = "Kvalitet";
+"SUBTITLES_CC" = "Undertekster/cc";
+"SUBTITLES_CC_TURNED_ON" = "Undertittel/cc slått på";
+"ON_KEY" = "PÅ";
+"OFF_KEY" = "AV";
+"QUALITY_PIXEL_KEY" = "pag";
+
+//External Resource
+"LOADING_FAILED" = "Laster inn Kunne ...";
+
+//MediaBook Download
+"BOOK_DOWNLOADED_DATA_CURRUPTION_ERROR" = "This Playlist's downloaded data has been corrupted, Please delete the book and re-download it.";
+
+//Print My Data
+"PRINT_KEY" = "Skrive ut";
+"BOTH_KEY" = "Både";
+"NOTE_CELL_PAGE_KEY" = "Side";

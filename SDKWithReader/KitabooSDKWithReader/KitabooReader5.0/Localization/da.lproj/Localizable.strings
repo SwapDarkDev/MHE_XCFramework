@@ -1,0 +1,343 @@
+/*
+ Localizable.strings
+ KItabooSDK
+ 
+ Copyright © 2017 Hurix Systems. All rights reserved.
+ */
+
+
+"EPUB_LOADED_MSG" = "Reader hentet";
+"PAGE_LOADED" = "Side hentet";
+"PAGE_ZOOM_IN" = "Zoom ind";
+"PAGE_ZOOM_OUT" = "Zoom ud";
+"FONT_FILE_MISSING" = "Skrifttype mangler";
+"PAGE" ="Side";
+"OK" = "Ok";
+"ARE_YOU_SURE_YOU_WANT_TO_SHARE_THIS_NOTE_ALERT" = "Vil du dele noten?";
+"Me" = "Mig";
+
+//Help Screen
+"HELP_GOT_IT_BUTTON" = "Fortsæt";
+"HELP_SKIP_BUTTON" = "Afslut";
+
+"HELP_HOME_BUTTON_TITLE" = "Hjem";
+"HELP_HOME_BUTTON_DETAIL" = "Tilbage til alle bøger";
+"HELP_TOC_BUTTON_TITLE" = "Indholdsfortegnelse";
+"HELP_TOC_BUTTON_DETAIL" = "Oversigt over indhold";
+"HELP_MY_DATA_BUTTON_TITLE" = "Mine data";
+"HELP_MY_DATA_BUTTON_DETAIL" = "Oversigt over noter og tekstmarkeringer";
+"HELP_PEN_TOOL_BUTTON_TITLE" = "Pen";
+"HELP_PEN_TOOL_BUTTON_DETAIL" = "Tegn og skriv";
+"HELP_NOTE_BUTTON_TITLE" = "Tilføj note";
+"HELP_NOTE_BUTTON_DETAIL" = "Tilføj noter og del";
+"HELP_SUBMIT_BUTTON_TITLE" = "Send";
+"HELP_SUBMIT_BUTTON_DETAIL" = "Send indhold";
+"HELP_THUMBNAIL_BUTTON_TITLE"="Miniaturevisning";
+"HELP_THUMBNAIL_BUTTON_DETAIL" = "Miniaturevisning";
+"HELP_SEARCH_BUTTON_TITLE" = "Søg";
+"HELP_SEARCH_BUTTON_DETAIL" = "Søg efter indhold i bogen";
+"HELP_SETTING_BUTTON_TITLE" = "Indstillinger";
+"HELP_SETTING_BUTTON_DETAIL" = "Se indstillinger";
+"HELP_PROFILE_BUTTON_TITLE" = "Profil";
+"HELP_PROFILE_BUTTON_DETAIL" = "Skift dine indstillinger";
+"HELP_FONT_SETTING_BUTTON_TITLE" = "Skriftindstillinger";
+"HELP_FONT_SETTING_BUTTON_DETAIL" = "Skift skrifttype";
+"HELP_MORE_SETTINGS_BUTTON_TITLE" = "Flere indstillinger";
+"HELP_MORE_SETTINGS_BUTTON_DETAIL" = "Klik her for at se flere værktøjer";
+"HELP_PROTRACTOR_BUTTON_TITLE" = "Protractor";
+"HELP_PROTRACTOR_BUTTON_DETAIL" = "Tap here to draw angles";
+"HELP_BOOKMARK_BUTTON_TITLE" = "Bogmærke";
+"HELP_BOOKMARK_BUTTON_DETAIL" = "Tilføj bogmærke til denne side";
+"HELP_ERASER_BUTTON_TITLE" = "Viskelædder";
+"HELP_ERASER_BUTTON_DETAIL" = "Slet";
+"HELP_CLEAR_BUTTON_TITLE" = "Ryd";
+"HELP_CLEAR_BUTTON_DETAIL" = "Ryd alt";
+"HELP_UNDO_BUTTON_TITLE" = "Fortryd";
+"HELP_UNDO_BUTTON_DETAIL" = "Fortryd";
+"HELP_ARROW_BUTTON_TITLE" = "Pil";
+"HELP_ARROW_BUTTON_DETAIL" = "Gå frem og tilbage";
+"HELP_DONE_BUTTON_TITLE" = "Færdig";
+"HELP_DONE_BUTTON_DETAIL" = "Anvend";
+"HELP_STUDENT_PROFILE_BUTTON_TITLE" = "Elev";
+"HELP_STUDENT_PROFILE_BUTTON_DETAIL" = "Se elever";
+"HELP_MARKER_BUTTON_TITLE" = "Pen";
+"HELP_MARKER_BUTTON_DETAIL" = "Tegn og skriv";
+
+//Alerts
+"DO_YOU_WISH_TO_DELETE_THIS_NOTE_ALERT" = "Vil du slette noten?";
+"YES_ALERT_BUTTON" = "Ja";
+"NO_ALERT_BUTTON" = "Nej";
+"THIS_ANSWER_IS_ALREADY_SUBMITTED_AND_CANNOT_CHANGED" = "Svaret er allerede sendt og kan ikke ændres";
+"NO_DATA_TO_SUBMIT" = "Ingen data";
+"SUBMIT_DATA" = "Send data";
+"ANSWER_WILL_BE_SUBMITTED_AND_CANNOT_BE_CHANGED" = "Svaret vil blive sendt og kan ikke ændres?";
+"YOUR_DATA_HAS_BEEN_SUCCESSFULLY_SAVED" = "Gemt";
+"FAILED_TO_SUBMIT_ANOTATIONS" = "Kunne ikke anvende";
+"FAILED_TO_SAVE_STUDENT_ANOTATION" = "Kunne ikke gemme. Prøv igen";
+"FAILED_TO_FETCH_UGC" = "Der skete en fejl";
+"UGC_SYNCHING_FAILED" = "Der skete en fejl";
+"HAS_NOT_SUBMITTED_ANY_ANSWER" = "har ikke sendt nogen svar";
+"FAILED_TO_SAVE_ANOTATION" = "Kunne ikke gemme. Prøv igen";
+"YOUR_SESSION_HAS_EXPIRED" = "Din session er udløbet";
+"PLEASE_SIGN_IN_AGAIN" = "Log ind igen";
+"INCORRECT_ANSWER_TEXT" = "Det var ikke korrekt. Det korrekte svar er";
+"YES_BUTTON" = "Ja";
+"NO_BUTTON" = "Nej";
+"SIGNOUT_ALERT" = "Vil du logge ud?";
+"SIGNOUT_ALERT_MESSAGE" = "Du vil blive returneret til loginskærmen";
+
+//My data
+"NO_SHARED_NOTES_KEY" = "Ingen delte noter";
+"NO_SHARED_HIGHLIGHTS_KEY" = "Ingen delte tekstmarkeringer";
+"NO_HIGHLIGHTS_KEY" = "Ingen tekstmarkeringer";
+"NO_NOTES_KEY" = "Ingen noter";
+"NO_HIGHLIGHTS_KEY" = "Ingen tekstmarkeringer";
+"My_Data:_Highlights" = "Tekstmarkeringer";
+"My_Data:_Notes" = "Noter";
+"My_Data:_Notification" = "Notifikationer";
+"Notes_added/shared_with_will_appear_color_coded_on_the_basis_of_recently_create/shared" = "Noter tilføjet eller delt vil have samme farve som den sidste note";
+"Highlight_text_to_add_a_note_or_mark them_as_important" = "Marker tekst for at tilføje note eller for at fremhæve teksten som vigtig";
+"NOTES_KEY" = "Noter";
+// Changes to Merge in Master :
+"HIGHLIGHTS_KEY" = "Markeringer ";
+"MY_DATA_COMMENTS" = "  Kommentarer %@";
+"MY_DATA_SHARE" = "  Del %@";
+//
+"PAGE:" = "Side:";
+"MY_DATA_RECEIVE" = "Modtage";
+"MY_DATA_APPLY" = "Ansøge";
+//Months
+"January" = "Januar";
+"February" = "Februar";
+"March" = "Marts";
+"April" = "April";
+"May" = "Kan";
+"June" = "Juni";
+"July" = "Juli";
+"August" = "August";
+"September" = "September";
+"October" = "Oktober";
+"November" = "November";
+"December" = "December";
+
+/*
+ Read To me Header Texts
+ */
+"READALOUD_READ_TO_ME_TEXT" = "Vælg for at åbne bogen med oplæsning";
+"READALOUD_LET_ME_READ_TEXT" = "Vælg for at åbne bogen uden lyd";
+"READALOUD_AUTOPLAY_TEXT" = "Vælg for at åbne bogen med oplæsning og automatisk sideskift";
+"READALOUD_CHOOSE_YOUR_MODE_TEXT" = "Vælg mode";
+
+"READALOUD_LET_ME_READ_BUTTON_TEXT" = "Lad mig læse";
+"READALOUD_AUTOPLAY_BUTTON_TEXT" = "Automatisk afspilning";
+"READALOUD_READ_TO_ME_BUTTON_TEXT" = "Læs for mig";
+
+"NO_DATA" = "Ingen data";
+"MY_NOTES" = "Mine noter";
+"MY_HIGHLIGHTS" = "Mine højdepunkter";
+
+//Teacher Review
+"SELECT_STUDENT" = "Vælg elev";
+"DONE" = "Færdig";
+"CLASS" = "klasse";
+"ALL_STUDENTS" = "Alle elever";
+"REFRESH" = "REFRESH";
+
+//Text Search
+"SEARCH_WITH_KEYWORDS" = "Søg";
+"NO_SEARCH_RESULT_FOUND" ="Ingen søgeresultater fundet";
+"CHAPTER" = "Kapitel:";
+
+//ShareSettings
+"ANNOTATIONS_SHARING_NOT_ALLOWED" = "Dette er ikke muligt for denne klasse";
+"SETTINGS" = "Indstillinger";
+"SHARE_NOTE" = "Del note";
+"SHARE" = "Del";
+"ALL TEACHERS" = "Alle lærere";
+
+//Thumbnail
+"GO_TO" ="Gå til";
+"THUMBNAILS" = "Miniaturer";
+"PLEASE_ENTER_PAGE_NUMBER_ALERT" = "Indtast sidetal";
+"ERROR_ALERT_TITLE" = "Der skete en fejl";
+"PLEASE_ENTER_VALID_PAGE_NUMBER_ALERT" = "Indtast gyldigt sidetal";
+
+//StickyNote
+"PLEASE_TAP_INSIDE_THE_PAGE_TO_ADD STICKYNOTE" = "Tryk for at placere noten";
+"Enter_Note" = "Placer note";
+"Save_Changes" = "Gem";
+"Do_you_wish_to_save_changes" = "Vil du gemme?";
+"Delete_note" = "Slet note";
+"NOTE" = "Note";
+"WRITE_YOUR_COMMENT_HERE" = "Skriv din kommentar her";
+
+//KitabooTOC
+"NO_TOC_Data" = "Ingen indholdsfortegnelse";
+"NO_RESOURCE_DATA" = "Ingen resurser";
+"NO_BOOKMARK_DATA" = "Ingen bogmærker";
+"Table_of_Resources" = "Resurser";
+"Bookmarks" = "Bogmærker";
+"BOOKMARKS" = "Bogmærker";
+"Table_of_Content" = "Indhold";
+"Your_added_bookmarks_will_be_listed_here" = "Dine bogmærker vil blive vist her";
+"Content" = "Indhold";
+"TEKS" = "TEKS";
+"ELPS" = "ELPS";
+"Standards" = "Standards";
+"Resources" = "Resurser";
+"Page" = "Side";
+
+//ReaderViewController
+"SEARCH" = "Søg";
+"LOADING_DATA" = "Henter ...";
+"Delete_Highlight" = "Slet tekstmarkering";
+"Do_you_wish_to_delete_highlight" = "Vil du slette tekstmarkeringen?";
+
+//WebPlayer/Document Player
+"PLAYER_DONE_BUTTON" = "Færdig";
+
+//Kaltura Video Player Alert
+"KALTURA_INITIALIZATION_ERROR_MESSAGE_KEY"  =   "Der skete en fejl";
+
+//Teacher Annotation.
+"DATA_NOT_SUBMITTED" = "Ingen data";
+"RETRY" = "Prøv igen";
+"DELETE_ALL_DOODLES" = "OBS!";
+"DO_YOU_WISH_TO_DELETE_ALL_DOODLES" = "Vil du slette alle tegninger?";
+"DATA_SUBMITTED_SUCCESSFULLY" = "Data indsendt";
+"ALERT_BUTTON" = "OBS!";
+"SAVING_THE_DATA" = "Gemmer ...";
+
+//FilerViewController
+"Filter_All" = "Alle";
+"Notes" = "Noter";
+"Contextual_notes" = "Noter";
+"FILTER_BY" = "Filtrer";
+"NOTES_FILTER_BY" = "Filtrer noter";
+"Highlights_filter_by" = "Filtrer tekstmarkeringer";
+"CONTEXTUAL_NOTES_FILTER_BY" = "Filtrer noter";
+
+// Advance Search Filter
+"NARROW_YOUR_SEARCH"                                        =   "Filtrer:";
+"RESET_FILTER"                                              =   "Immikkoortiterissut peeruk";
+"APPLY_FILTER"                                              =   "Immikkoortiterissut atuutilersiguk";
+"INTEREST_LEVEL"                                            =   "Soqutiginassusaa:";
+"ALL_LEVEL"                                                 =   "Tamarmik";
+
+// Protractor
+
+"PROTRACTOR_NOT_AVAILABLE_IN_LANDSCAPE_ALERT_TITLE" = "";
+"THE_FEATURE_CAN_BE_BEST_USED_IN_ONE_PAGE_VIEW_PLEASE_SWITCH_TO_ONE_PAGE_VIEW" = "The feature can be best used in one page view, please switch to one page view.";
+"PROTRACTOR_ALERT_TITLE"="Slet";
+"PROTRACTOR_ALERT_MSG"="Er du sikker på, du vil slette?";
+"PROTRACTOR_ALERT_DELETE"="Ja";
+"PROTRACTOR_ALERT_CANCEL"="Nej";
+
+//Bookmark
+"ADD_BOOKMARK_PLACEHOLDER_KEY"  = "Tilføj bogmærke";
+
+//Equation Editor
+"EE_DATA_DELETE_TITLE"="Skift tastatur";
+"EE_DATA_DELETE_MESSAGE"="Din data vil blive slettet? Vil du stadig skifte?";
+"EE_OK"="Ok";
+"EE_CANCEL"="Annuller";
+
+"NOTE_CAN_NOT_MOVE_NEAR_BOOKMARK_MESSAGE_KEY" = "Noten kan ikke rykkes hertil";
+"SORRY_KEY" = "Desværre";
+"ALL_LEVEL" = "Alle";
+
+
+"SIGNOUT_BUTTON" = "Log ud";
+"BOOKS_DOWNLOAD_IN_PROGRESS_ALERT" = "Download i gang. Vil du stadig logge ud?";
+"CANCEL_BUTTON" = "Annuller";
+"KITABOO_CANCEL_BUTTON" = "Annuller";
+"OK_BUTTON" = "OK";
+"CANCEL_BUTTON_TITLE" = "Afbestille";
+"JUST_NOW" = "Lige nu";
+
+//BOTTOMBAR FOR PHONE
+"SEARCH_TEXT" = "Søg";
+
+//SEARCH VIEW
+"CANCEL_TEXT" = "Annuller";
+"search_results_found_for" = "søgeresultat(er) for";
+"search_result_not_found" = "søgeresultater for";
+
+"INTERNET_UNAVAILABLE_MESSAGE" = "Ingen internetforbindelse";
+"INTERNET_NOT_AVAILABLE" = "Internetforbindelse er ikke tilgængelig.";
+"FAILED_ALERT_TITLE" = "Fejl";
+"ERROR" = "Fejl";
+
+//DropDown
+"SELECT_KEY"   =   "Vælg";
+
+
+//Profile PopUp
+"KITABOO_PROFILE_SETTINGS" = "Profilindstillinger";
+"ABOUT_US" = "Om os";
+"PRIVACY_POLICY" = "Privatlivspolitik";
+"TERMS_AND_CONDITIONS" = "Betingelser";
+"VERSION" = "Version";
+
+
+//DELETE VIEW
+"ITEMS_SELECTED" = "%d valgte";
+
+//Epub font setting
+"FONTSETTING_LAYOUT_TITLE" = "Font Settings";
+"FONTSETTING_RESET_TITLE" = "Reset to default";
+
+"FONTSETTING_FONTFAMILY_TITLE" = "Font";
+"FONTSETTING_ALIGNMENT_TITLE" = "Align";
+"FONTSETTING_LINESPACING_TITLE" = "Line Spacing";
+"FONTSETTING_MARGIN_TITLE" = "Margins";
+"FONTSETTING_READERMODE_TITLE" = "Mode";
+"FONTSETTING_SCROLLMODE_TITLE" = "Scroll Mode";
+
+//Reflowable Slider Page Count
+"CHAPTER_KEY" = "Kapitel:";
+"PAGE_KEY" = "Page";
+"OF_KEY" = "of";
+
+//Resources
+"RESOURCE_NOT_FOUND"= "Resources Not Found!";
+"MARKUP_NOT_SUPPORTED" = "This markup type is not supported.";
+
+//Error Message
+"UNKNOWN_ERROR" = "Unknown error occured";
+"INVALID_RESPONSE_RECEIVED" = "Invalid Response Received.";
+
+//Generate Report
+"GENERATE_REPORT" = "Generar informe";
+"SELECT_STUDENT_FOR_REVIEW" = "Elija un estudiante a una revisión";
+"GENERATE_REPORT_TITLE" = "Informe generado";
+"GENERATE_REPORT_MESSAGE" = "\n generada informe compartirá en su correo electrónico registrada ID% @";
+"GENERATE_REPORT_PLACEHOLDER" = "Introducir otro ID de correo electrónico";
+"GENERATE_REPORT_MESSAGE_CONF" = "Recibirá el informe en el correo electrónico compartido dentro de 30min de% @";
+"GENERATE_REPORT_LABEL_TITLE" = "Generar informe";
+"GENERATE_REPORT_LABEL_MESSAGE" = "Seleccionar un capítulo y Estudiantes para generar el informe";
+"GENERATE_REPORT_CANCEL_BUTTON" = "Cancelar";
+"GENERATE_REPORT_NEXT_BUTTON" = "próximo";
+"SELECT_CHAPTER" = "Seleccione el Capítulo";
+"SELECT_STUDENT" = "Student Select";
+"GENERATE_REPORT_ALL" = "Todas";
+"GENERATE_REPORT_ALL_STUDENTS" = "Todos los estudiantes";
+"GENERATE_REPORT_ONLY_ATTEMPTED" = "Sólo Intento";
+"GENERATE_REPORT_ALL_STUDENTS_COUNT" = "Todos los alumnos (%d)";
+"GENERATE_REPORT_MAIL_SUCCESS_TITLE" = "Éxito";
+"GENERATE_REPORT_MAIL_SUCCESS_MESSAGE" = "Informe enviado con éxito para el usuario";
+"SOMETHING_WENT_WRONG" = "Se ha producido un wrong.Please inténtelo de nuevo";
+"GENERATE_REPORT_NO_KEY" = "actualización amablemente el libro electrónico de nuevo para ver la tabla de contenido o contactar con el administrador para obtener más detalles.";
+"INVALID_EMAIL_MESSAGE" = "Por favor, introduzca un ID de correo electrónico válida.";
+
+"WATERMARK_TEXT" = "This work is protected by law, including but not limited to United States Copyright law and international treaties. All Rights Reserved by the publisher and/or licensor";
+
+
+"APPLY" = "Atuutilersiguk";
+"CANCEL" = "Annuller";
+
+
+"BOOK_ADDED_SUCCESSFULLY" = "Bogen blev tilføjet.";
+"BOOK_ALREADY_DOWNLOADED" = "Bogen er allerede downloadet.";
+"MOVING_FILES" = "Flytter filer...";
+"VALIDATING_BOOK" = "Validerer adgang...";

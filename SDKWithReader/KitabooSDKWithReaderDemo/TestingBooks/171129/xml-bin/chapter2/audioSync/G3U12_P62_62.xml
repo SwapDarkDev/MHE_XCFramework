@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cues gender="male" pausePeriod="0.02" type="wordsync">
+    <cue end="0.905" start="0.565">
+        <text><![CDATA[TIME]]></text>
+        <x>273.55</x>
+        <y>31.45</y>
+        <width>80.75</width>
+        <height>24.250000000000004</height>
+    </cue>
+    <cue end="1.145" start="0.905">
+        <text><![CDATA[FOR]]></text>
+        <x>271.4</x>
+        <y>47.15</y>
+        <width>35.75</width>
+        <height>16.450000000000003</height>
+    </cue>
+    <cue end="2.065" start="1.145">
+        <text><![CDATA[KIDS]]></text>
+        <x>310.7</x>
+        <y>47.15</y>
+        <width>39.30000000000001</width>
+        <height>15</height>
+    </cue>
+    <cue end="2.785" start="2.065">
+        <text><![CDATA[Preserve]]></text>
+        <x>364.209</x>
+        <y>106.629</y>
+        <width>242.386</width>
+        <height>75.011</height>
+    </cue>
+    <cue end="2.965" start="2.785">
+        <text><![CDATA[and]]></text>
+        <x>365.7</x>
+        <y>165.7</y>
+        <width>78.60000000000002</width>
+        <height>51.45000000000002</height>
+    </cue>
+    <cue end="3.555" start="2.965">
+        <text><![CDATA[Protect]]></text>
+        <x>452.15</x>
+        <y>169.3</y>
+        <width>155.70000000000005</width>
+        <height>50.69999999999999</height>
+    </cue>
+</cues>

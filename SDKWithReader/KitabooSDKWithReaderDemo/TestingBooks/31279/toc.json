@@ -1,0 +1,36 @@
+{
+  "title": "Proper Audio",
+  "encryption": "V1",
+  "isbn": "1593529690670",
+  "description": "null",
+  "resources": [
+    {
+      "rel": "cover",
+      "encodingFormat": "image/jpeg",
+      "url": "VideoDefaultThumbnail.jpeg"
+    }
+  ],
+  "toc": [
+   		{
+          "name": "Chapter 1",
+          "description": "Page 4",
+          "url": "31279_1.mp3#t=2"
+        },
+        {
+          "name": "Chapter 2",
+          "description": "Americans",
+          "url": "31279_1.mp3#t=5"
+        },
+        {
+          "name": "Chapter 3",
+          "description": "Black people",
+          "url": "31279_1.mp3#t=7"
+        },
+        {
+          "name": "Chapter 4",
+          "description": "Segregation",
+          "url": "31279_1.mp3#t=12"
+        }
+  ]
+  
+}

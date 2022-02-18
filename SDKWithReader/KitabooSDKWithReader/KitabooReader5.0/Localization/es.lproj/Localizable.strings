@@ -1,0 +1,381 @@
+/*
+ Localizable.strings
+ KItabooSDK
+ 
+ Copyright © 2017 Hurix Systems. All rights reserved.
+ */
+"EPUB_LOADED_MSG" = "El jugador ePub cargado";
+"PAGE_LOADED" = "La página se ha cargado";
+"PAGE_ZOOM_IN" = "La página ha sido ampliada o reducida en";
+"PAGE_ZOOM_OUT" = "La página ha sido has alejado";
+"FONT_FILE_MISSING" = "archivo de fuente no se encuentra";
+"PAGE" ="Página";
+"OK" = "Aceptar";
+"ARE_YOU_SURE_YOU_WANT_TO_SHARE_THIS_NOTE_ALERT" = "¿Está seguro de que desea compartir esta nota?";
+"Me" = "Yo";
+"BOOK_OPEN_MSG" = "Libro de inicialización comenzó";
+"BOOK_OPEN_ERROR_MSG" = "La inicialización del libro fracasó";
+
+//Reader
+"FAILED_TO_SAVE_SCROM_DATA" = "No es posible guardar los datos scrom";
+"FAILED_TO_FETCH_SCROM_DATA" = "No se pudieron obtener datos scrom";
+"FAILED_TO_SAVE_HIGHLIGHT_DATA" = "No es posible guardar los datos Destacados";
+"FAILED_TO_ACCEPT_OR_REJECT_DATA" = "Incapaz de aceptar o rechazar los datos";
+"FAILED_TO_SAVE_COLLAB_DATA" = "No es posible guardar los datos collab";
+
+//Help Screen
+"HELP_GOT_IT_BUTTON" = "CERRAR";
+"HELP_SKIP_BUTTON" = "SIGUIENTE";
+
+"HELP_HOME_BUTTON_TITLE" = "Hogar";
+"HELP_HOME_BUTTON_DETAIL" = "Redirección a la biblioteca";
+"HELP_TOC_BUTTON_TITLE" = "Tabla de contenido";
+"HELP_TOC_BUTTON_DETAIL" = "Breve lista de los contenidos";
+"HELP_MY_DATA_BUTTON_TITLE" = "Mis datos";
+"HELP_MY_DATA_BUTTON_DETAIL" = "vista consolidada de notas y aspectos destacados";
+"HELP_MY_DATA_HIGHLIGHT_BUTTON_DETAIL" = "vista consolidada de los aspectos más destacados";
+"HELP_MY_DATA_NOTE_BUTTON_DETAIL" = "vista consolidada de notas";
+"HELP_PEN_TOOL_BUTTON_TITLE" = "Lapicera";
+"HELP_PEN_TOOL_BUTTON_DETAIL" = "Anotar y Doodle en diferentes colores";
+"HELP_NOTE_BUTTON_TITLE" = "Añadir la nota";
+"HELP_NOTE_BUTTON_DETAIL" = "Notas hacer y compartir";
+"HELP_SUBMIT_BUTTON_TITLE" = "Enviar";
+"HELP_SUBMIT_BUTTON_DETAIL" = "Presentar todos los datos";
+"HELP_THUMBNAIL_BUTTON_TITLE"="Miniatura";
+"HELP_THUMBNAIL_BUTTON_DETAIL" = "Miniatura vista del contenido";
+"HELP_SEARCH_BUTTON_DETAIL" = "Buscar palabras en el contenido";
+"HELP_SETTING_BUTTON_DETAIL" = "Véase el análisis de detalle";
+"HELP_PROFILE_BUTTON_TITLE" = "Perfil";
+"HELP_PROFILE_BUTTON_DETAIL" = "Personalizar sus ajustes";
+"HELP_FONT_SETTING_BUTTON_TITLE" = "Ajustes Fuentes";
+"HELP_FONT_SETTING_BUTTON_DETAIL" = "Personalizar su fuente";
+"HELP_MORE_SETTINGS_BUTTON_TITLE" = "Más ajustes";
+"HELP_MORE_SETTINGS_BUTTON_DETAIL" = "Haga clic para ver más herramientas";
+"HELP_PROTRACTOR_BUTTON_TITLE" = "Transportador";
+"HELP_PROTRACTOR_BUTTON_DETAIL" = "Toque aquí para dibujar ángulos";
+"HELP_ADDTEXT_BUTTON_TITLE" = "Anotación de texto";
+"HELP_ADDTEXT_BUTTON_DETAIL" = "Añadir Anotación de texto en la página";
+"HELP_BOOKMARK_BUTTON_TITLE" = "Marcador";
+"HELP_BOOKMARK_BUTTON_DETAIL" = "Marca esta pagina";
+"HELP_ERASER_BUTTON_TITLE" = "Borrador";
+"HELP_ERASER_BUTTON_DETAIL" = "Borrar sus datos";
+"HELP_CLEAR_BUTTON_TITLE" = "Claro";
+"HELP_CLEAR_BUTTON_DETAIL" = "Borrar los datos";
+"HELP_UNDO_BUTTON_TITLE" = "Deshacer";
+"HELP_UNDO_BUTTON_DETAIL" = "Deshacer los datos";
+"HELP_ARROW_BUTTON_TITLE" = "Flecha";
+"HELP_ARROW_BUTTON_DETAIL" = "Ir forword y backword en el contenido";
+"HELP_DONE_BUTTON_DETAIL" = "Enviar su edición";
+"HELP_STUDENT_PROFILE_BUTTON_TITLE" = "Perfil de estudiante";
+"HELP_STUDENT_PROFILE_BUTTON_DETAIL" = "Ver y cambiar de lista de estudiantes";
+"HELP_MARKER_BUTTON_TITLE" = "Marcador";
+"HELP_MARKER_BUTTON_DETAIL" = "Anotar y Doodle en verde y rojo";
+"HELP_PREV_STUDENT_TITLE" = "Estudiante anterior";
+"HELP_PREV_STUDENT_DETAIL" = "Ir al estudiante anterior";
+"HELP_NEXT_STUDENT_TITLE" = "Estudiante siguiente";
+"HELP_NEXT_STUDENT_DETAIL" = "Ir al siguiente estudiante";
+"HELP_DRAG_BOX_STUDENT_TITLE" = "Caja de arrastre";
+"HELP_DRAG_BOX_STUDENT_DETAIL" = "Haga clic y arrastre para la selección de grupo";
+"HELP_GENERATE_REPORT_STUDENT_TITLE" = "Generar informe";
+"HELP_GENERATE_REPORT_STUDENT_DETAIL" = "Haga clic para descargar el informe del estudiante";
+"HELP_FURTHEST_PAGE_TITLE" = "Página más lejana";
+"HELP_FURTHEST_PAGE_DETAIL" = "Haga clic para ir a la página más lejana";
+
+//ALERTAS
+"DO_YOU_WISH_TO_DELETE_THIS_NOTE_ALERT" = "¿Desea eliminar esta nota ?";
+"YES_ALERT_BUTTON" = "Si";
+"NO_ALERT_BUTTON" = "No";
+"THIS_ANSWER_IS_ALREADY_SUBMITTED_AND_CANNOT_CHANGED" = "Lo sentimos, la respuesta ya sea presentado y no puede ser cambiado";
+"NO_DATA_TO_SUBMIT" = "No hay datos para enviarlo";
+"SUBMIT_DATA" = "Presentar datos";
+"ANSWER_WILL_BE_SUBMITTED_AND_CANNOT_BE_CHANGED" = "Respuesta será presentado y no puede ser Changed.Do desea continuar?";
+"YOUR_DATA_HAS_BEEN_SUCCESSFULLY_SAVED" = "Sus datos han sido \ n guardado correctamente";
+"FAILED_TO_SUBMIT_ANOTATIONS" = "Error al enviar Anotations";
+"FAILED_TO_SAVE_STUDENT_ANOTATION" = "No es posible guardar los datos, Por favor, intente de nuevo ...";
+"FAILED_TO_FETCH_UGC" = "No se pudo obtener UGC";
+"UGC_SYNCHING_FAILED" = "UGC La sincronización falló";
+"HAS_NOT_SUBMITTED_ANY_ANSWER" = " no ha presentado \ n ninguna respuesta";
+"FAILED_TO_SAVE_ANOTATION" = "No se pudo guardar anotation";
+"YOUR_SESSION_HAS_EXPIRED" = "Su sesión ha caducado";
+"PLEASE_SIGN_IN_AGAIN" = "Por favor, vuelve a acceder;";
+"INCORRECT_ANSWER_TEXT" = "Esa es una respuesta incorrecta! \ NCorrect respuesta es ";
+
+//My data
+"NO_SHARED_NOTES_KEY" = "No se encontraron notas compartidas";
+"NO_SHARED_HIGHLIGHTS_KEY" = "No se encontraron más destacado compartidos";
+"NO_HIGHLIGHTS_KEY" = "No se encontraron más destacado .";
+"NO_NOTES_KEY" = "No se encontraron notas .";
+"My_Data:_Notification" = "Mis datos: Lo más destacado";
+"Notes_added/shared_with_will_appear_color_coded_on_the_basis_of_recently_create/shared" = "Notas añadido / compartidos aparecerá un código de colores
+sobre la base de la recién creada / compartida";
+"Highlight_text_to_add_a_note_or_mark them_as_important" = "Selecciona el texto para añadir una nota o marcarlos como importante";
+"HIGHLIGHTS_KEY" = "Destacar";
+"NOTES_KEY" = "notas";
+"MY_DATA_COMMENTS" = " Comentarios: @%";
+"MY_DATA_RECEIVE" = "Recibir";
+"MY_DATA_STARTED_SHARING_DATA_WITH_YOU" = "empezado a compartir datos con usted.";
+
+//Months
+"January" = "Enero";
+"February" = "Febrero";
+"March" = "Marzo";
+"April" = "Abril";
+"May" = "Mayo";
+"June" = "Junio";
+"July" = "Julio";
+"August" = "Agosto";
+"September" = "Septiembre";
+"October" = "Octubre";
+"November" = "Noviembre";
+"December" = "Diciembre";
+
+/*
+ Read To me Header Texts
+ */
+"READALOUD_READ_TO_ME_TEXT" = "Seleccione para abrir el libro en modo de lectura en voz alta en la base de página por página";
+"READALOUD_LET_ME_READ_TEXT" = "Seleccione para abrir el libro sin audio";
+"READALOUD_AUTOPLAY_TEXT" = "Seleccione para abrir el libro en modo de lectura en voz alta con inversión automática a la página siguiente";
+"READALOUD_CHOOSE_YOUR_MODE_TEXT" = "Elegir su modo";
+
+"READALOUD_LET_ME_READ_BUTTON_TEXT" = "Déjame leer";
+"READALOUD_AUTOPLAY_BUTTON_TEXT" = "Auto-reproducción";
+"READALOUD_READ_TO_ME_BUTTON_TEXT" = "Leerme";
+
+"NO_DATA" = "Sin datos";
+"MY_NOTES" = "Mis Notas";
+"MY_HIGHLIGHTS" = "Mis más destacado";
+
+//Teacher Review
+"SELECT_STUDENT" = "Seleccionar Estudiante";
+"DONE" = "Hecho";
+"CLASS" = "Clase";
+"ALL_STUDENTS" = "Todos los estudiantes";
+"REFRESH" = "ACTUALIZAR";
+"SELECT_CLASS" = "Seleccione la clase";
+"SELECT_STUDENT" = "Seleccione estudiante";
+"ANNOTATIONS" = "Anotaciones";
+"CHANGE_CLASS" = "Cambio";
+"RESET_ALL" = "Resetear todo";
+"RESET_DETAIL" = "Esto restablecerá las entradas de entrada y anotación de texto enviado, es un proceso irreversible.";
+"CURRENT_PAGE" = "Página actual";
+"ALL_PAGES" = "Todas las páginas";
+"LEARNER" = "Aprendiz";
+
+//Text Search
+"SEARCH_WITH_KEYWORDS" = "Buscar con palabras clave";
+
+//ShareSettings
+"ANNOTATIONS_SHARING_NOT_ALLOWED" = "Anotaciones no compartir permitidos para esta clase";
+"SETTINGS" = "ajustes";
+"SHARE_NOTE" = "Compartir Nota";
+"SHARE" = "Compartir";
+"ALL TEACHERS" = "Todos los maestros";
+
+//Thumbnail
+"GO_TO" ="Ir";
+"THUMBNAILS" = "Miniaturas";
+"PLEASE_ENTER_PAGE_NUMBER_ALERT" = "Por favor, introduzca el número Página";
+"ERROR_ALERT_TITLE" = "Error";
+"PLEASE_ENTER_VALID_PAGE_NUMBER_ALERT" = "Por favor, introduzca el número de página válido";
+
+//StickyNote
+"PLEASE_TAP_INSIDE_THE_PAGE_TO_ADD STICKYNOTE" = "Por favor grifo dentro de la página para añadir stickynote";
+"Enter_Note" = "Introduzca nota";
+"Save_Changes" = "Guardar cambios";
+"Do_you_wish_to_save_changes" = "¿Desea guardar los cambios ?";
+"Delete_note" = "Borrar nota";
+"NOTE" = "Nota";
+"WRITE_YOUR_COMMENT_HERE" = "Escribe tu comentario aqui";
+
+//KitabooTOC
+"NO_TOC_Data" = "No hay datos de TOC";
+"NO_RESOURCE_DATA" = "No hay datos de recursos";
+"NO_BOOKMARK_DATA" = "No Data Favorito";
+"Table_of_Resources" = "Tabla de Recursos";
+"Table_of_Content" = "Tabla de contenido";
+"Your_added_bookmarks_will_be_listed_here" = "Los marcadores agregados se enumeran aquí";
+"NO_INTERNAL_RESOURCES" = "No hay recursos internos disponibles";
+"INTERNAL_RESOURCES" = "Recursos internos";
+"EXTERNAL_RESOURCES" = "Recursos externos";
+"Content" = "Contenido";
+"TEKS" = "TEKS";
+"ELPS" = "ELPS";
+"Standards" = "normas";
+"Resources" = "Recursos";
+
+//TextAnnotation
+"DELETE_TEXT_ANNOTATION_MESSAGE" = "¿Seguro que quiere borrar \ nEsta acción es irreversible";
+"TEXT_ANNOTATION_CAN_NOT_ADD_VIEW" = "Anotación de texto no se puede añadir en este punto de vista";
+"TEXT_ANNOTATION_CAN_NOT_ADD" = "Por favor, añadir anotaciones de texto en cualquiera de las páginas.";
+
+//ReaderViewController
+"SEARCH" = "Buscar";
+"LOADING_DATA" = "Cargando datos ..";
+"Delete_Highlight" = "Resalte Borrar";
+"Do_you_wish_to_delete_highlight" = "¿Quiere eliminar más destacado?";
+
+//Kaltura Video Player Alert
+"KALTURA_INITIALIZATION_ERROR_MESSAGE_KEY"  =   "Se produjo un error al inicializar el vídeo Kaltura";
+
+//SEARCH VIEW
+"search_result_not_found" = "resultado de la búsqueda no encontrado";
+"GENERATING_SEARCH_RESULT" = "La generación de resultados de la búsqueda ...";
+
+//Just now
+"JUST_NOW" = "Justo ahora";
+
+//Teacher Annotation.
+"RETRY" = "REVER";
+"DO_YOU_WISH_TO_DELETE_ALL_DOODLES" = "Se borrarán todos los datos de esta página. ¿Desea continuar?";
+"DATA_SUBMITTED_SUCCESSFULLY" = "Los datos enviados con éxito.";
+"ALERT_BUTTON" = "¡Alerta!";
+"SAVING_THE_DATA" = "Aseguramiento de los datos ...";
+
+//FilerViewController
+"Filter_All" = "Todas";
+"Contextual_notes" = "Notas contextuales";
+"FILTER_BY" = "Filtrado por";
+"NOTES_FILTER_BY" = "Filtro de notas de";
+"Highlights_filter_by" = "Highlights filtro por";
+"CONTEXTUAL_NOTES_FILTER_BY" = "Contextuales toma nota de filtro por";
+
+//Protractor
+"PROTRACTOR_NOT_AVAILABLE_IN_LANDSCAPE_ALERT_TITLE" = "";
+"THE_FEATURE_CAN_BE_BEST_USED_IN_ONE_PAGE_VIEW_PLEASE_SWITCH_TO_ONE_PAGE_VIEW" = "La característica puede ser mejor utilizado en una vista de página, Por favor, cambie a una vista de página.";
+"PROTRACTOR_ALERT_MSG"="¿Estas seguro que quieres borrarlo?";
+
+//Bookmark
+"ADD_BOOKMARK_PLACEHOLDER_KEY"  =   "Añadir marcador título";
+
+//Equation Editor
+"EE_DATA_DELETE_TITLE"="Interruptor de teclado";
+"EE_DATA_DELETE_MESSAGE"="Se eliminarán los datos, ¿Seguro que desea cambiar ?";
+"NOTE_CAN_NOT_MOVE_NEAR_BOOKMARK_MESSAGE_KEY"  =  "No se puede mover nota cerca de marcador o zona de marcado.";
+"SORRY_KEY" = "Lo siento";
+
+//BOTTOMBAR FOR PHONE
+"INTERNET_UNAVAILABLE_MESSAGE" = "Estas desconectado. Verifique su conexión a Internet y vuelva a intentarlo.";
+"FAILED_ALERT_TITLE" = "Ha fallado";
+
+//DropDown
+"SELECT_KEY"   =   "Seleccione";
+
+"MY_DATA_ACCEPT" = "Aceptar";
+"MY_DATA_DECLINE" = "Disminución";
+
+
+//Clear All Data
+"CLEAR_DATA_ALERT_TITILE_KEY"           =   "Borrar datos";
+"CLEAR_DATA_ALERT_MESSAGE"              =   "se borrarán respuestas. ¿Desea continuar?";
+
+//Html Activity
+"INTERNET_NOT_AVAILABLE_ACTIVITY"="Sin conexión a Internet.";
+
+//Epub font setting
+"FONTSETTING_LAYOUT_TITLE" = "Configuración de fuente";
+"FONTSETTING_RESET_TITLE" = "Restablecen a los predeterminados";
+
+"FONTSETTING_FONTFAMILY_TITLE" = "Fuente";
+"FONTSETTING_FONTFAMILY_DEFAULT" = "Defecto";
+"FONTSETTING_ALIGNMENT_TITLE" = "Alinear";
+"FONTSETTING_LINESPACING_TITLE" = "Espaciado entre líneas";
+"FONTSETTING_MARGIN_TITLE" = "márgenes";
+"FONTSETTING_READERMODE_TITLE" = "Modo";
+"FONTSETTING_SCROLLMODE_TITLE" = "Modo de desplazamiento";
+
+//AudioBook
+
+//Narration Speed
+"NARRATION_SPEED_TITLE" = "narración velocidad";
+"CANCEL" = "Cancelar";
+"APPLY" = "Aplicar";
+
+//TOC
+"CHAPTERS" = "Capítulos";
+"TRANSCRIPT" = "Transcripción";
+"BOOKMARKS" = "Marcadores";
+
+//TOC MultiLevel Chapter
+"HOURS" = "Horas";
+"MINUTE" = "Minuto";
+"MINUTES" = "Minas";
+"SECONDS" = "Segundos";
+
+//Bookmark
+"Add Bookmark" = "Añadir marcador";
+"Delete Bookmark" = "Eliminar marcador";
+"DELETE" = "Eliminar";
+"ADD" = "Añadir";
+"TYPE_SOMETHING_HERE" = "Escribe algo aquí";
+
+//Reflowable Slider Page Count
+"CHAPTER_KEY" = "Capítulo";
+"OF_KEY" = "de";
+"MIN_LEFT" = "min izquierda";
+
+//Resources
+"The Internet connection appears to be offline." = "La conexión a Internet parece estar fuera de línea.";
+"RESOURCE_NOT_FOUND"= "Recursos no encontrado!";
+"MARKUP_NOT_SUPPORTED" = "No se admite este tipo de marcas.";
+
+//Error Message
+"UNKNOWN_ERROR" = "Se ha producido un error desconocido";
+"INVALID_RESPONSE_RECEIVED" = "Recibidas inválida respuesta..";
+
+//AudioBook Sleep Timer
+"SLEEP_MODE" = "Modo de sueño";
+"SLEEP_TIMER_OFF" = "Sueño temporizador";
+"MIN" = "min";
+"CUSTOM" = "Personalizado";
+"SET_CUSTOM_TIME" = "Conjunto de tiempo personalizado";
+"OK_BUTTON" = "Okay";
+
+//Generate Report
+"GENERATE_REPORT" = "Generar informe";
+"SELECT_STUDENT_FOR_REVIEW" = "Elija un estudiante a una revisión";
+"GENERATE_REPORT_TITLE" = "Informe generado";
+"GENERATE_REPORT_MESSAGE" = "\ N generada informe compartirá en su correo electrónico registrada ID";
+"GENERATE_REPORT_PLACEHOLDER" = "Introducir otro ID de correo electrónico";
+"GENERATE_REPORT_MESSAGE_CONF" = "Recibirá el informe en el correo electrónico compartido dentro de 30min de";
+"GENERATE_REPORT_LABEL_TITLE" = "Generar informe";
+"GENERATE_REPORT_LABEL_MESSAGE" = "Seleccionar un capítulo y Estudiantes para generar el informe";
+"GENERATE_REPORT_CANCEL_BUTTON" = "Cancelar";
+"GENERATE_REPORT_NEXT_BUTTON" = "próximo";
+"SELECT_CHAPTER" = "Seleccione el Capítulo";
+"SELECT_STUDENT" = "Select Student";
+"GENERATE_REPORT_ALL" = "Todos";
+"GENERATE_REPORT_ALL_STUDENTS" = "Todos los estudiantes";
+"GENERATE_REPORT_ONLY_ATTEMPTED" = "Sólo Intento";
+"GENERATE_REPORT_ALL_STUDENTS_COUNT" = "Todos los alumnos";
+"GENERATE_REPORT_MAIL_SUCCESS_TITLE" = "Éxito";
+"GENERATE_REPORT_MAIL_SUCCESS_MESSAGE" = "Informe enviado con éxito para el usuario";
+"SOMETHING_WENT_WRONG" = "Se ha producido un wrong.Please inténtelo de nuevo";
+"GENERATE_REPORT_NO_KEY" = "actualización amablemente el libro electrónico de nuevo para ver la tabla de contenido o contactar con el administrador para obtener más detalles.";
+"INVALID_EMAIL_MESSAGE" = "Por favor, introduzca un ID de correo electrónico válida.";
+
+//Watermark
+"WATERMARK_TEXT" = "Esta obra está protegida por la ley, incluyendo pero no limitado a las leyes de Estados Unidos y por tratados internacionales. Todos los derechos reservados por el editor y / o el licenciante";
+
+//Furthest Page
+"FURTHEST_PAGE_NOT_SUPPORTED" = "Más alejado de página no compatibles";
+"YOU_ARE_ALREADY_ON_FURTHEST_PAGE" = "Ya se encuentra en la última página";
+
+//MultiAudio Support
+"LANGUAGE" = "Idioma";
+"QUALITY" = "Calidad";
+"SUBTITLES_CC" = "Subtítulos/cc";
+"SUBTITLES_CC_TURNED_ON" = "Subtítulo/cc enciende";
+"ON_KEY" = "EN";
+"OFF_KEY" = "APAGADO";
+"QUALITY_PIXEL_KEY" = "p";
+
+//External Resource
+"LOADING_FAILED" = "Carga fallida...";
+
+//MediaBook Download
+"BOOK_DOWNLOADED_DATA_CURRUPTION_ERROR" = "This Playlist's downloaded data has been corrupted, Please delete the book and re-download it.";
+
+//Print My Data
+"PRINT_KEY" = "Impresión";
+"BOTH_KEY" = "Ambos";
+"NOTE_CELL_PAGE_KEY" = "Página";

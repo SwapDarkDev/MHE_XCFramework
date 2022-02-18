@@ -1,0 +1,822 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "67CBC643-46F1-48E0-BA38-3A61EE84D406"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8C900CB7-BF5D-4916-850D-D9BE5AE64FEA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KitabooSDKWithReader/KitabooReader5.0/GenerateXMLFormat/XMLParser/XMLReader.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "154"
+            endingLineNumber = "154"
+            landmarkName = "-parser:didEndElement:namespaceURI:qualifiedName:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8C900CB7-BF5D-4916-850D-D9BE5AE64FEA - 9dd26458e5cf0945"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[XMLReader parser:didEndElement:namespaceURI:qualifiedName:]"
+                  moduleName = "KitabooSDKWithReaderDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Desktop/iOS_DemoReaderWithKitabooSDK-master%202/SDKWithReader/KitabooSDKWithReader/KitabooReader5.0/GenerateXMLFormat/XMLParser/XMLReader.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "154"
+                  endingLineNumber = "154"
+                  offsetFromSymbolStart = "390">
+               </Location>
+               <Location
+                  uuid = "8C900CB7-BF5D-4916-850D-D9BE5AE64FEA - 1c1c314f8242f4dc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[XMLReader parser:didEndElement:namespaceURI:qualifiedName:]"
+                  moduleName = "KitabooSDKWithReader"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Desktop/iOS_DemoReaderWithKitabooSDK-master%202/SDKWithReader/KitabooSDKWithReader/KitabooReader5.0/GenerateXMLFormat/XMLParser/XMLReader.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "154"
+                  endingLineNumber = "154"
+                  offsetFromSymbolStart = "390">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "29018D9F-798C-479B-AAAC-F144142E3DB3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../MHE/iOS_KitabooSDK/KItabooSDK/SDKDB/HSDBManager.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1106"
+            endingLineNumber = "1106"
+            landmarkName = "-saveKitabooUGCWithDictionary:withBookID:userID:withIsSynced:WithModifiedDate:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6A50EBE4-6FB5-4223-AEED-15F242CA0F79"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KitabooSDKWithReader/KitabooReader5.0/GenerateXMLFormat/UGCXMLClass.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "+generateXMLForUGCForDictionary:forPageID:andUser:forBook:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6A50EBE4-6FB5-4223-AEED-15F242CA0F79 - e42487b03892f206"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[UGCXMLClass generateXMLForUGCForDictionary:forPageID:andUser:forBook:]"
+                  moduleName = "KitabooSDKWithReaderDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Desktop/iOS_DemoReaderWithKitabooSDK-master%202/SDKWithReader/KitabooSDKWithReader/KitabooReader5.0/GenerateXMLFormat/UGCXMLClass.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "2004">
+               </Location>
+               <Location
+                  uuid = "6A50EBE4-6FB5-4223-AEED-15F242CA0F79 - 65ead2a75f1f0f9f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[UGCXMLClass generateXMLForUGCForDictionary:forPageID:andUser:forBook:]"
+                  moduleName = "KitabooSDKWithReader"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Desktop/iOS_DemoReaderWithKitabooSDK-master%202/SDKWithReader/KitabooSDKWithReader/KitabooReader5.0/GenerateXMLFormat/UGCXMLClass.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "1996">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FAAF0B62-0B45-42E8-81E5-05D0A6B4A6C7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KitabooSDKWithReader/KitabooReader5.0/ReaderViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15586"
+            endingLineNumber = "15586"
+            landmarkName = "-didUGCDataSuccessfullyParsed"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "422DB7C7-7160-4AAE-A3EA-183AA705FE89"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KitabooSDKWithReader/KitabooReader5.0/MHEReaderViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
+            landmarkName = "-saveUGCPerPageForBookID:forPageID:forUser:completion:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9B8DE22A-1467-40E9-B509-3206F68A3D54"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KitabooSDKWithReader/KitabooReader5.0/GenerateXMLFormat/UGCXMLClass.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "+generateXMLForUGCForDictionary:forPageID:andUser:forBook:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9B8DE22A-1467-40E9-B509-3206F68A3D54 - e42487b03892f2ba"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[UGCXMLClass generateXMLForUGCForDictionary:forPageID:andUser:forBook:]"
+                  moduleName = "KitabooSDKWithReaderDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Desktop/iOS_DemoReaderWithKitabooSDK-master%202/SDKWithReader/KitabooSDKWithReader/KitabooReader5.0/GenerateXMLFormat/UGCXMLClass.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "2018">
+               </Location>
+               <Location
+                  uuid = "9B8DE22A-1467-40E9-B509-3206F68A3D54 - 65ead2a75f1f0f23"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[UGCXMLClass generateXMLForUGCForDictionary:forPageID:andUser:forBook:]"
+                  moduleName = "KitabooSDKWithReader"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Desktop/iOS_DemoReaderWithKitabooSDK-master%202/SDKWithReader/KitabooSDKWithReader/KitabooReader5.0/GenerateXMLFormat/UGCXMLClass.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "2014">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B0774EA6-4885-4881-91A7-251203F9B3F4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KitabooSDKWithReader/KitabooReader5.0/ReaderViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2304"
+            endingLineNumber = "2304"
+            landmarkName = "-relaodPageUGCForActivePages"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4E5A10B5-8157-4B97-866D-E49FFC64DD32"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KitabooSDKWithReader/KitabooReader5.0/ReaderViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2433"
+            endingLineNumber = "2433"
+            landmarkName = "-drawPenDrawingsOnPageNumber:OnDisplayNumber:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3C8A21C8-D229-4C48-8F3E-A75E1F9E6E7F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KitabooSDKWithReader/KitabooReader5.0/MHEReaderViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "82"
+            endingLineNumber = "82"
+            landmarkName = "-saveUGCPerPageForBookID:forPageID:forUser:completion:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2F3DD33F-9FF8-49A2-AADB-E74BE8F126D7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KitabooSDKWithReader/KitabooReader5.0/MHEReaderViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "94"
+            endingLineNumber = "94"
+            landmarkName = "-getDictionaryFromJSONFormatedString:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A2533A5C-7ADF-427F-9F39-E12C47217136"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KitabooSDKWithReader/KitabooReader5.0/MHEReaderViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
+            landmarkName = "-saveUGCPerPageForBookID:forPageID:forUser:completion:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "01572ECD-CB33-4DC0-AA58-4929982CCCFF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KitabooSDKWithReader/KitabooReader5.0/MHEUGCData/ParseUGCData.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "-parseBookDataToStoreInDB:forBookID:forPageNumber:andDisplayNumber:forUserID:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "01572ECD-CB33-4DC0-AA58-4929982CCCFF - 20468428b6c9d93f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ParseUGCData parseBookDataToStoreInDB:forBookID:forPageNumber:andDisplayNumber:forUserID:]"
+                  moduleName = "KitabooSDKWithReaderDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Desktop/iOS_DemoReaderWithKitabooSDK-master%202/SDKWithReader/KitabooSDKWithReader/KitabooReader5.0/MHEUGCData/ParseUGCData.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "231">
+               </Location>
+               <Location
+                  uuid = "01572ECD-CB33-4DC0-AA58-4929982CCCFF - a188d13fd14424a6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ParseUGCData parseBookDataToStoreInDB:forBookID:forPageNumber:andDisplayNumber:forUserID:]"
+                  moduleName = "KitabooSDKWithReader"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Desktop/iOS_DemoReaderWithKitabooSDK-master%202/SDKWithReader/KitabooSDKWithReader/KitabooReader5.0/MHEUGCData/ParseUGCData.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "231">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "28A26423-A7F2-4BE7-8B4F-F9C989BAA49D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KitabooSDKWithReader/KitabooReader5.0/ReaderViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1617"
+            endingLineNumber = "1617"
+            landmarkName = "-rendererViewController:didLoadPageWithPageNumber:WithDisplayNumber:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "777B1A3C-23AA-4039-ADE3-6748ACA89A37"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KitabooSDKWithReader/KitabooReader5.0/GenerateXMLFormat/UGCXMLClass.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "+generateXMLForUGCForDictionary:forPageID:andUser:forBook:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "777B1A3C-23AA-4039-ADE3-6748ACA89A37 - e42487b03892ffa2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[UGCXMLClass generateXMLForUGCForDictionary:forPageID:andUser:forBook:]"
+                  moduleName = "KitabooSDKWithReaderDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Desktop/iOS_DemoReaderWithKitabooSDK-master%202/SDKWithReader/KitabooSDKWithReader/KitabooReader5.0/GenerateXMLFormat/UGCXMLClass.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "3878">
+               </Location>
+               <Location
+                  uuid = "777B1A3C-23AA-4039-ADE3-6748ACA89A37 - 65ead2a75f1f023b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[UGCXMLClass generateXMLForUGCForDictionary:forPageID:andUser:forBook:]"
+                  moduleName = "KitabooSDKWithReader"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Desktop/iOS_DemoReaderWithKitabooSDK-master%202/SDKWithReader/KitabooSDKWithReader/KitabooReader5.0/GenerateXMLFormat/UGCXMLClass.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "3870">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2770E7D2-BEF4-4CF1-AA1D-90D426EAB0CB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KitabooSDKWithReader/KitabooReader5.0/GenerateXMLFormat/UGCXMLClass.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "+generateXMLForUGCForDictionary:forPageID:andUser:forBook:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2770E7D2-BEF4-4CF1-AA1D-90D426EAB0CB - e42487b03892f1b2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[UGCXMLClass generateXMLForUGCForDictionary:forPageID:andUser:forBook:]"
+                  moduleName = "KitabooSDKWithReaderDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Desktop/iOS_DemoReaderWithKitabooSDK-master%202/SDKWithReader/KitabooSDKWithReader/KitabooReader5.0/GenerateXMLFormat/UGCXMLClass.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "2916">
+               </Location>
+               <Location
+                  uuid = "2770E7D2-BEF4-4CF1-AA1D-90D426EAB0CB - 65ead2a75f1f0c2b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[UGCXMLClass generateXMLForUGCForDictionary:forPageID:andUser:forBook:]"
+                  moduleName = "KitabooSDKWithReader"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Desktop/iOS_DemoReaderWithKitabooSDK-master%202/SDKWithReader/KitabooSDKWithReader/KitabooReader5.0/GenerateXMLFormat/UGCXMLClass.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "2908">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7F470B9E-C750-4832-80A0-4F720807DFA5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KitabooSDKWithReader/KitabooReader5.0/MHEReaderViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "-saveUGCPerPageForBookID:forPageID:forUser:completion:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EEB0E989-7B61-4407-8B1D-90205F5F4D5B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KitabooSDKWithReader/KitabooReader5.0/MHEUGCData/ParseUGCData.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "186"
+            endingLineNumber = "186"
+            landmarkName = "-parseNoteData:forUser:andPageID:andDisplayNumber:andBookID:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "EEB0E989-7B61-4407-8B1D-90205F5F4D5B - 219cec4acc407181"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ParseUGCData parseNoteData:forUser:andPageID:andDisplayNumber:andBookID:]"
+                  moduleName = "KitabooSDKWithReaderDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Desktop/iOS_DemoReaderWithKitabooSDK-master%202/SDKWithReader/KitabooSDKWithReader/KitabooReader5.0/MHEUGCData/ParseUGCData.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "186"
+                  endingLineNumber = "186"
+                  offsetFromSymbolStart = "2223">
+               </Location>
+               <Location
+                  uuid = "EEB0E989-7B61-4407-8B1D-90205F5F4D5B - a052b95dabcd8c18"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ParseUGCData parseNoteData:forUser:andPageID:andDisplayNumber:andBookID:]"
+                  moduleName = "KitabooSDKWithReader"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Desktop/iOS_DemoReaderWithKitabooSDK-master%202/SDKWithReader/KitabooSDKWithReader/KitabooReader5.0/MHEUGCData/ParseUGCData.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "186"
+                  endingLineNumber = "186"
+                  offsetFromSymbolStart = "2187">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C684165B-1A60-4801-A3A6-9408907FF348"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KitabooSDKWithReader/KitabooReader5.0/MHEUGCData/ParseUGCData.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "231"
+            endingLineNumber = "231"
+            landmarkName = "-generateUGCDataForNote:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C684165B-1A60-4801-A3A6-9408907FF348 - fee4b9960cbf7f98"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ParseUGCData generateUGCDataForNote:]"
+                  moduleName = "KitabooSDKWithReaderDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Desktop/iOS_DemoReaderWithKitabooSDK-master%202/SDKWithReader/KitabooSDKWithReader/KitabooReader5.0/MHEUGCData/ParseUGCData.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "231"
+                  endingLineNumber = "231"
+                  offsetFromSymbolStart = "248">
+               </Location>
+               <Location
+                  uuid = "C684165B-1A60-4801-A3A6-9408907FF348 - 7f2aec816b328201"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ParseUGCData generateUGCDataForNote:]"
+                  moduleName = "KitabooSDKWithReader"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Desktop/iOS_DemoReaderWithKitabooSDK-master%202/SDKWithReader/KitabooSDKWithReader/KitabooReader5.0/MHEUGCData/ParseUGCData.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "231"
+                  endingLineNumber = "231"
+                  offsetFromSymbolStart = "248">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D76DD0D2-B7EB-4BD5-B3C9-EA705729F722"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KitabooSDKWithReader/KitabooReader5.0/MHEUGCData/ParseUGCData.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "228"
+            endingLineNumber = "228"
+            landmarkName = "-generateUGCDataForNote:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D76DD0D2-B7EB-4BD5-B3C9-EA705729F722 - fee4b9960cbf7ec2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ParseUGCData generateUGCDataForNote:]"
+                  moduleName = "KitabooSDKWithReaderDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Desktop/iOS_DemoReaderWithKitabooSDK-master%202/SDKWithReader/KitabooSDKWithReader/KitabooReader5.0/MHEUGCData/ParseUGCData.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "225"
+                  endingLineNumber = "225"
+                  offsetFromSymbolStart = "57">
+               </Location>
+               <Location
+                  uuid = "D76DD0D2-B7EB-4BD5-B3C9-EA705729F722 - 7f2aec816b32835b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ParseUGCData generateUGCDataForNote:]"
+                  moduleName = "KitabooSDKWithReader"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Desktop/iOS_DemoReaderWithKitabooSDK-master%202/SDKWithReader/KitabooSDKWithReader/KitabooReader5.0/MHEUGCData/ParseUGCData.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "225"
+                  endingLineNumber = "225"
+                  offsetFromSymbolStart = "57">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BC566400-59A5-4C9B-93AD-274DAC807D7C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KitabooSDKWithReader/KitabooReader5.0/MHEUGCData/ParseUGCData.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "208"
+            endingLineNumber = "208"
+            landmarkName = "-generateMetaDataForHighlight:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BC566400-59A5-4C9B-93AD-274DAC807D7C - 2747496440be63c1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ParseUGCData generateMetaDataForHighlight:]"
+                  moduleName = "KitabooSDKWithReaderDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Desktop/iOS_DemoReaderWithKitabooSDK-master%202/SDKWithReader/KitabooSDKWithReader/KitabooReader5.0/MHEUGCData/ParseUGCData.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "208"
+                  endingLineNumber = "208"
+                  offsetFromSymbolStart = "57">
+               </Location>
+               <Location
+                  uuid = "BC566400-59A5-4C9B-93AD-274DAC807D7C - a6891c7327339e58"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ParseUGCData generateMetaDataForHighlight:]"
+                  moduleName = "KitabooSDKWithReader"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Desktop/iOS_DemoReaderWithKitabooSDK-master%202/SDKWithReader/KitabooSDKWithReader/KitabooReader5.0/MHEUGCData/ParseUGCData.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "208"
+                  endingLineNumber = "208"
+                  offsetFromSymbolStart = "57">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D5787BEB-380E-46E7-B929-61DE29C7F780"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KitabooSDKWithReader/KitabooReader5.0/MHEUGCData/ParseUGCData.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "-parseBookDataToStoreInDB:forBookID:forPageNumber:andDisplayNumber:forUserID:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D5787BEB-380E-46E7-B929-61DE29C7F780 - 20468428b6c9dbb2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ParseUGCData parseBookDataToStoreInDB:forBookID:forPageNumber:andDisplayNumber:forUserID:]"
+                  moduleName = "KitabooSDKWithReaderDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Desktop/iOS_DemoReaderWithKitabooSDK-master%202/SDKWithReader/KitabooSDKWithReader/KitabooReader5.0/MHEUGCData/ParseUGCData.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "2037">
+               </Location>
+               <Location
+                  uuid = "D5787BEB-380E-46E7-B929-61DE29C7F780 - a188d13fd144262b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ParseUGCData parseBookDataToStoreInDB:forBookID:forPageNumber:andDisplayNumber:forUserID:]"
+                  moduleName = "KitabooSDKWithReader"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Desktop/iOS_DemoReaderWithKitabooSDK-master%202/SDKWithReader/KitabooSDKWithReader/KitabooReader5.0/MHEUGCData/ParseUGCData.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "1990">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C7CD79E2-B8A1-4ADD-B3C2-F329DE23159A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KitabooSDKWithReader/KitabooReader5.0/MHEUGCData/ParseUGCData.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "-parseBookDataToStoreInDB:forBookID:forPageNumber:andDisplayNumber:forUserID:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C7CD79E2-B8A1-4ADD-B3C2-F329DE23159A - 20468428b6c9da26"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ParseUGCData parseBookDataToStoreInDB:forBookID:forPageNumber:andDisplayNumber:forUserID:]"
+                  moduleName = "KitabooSDKWithReaderDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Desktop/iOS_DemoReaderWithKitabooSDK-master%202/SDKWithReader/KitabooSDKWithReader/KitabooReader5.0/MHEUGCData/ParseUGCData.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "894">
+               </Location>
+               <Location
+                  uuid = "C7CD79E2-B8A1-4ADD-B3C2-F329DE23159A - 20468428b6c9da26"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ParseUGCData parseBookDataToStoreInDB:forBookID:forPageNumber:andDisplayNumber:forUserID:]"
+                  moduleName = "KitabooSDKWithReaderDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Desktop/iOS_DemoReaderWithKitabooSDK-master%202/SDKWithReader/KitabooSDKWithReader/KitabooReader5.0/MHEUGCData/ParseUGCData.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "906">
+               </Location>
+               <Location
+                  uuid = "C7CD79E2-B8A1-4ADD-B3C2-F329DE23159A - a188d13fd14427bf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ParseUGCData parseBookDataToStoreInDB:forBookID:forPageNumber:andDisplayNumber:forUserID:]"
+                  moduleName = "KitabooSDKWithReader"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Desktop/iOS_DemoReaderWithKitabooSDK-master%202/SDKWithReader/KitabooSDKWithReader/KitabooReader5.0/MHEUGCData/ParseUGCData.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "872">
+               </Location>
+               <Location
+                  uuid = "C7CD79E2-B8A1-4ADD-B3C2-F329DE23159A - a188d13fd14427bf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ParseUGCData parseBookDataToStoreInDB:forBookID:forPageNumber:andDisplayNumber:forUserID:]"
+                  moduleName = "KitabooSDKWithReader"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Desktop/iOS_DemoReaderWithKitabooSDK-master%202/SDKWithReader/KitabooSDKWithReader/KitabooReader5.0/MHEUGCData/ParseUGCData.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "884">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "592C8B9A-F5C4-4AE9-9D08-B13E72992B0D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KitabooSDKWithReader/KitabooReader5.0/MHEUGCData/ParseUGCData.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "-parseBookDataToStoreInDB:forBookID:forPageNumber:andDisplayNumber:forUserID:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "592C8B9A-F5C4-4AE9-9D08-B13E72992B0D - 20468428b6c9dc53"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ParseUGCData parseBookDataToStoreInDB:forBookID:forPageNumber:andDisplayNumber:forUserID:]"
+                  moduleName = "KitabooSDKWithReaderDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Desktop/iOS_DemoReaderWithKitabooSDK-master%202/SDKWithReader/KitabooSDKWithReader/KitabooReader5.0/MHEUGCData/ParseUGCData.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "2184">
+               </Location>
+               <Location
+                  uuid = "592C8B9A-F5C4-4AE9-9D08-B13E72992B0D - a188d13fd14421ca"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ParseUGCData parseBookDataToStoreInDB:forBookID:forPageNumber:andDisplayNumber:forUserID:]"
+                  moduleName = "KitabooSDKWithReader"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Desktop/iOS_DemoReaderWithKitabooSDK-master%202/SDKWithReader/KitabooSDKWithReader/KitabooReader5.0/MHEUGCData/ParseUGCData.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "2130">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

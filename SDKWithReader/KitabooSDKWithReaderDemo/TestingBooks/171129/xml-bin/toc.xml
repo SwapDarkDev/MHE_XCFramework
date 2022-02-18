@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XMLList>
+  <node title="Front Matter" id="Cover" type="Chapter" tocNodeID="1-1" feild1=""  feild2="">
+      <node title="Cover" id="Cover" type="Chapter" tocNodeID="1-1-1" feild1=""  feild2="">
+    </node>
+      <node title="Table of Contents" id="iv" type="Chapter" tocNodeID="1-1-2" feild1=""  feild2="">
+    </node>
+	</node>
+      <node title="UNIT 1" id="viii" type="Chapter" tocNodeID="1-3" feild1=""  feild2="">
+        	<node title="GENRE STUDY 1 NARRATIVE NONFICTION" id="viii" type = "Section"  tocNodeID="1-3-1"  feild1=""  feild2="">
+			<node title="Essential Question" id="viii" type = "SubSection"  tocNodeID="1-3-1-1" feild1=""  feild2="">
+			</node>
+			<node title="SHARED READ: &quot;Room to Grow&quot;" id="2" type = "SubSection"  tocNodeID="1-3-1-2" feild1=""  feild2="">
+			</node>
+			<node title="Vocabulary/Compound Words" id="8" type = "SubSection"  tocNodeID="1-3-1-3" feild1=""  feild2="">
+			</node>
+			<node title="Ask and Answer Questions" id="10" type = "SubSection"  tocNodeID="1-3-1-4" feild1=""  feild2="">
+			</node>
+			<node title="Headings and Maps" id="11" type = "SubSection"  tocNodeID="1-3-1-5" feild1=""  feild2="">
+			</node>
+			<node title="Sequence" id="12" type = "SubSection"  tocNodeID="1-3-1-6" feild1=""  feild2="">
+			</node>
+			<node title="WRITING: Respond to Reading" id="14" type = "SubSection"  tocNodeID="1-3-1-7" feild1=""  feild2="">
+			</node>
+			<node title="Research and Inquiry" id="15" type = "SubSection"  tocNodeID="1-3-1-8" feild1=""  feild2="">
+			</node>
+			<node title="ANCHOR TEXT: Analyze Gary the Dreamer" id="16" type = "SubSection"  tocNodeID="1-3-1-9" feild1=""  feild2="">
+			</node>
+			<node title="WRITING: Respond to Reading" id="19" type = "SubSection"  tocNodeID="1-3-1-10" feild1=""  feild2="">
+			</node>
+			<node title="PAIRED SELECTION: Analyze&quot;Sharing Cultures&quot;" id="20" type = "SubSection"  tocNodeID="1-3-1-11" feild1=""  feild2="">
+			</node>
+			<node title="Author's Craft: Word Choice" id="23" type = "SubSection"  tocNodeID="1-3-1-12" feild1=""  feild2="">
+			</node>
+			<node title="Text Connections/Research and Inquiry" id="24" type = "SubSection"  tocNodeID="1-3-1-13" feild1=""  feild2="">
+			</node>
+			<node title="WRITING: Personal Narrative" id="26" type = "SubSection"  tocNodeID="1-3-1-14" feild1=""  feild2="">
+			</node>
+	</node>
+        	<node title="GENRE STUDY 2 REALISTIC FICTION" id="34" type = "Section"  tocNodeID="1-3-2"  feild1=""  feild2="">
+			<node title="Essential Question" id="34" type = "SubSection"  tocNodeID="1-3-2-1" feild1=""  feild2="">
+			</node>
+			<node title="SHARED READ: &quot;The Dream Catcher&quot;" id="36" type = "SubSection"  tocNodeID="1-3-2-2" feild1=""  feild2="">
+			</node>
+			<node title="Vocabulary/Context Clues" id="42" type = "SubSection"  tocNodeID="1-3-2-3" feild1=""  feild2="">
+			</node>
+			<node title="Visualize" id="44" type = "SubSection"  tocNodeID="1-3-2-4" feild1=""  feild2="">
+			</node>
+			<node title="Illustrations and Dialogue" id="45" type = "SubSection"  tocNodeID="1-3-2-5" feild1=""  feild2="">
+			</node>
+			<node title="Sequence" id="46" type = "SubSection"  tocNodeID="1-3-2-6" feild1=""  feild2="">
+			</node>
+			<node title="WRITING: Respond to Reading" id="48" type = "SubSection"  tocNodeID="1-3-2-7" feild1=""  feild2="">
+			</node>
+			<node title="Research and Inquiry" id="49" type = "SubSection"  tocNodeID="1-3-2-8" feild1=""  feild2="">
+			</node>
+			<node title="ANCHOR TEXT: Analyze Yoon and the Jade Bracelet" id="50" type = "SubSection"  tocNodeID="1-3-2-9" feild1=""  feild2="">
+			</node>
+			<node title="WRITING: Respond to Reading" id="53" type = "SubSection"  tocNodeID="1-3-2-10" feild1=""  feild2="">
+			</node>
+			<node title="PAIRED SELECTION: Analyze &quot;Family Traditions&quot;" id="54" type = "SubSection"  tocNodeID="1-3-2-11" feild1=""  feild2="">
+			</node>
+			<node title="Author's Craft: Voice" id="57" type = "SubSection"  tocNodeID="1-3-2-12" feild1=""  feild2="">
+			</node>
+			<node title="Text Connections/Research and Inquiry" id="58" type = "SubSection"  tocNodeID="1-3-2-13" feild1=""  feild2="">
+			</node>
+	</node>
+        	<node title="GENRE STUDY 3 ARGUMENTATIVE TEXT" id="60" type = "Section"  tocNodeID="1-3-3"  feild1=""  feild2="">
+			<node title="Essential Question" id="60" type = "SubSection"  tocNodeID="1-3-3-1" feild1=""  feild2="">
+			</node>
+			<node title="SHARED READ: &quot;Preserve and Protect&quot;" id="62" type = "SubSection"  tocNodeID="1-3-3-2" feild1=""  feild2="">
+			</node>
+			<node title="Vocabulary/Multiple-Meaning Words" id="66" type = "SubSection"  tocNodeID="1-3-3-3" feild1=""  feild2="">
+			</node>
+			<node title="Ask and Answer Questions" id="68" type = "SubSection"  tocNodeID="1-3-3-4" feild1=""  feild2="">
+			</node>
+			<node title="Captions, Maps, and Sidebars" id="69" type = "SubSection"  tocNodeID="1-3-3-5" feild1=""  feild2="">
+			</node>
+			<node title="Main Idea and Key Details" id="70" type = "SubSection"  tocNodeID="1-3-3-6" feild1=""  feild2="">
+			</node>
+			<node title="WRITING: Respond to Reading" id="72" type = "SubSection"  tocNodeID="1-3-3-7" feild1=""  feild2="">
+			</node>
+			<node title="Research and Inquiry" id="73" type = "SubSection"  tocNodeID="1-3-3-8" feild1=""  feild2="">
+			</node>
+			<node title="ANCHOR TEXT: Analyze Protecting Our Parks" id="74" type = "SubSection"  tocNodeID="1-3-3-9" feild1=""  feild2="">
+			</node>
+			<node title="WRITING: Respond to Reading" id="76" type = "SubSection"  tocNodeID="1-3-3-10" feild1=""  feild2="">
+			</node>
+			<node title="PAIRED SELECTION: Analyze &quot;5 Questions for George McDonald&quot;" id="77" type = "SubSection"  tocNodeID="1-3-3-11" feild1=""  feild2="">
+			</node>
+			<node title="Author's Craft: Author’s Purpose" id="79" type = "SubSection"  tocNodeID="1-3-3-12" feild1=""  feild2="">
+			</node>
+			<node title="Text Connections/Accuracy and Phrasing" id="80" type = "SubSection"  tocNodeID="1-3-3-13" feild1=""  feild2="">
+			</node>
+			<node title="WRITING: Argumentative Text" id="82" type = "SubSection"  tocNodeID="1-3-3-14" feild1=""  feild2="">
+			</node>
+	</node>
+        	<node title="WRAP UP THE UNIT" id="90" type = "Section"  tocNodeID="1-3-4"  feild1=""  feild2="">
+			<node title="Expository Text: &quot;Remembering San Jacinto&quot;" id="90" type = "SubSection"  tocNodeID="1-3-4-1" feild1=""  feild2="">
+			</node>
+			<node title="Realistic Fiction: &quot;Sofia's Mexican Birthday&quot;" id="93" type = "SubSection"  tocNodeID="1-3-4-2" feild1=""  feild2="">
+			</node>
+			<node title="Comparing Genres" id="96" type = "SubSection"  tocNodeID="1-3-4-3" feild1=""  feild2="">
+			</node>
+			<node title="Homographs" id="97" type = "SubSection"  tocNodeID="1-3-4-4" feild1=""  feild2="">
+			</node>
+			<node title="Connect to Content" id="99" type = "SubSection"  tocNodeID="1-3-4-5" feild1=""  feild2="">
+			</node>
+			<node title="What Did You Learn?" id="100" type = "SubSection"  tocNodeID="1-3-4-6" feild1=""  feild2="">
+			</node>
+			<node title="Research and Inquiry" id="101" type = "SubSection"  tocNodeID="1-3-4-7" feild1=""  feild2="">
+			</node>
+	</node>
+    </node>
+      <node title="UNIT 2" id="102" type="Chapter" tocNodeID="1-4" feild1=""  feild2="">
+        	<node title="GENRE STUDY 1 EXPOSITORY TEXT" id="102" type = "Section"  tocNodeID="1-4-1"  feild1=""  feild2="">
+			<node title="Essential Question" id="102" type = "SubSection"  tocNodeID="1-4-1-1" feild1=""  feild2="">
+			</node>
+			<node title="SHARED READ: &quot;Every Vote Counts!&quot;" id="104" type = "SubSection"  tocNodeID="1-4-1-2" feild1=""  feild2="">
+			</node>
+			<node title="Vocabulary/Prefixes" id="110" type = "SubSection"  tocNodeID="1-4-1-3" feild1=""  feild2="">
+			</node>
+			<node title="Reread" id="112" type = "SubSection"  tocNodeID="1-4-1-4" feild1=""  feild2="">
+			</node>
+			<node title="Headings and Bar Graphs" id="113" type = "SubSection"  tocNodeID="1-4-1-5" feild1=""  feild2="">
+			</node>
+			<node title="Author’s Point of View" id="114" type = "SubSection"  tocNodeID="1-4-1-6" feild1=""  feild2="">
+			</node>
+			<node title="WRITING: Respond to Reading" id="116" type = "SubSection"  tocNodeID="1-4-1-7" feild1=""  feild2="">
+			</node>
+			<node title="Research and Inquiry" id="117" type = "SubSection"  tocNodeID="1-4-1-8" feild1=""  feild2="">
+			</node>
+			<node title="ANCHOR TEXT: Analyze Vote!" id="118" type = "SubSection"  tocNodeID="1-4-1-9" feild1=""  feild2="">
+			</node>
+			<node title="WRITING: Respond to Reading" id="121" type = "SubSection"  tocNodeID="1-4-1-10" feild1=""  feild2="">
+			</node>
+			<node title="PAIRED SELECTION: Analyze &quot;A Plan for the People&quot;" id="122" type = "SubSection"  tocNodeID="1-4-1-11" feild1=""  feild2="">
+			</node>
+			<node title="Author’s Craft: Author’s Purpose" id="125" type = "SubSection"  tocNodeID="1-4-1-12" feild1=""  feild2="">
+			</node>
+			<node title="Text Connections/Research and Inquiry" id="126" type = "SubSection"  tocNodeID="1-4-1-13" feild1=""  feild2="">
+			</node>
+			<node title="WRITING: Expository Essay" id="128" type = "SubSection"  tocNodeID="1-4-1-14" feild1=""  feild2="">
+			</node>
+	</node>
+        	<node title="GENRE STUDY 2 HISTORICAL FICTION" id="136" type = "Section"  tocNodeID="1-4-2"  feild1=""  feild2="">
+			<node title="Essential Question" id="136" type = "SubSection"  tocNodeID="1-4-2-1" feild1=""  feild2="">
+			</node>
+			<node title="SHARED READ: &quot;Sailing to America&quot;" id="138" type = "SubSection"  tocNodeID="1-4-2-2" feild1=""  feild2="">
+			</node>
+			<node title="Vocabulary/Similes" id="144" type = "SubSection"  tocNodeID="1-4-2-3" feild1=""  feild2="">
+			</node>
+			<node title="Make Predictions" id="146" type = "SubSection"  tocNodeID="1-4-2-4" feild1=""  feild2="">
+			</node>
+			<node title="Events and Illustrations" id="147" type = "SubSection"  tocNodeID="1-4-2-5" feild1=""  feild2="">
+			</node>
+			<node title="Theme" id="148" type = "SubSection"  tocNodeID="1-4-2-6" feild1=""  feild2="">
+			</node>
+			<node title="WRITING: Respond to Reading" id="150" type = "SubSection"  tocNodeID="1-4-2-7" feild1=""  feild2="">
+			</node>
+			<node title="Research and Inquiry" id="151" type = "SubSection"  tocNodeID="1-4-2-8" feild1=""  feild2="">
+			</node>
+			<node title="ANCHOR TEXT: Analyze The Castle on Hester Street" id="152" type = "SubSection"  tocNodeID="1-4-2-9" feild1=""  feild2="">
+			</node>
+			<node title="WRITING: Respond to Reading" id="155" type = "SubSection"  tocNodeID="1-4-2-10" feild1=""  feild2="">
+			</node>
+			<node title="PAIRED SELECTION: Analyze &quot;Next Stop, America!&quot;" id="156" type = "SubSection"  tocNodeID="1-4-2-11" feild1=""  feild2="">
+			</node>
+			<node title="Author’s Craft: Cause and Effect" id="159" type = "SubSection"  tocNodeID="1-4-2-12" feild1=""  feild2="">
+			</node>
+			<node title="Text Connections/Research and Inquiry" id="160" type = "SubSection"  tocNodeID="1-4-2-13" feild1=""  feild2="">
+			</node>
+	</node>
+        	<node title="GENRE STUDY 3 POETRY" id="162" type = "Section"  tocNodeID="1-4-3"  feild1=""  feild2="">
+			<node title="Essential Question" id="162" type = "SubSection"  tocNodeID="1-4-3-1" feild1=""  feild2="">
+			</node>
+			<node title="SHARED READ: &quot;Empanada Day&quot;" id="164" type = "SubSection"  tocNodeID="1-4-3-2" feild1=""  feild2="">
+			</node>
+			<node title="Vocabulary/Simile" id="168" type = "SubSection"  tocNodeID="1-4-3-3" feild1=""  feild2="">
+			</node>
+			<node title="Alliteration and Rhyme" id="170" type = "SubSection"  tocNodeID="1-4-3-4" feild1=""  feild2="">
+			</node>
+			<node title="Limerick and Free Verse" id="171" type = "SubSection"  tocNodeID="1-4-3-5" feild1=""  feild2="">
+			</node>
+			<node title="Point of View" id="172" type = "SubSection"  tocNodeID="1-4-3-6" feild1=""  feild2="">
+			</node>
+			<node title="WRITING: Respond to Reading" id="174" type = "SubSection"  tocNodeID="1-4-3-7" feild1=""  feild2="">
+			</node>
+			<node title="Research and Inquiry" id="175" type = "SubSection"  tocNodeID="1-4-3-8" feild1=""  feild2="">
+			</node>
+			<node title="ANCHOR TEXT: Analyze The Inventor Thinks Up Helicopters" id="176" type = "SubSection"  tocNodeID="1-4-3-9" feild1=""  feild2="">
+			</node>
+			<node title="WRITING: Respond to Reading" id="178" type = "SubSection"  tocNodeID="1-4-3-10" feild1=""  feild2="">
+			</node>
+			<node title="PAIRED SELECTION: Analyze &quot;Montgolfier Brothers’ Hot Air Balloon&quot;" id="179" type = "SubSection"  tocNodeID="1-4-3-11" feild1=""  feild2="">
+			</node>
+			<node title="Author's Craft: Voice" id="181" type = "SubSection"  tocNodeID="1-4-3-12" feild1=""  feild2="">
+			</node>
+			<node title="Text Connections/Expression and Phrasing" id="182" type = "SubSection"  tocNodeID="1-4-3-13" feild1=""  feild2="">
+			</node>
+			<node title="WRITING: Poetry" id="184" type = "SubSection"  tocNodeID="1-4-3-14" feild1=""  feild2="">
+			</node>
+	</node>
+        	<node title="WRAP UP THE UNIT" id="192" type = "Section"  tocNodeID="1-4-4"  feild1=""  feild2="">
+			<node title="Expository Text: &quot;Solving Local Problems&quot;" id="192" type = "SubSection"  tocNodeID="1-4-4-1" feild1=""  feild2="">
+			</node>
+			<node title="Historical Fiction: &quot;Welcome to America&quot;" id="195" type = "SubSection"  tocNodeID="1-4-4-2" feild1=""  feild2="">
+			</node>
+			<node title="Comparing Genres" id="198" type = "SubSection"  tocNodeID="1-4-4-3" feild1=""  feild2="">
+			</node>
+			<node title="Homographs" id="199" type = "SubSection"  tocNodeID="1-4-4-4" feild1=""  feild2="">
+			</node>
+			<node title="Connect to Content" id="200" type = "SubSection"  tocNodeID="1-4-4-5" feild1=""  feild2="">
+			</node>
+			<node title="What Did You Learn?" id="202" type = "SubSection"  tocNodeID="1-4-4-6" feild1=""  feild2="">
+			</node>
+			<node title="Research and Inquiry" id="203" type = "SubSection"  tocNodeID="1-4-4-7" feild1=""  feild2="">
+			</node>
+	</node>
+    </node>
+
+</XMLList>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<package version="2.0" xmlns="http://www.idpf.org/2007/opf" unique-identifier="bookid">
+	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+		<meta name="generator" content="Adobe InDesign 12.1" />
+		<dc:title>Escucha, ama, repite </dc:title>
+		<dc:creator>Karen Ehman</dc:creator>
+		<dc:subject>Vida cristiana - Crecimiento espiritual - General</dc:subject>
+		<dc:publisher>Unilit</dc:publisher>
+		<dc:date>2018-04-04T21:31:46Z</dc:date>
+		<dc:rights>© Unilit</dc:rights>
+		<dc:language>es</dc:language>
+		<dc:identifier id="bookid">urn:uuid:79299A63-B93E-4364-A32B-DBC2E976B152</dc:identifier>
+		<dc:identifier xmlns:opf="http://www.idpf.org/2007/opf" opf:scheme="ISBN">9780789923592</dc:identifier>
+		<meta name="cover" content="cover-image"/>
+	</metadata>
+	<manifest>
+		<item id="cover-image" href="image/portada.png" media-type="image/png" />
+		<item id="escucha" href="escucha.xhtml" media-type="application/xhtml+xml" />
+		<item id="escucha-1" href="escucha-1.xhtml" media-type="application/xhtml+xml" />
+		<item id="escucha-2" href="escucha-2.xhtml" media-type="application/xhtml+xml" />
+		<item id="escucha-3" href="escucha-3.xhtml" media-type="application/xhtml+xml" />
+		<item id="escucha-4" href="escucha-4.xhtml" media-type="application/xhtml+xml" />
+		<item id="escucha-5" href="escucha-5.xhtml" media-type="application/xhtml+xml" />
+		<item id="escucha-6" href="escucha-6.xhtml" media-type="application/xhtml+xml" />
+		<item id="escucha-7" href="escucha-7.xhtml" media-type="application/xhtml+xml" />
+		<item id="escucha-8" href="escucha-8.xhtml" media-type="application/xhtml+xml" />
+		<item id="escucha-9" href="escucha-9.xhtml" media-type="application/xhtml+xml" />
+		<item id="escucha-10" href="escucha-10.xhtml" media-type="application/xhtml+xml" />
+		<item id="escucha-11" href="escucha-11.xhtml" media-type="application/xhtml+xml" />
+		<item id="escucha-12" href="escucha-12.xhtml" media-type="application/xhtml+xml" />
+		<item id="escucha-13" href="escucha-13.xhtml" media-type="application/xhtml+xml" />
+		<item id="escucha-14" href="escucha-14.xhtml" media-type="application/xhtml+xml" />
+		<item id="escucha-15" href="escucha-15.xhtml" media-type="application/xhtml+xml" />
+		<item id="escucha-16" href="escucha-16.xhtml" media-type="application/xhtml+xml" />
+		<item id="escucha-17" href="escucha-17.xhtml" media-type="application/xhtml+xml" />
+		<item id="escucha-18" href="escucha-18.xhtml" media-type="application/xhtml+xml" />
+		<item id="escucha-19" href="escucha-19.xhtml" media-type="application/xhtml+xml" />
+		<item id="escucha-20" href="escucha-20.xhtml" media-type="application/xhtml+xml" />
+		<item id="escucha-21" href="escucha-21.xhtml" media-type="application/xhtml+xml" />
+		<item id="escucha-22" href="escucha-22.xhtml" media-type="application/xhtml+xml" />
+		<item id="escucha-23" href="escucha-23.xhtml" media-type="application/xhtml+xml" />
+		<item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml" />
+		<item id="idGeneratedStyles.css" href="css/idGeneratedStyles.css" media-type="text/css" />
+		<item id="AGaramondPro-Bold.otf" href="font/AGaramondPro-Bold.otf" media-type="application/vnd.ms-opentype" />
+		<item id="AGaramondPro-Italic.otf" href="font/AGaramondPro-Italic.otf" media-type="application/vnd.ms-opentype" />
+		<item id="AGaramondPro-Regular.otf" href="font/AGaramondPro-Regular.otf" media-type="application/vnd.ms-opentype" />
+		<item id="HelveticaNeueLTStd-Bd.otf" href="font/HelveticaNeueLTStd-Bd.otf" media-type="application/vnd.ms-opentype" />
+		<item id="HelveticaNeueLTStd-BdCn.otf" href="font/HelveticaNeueLTStd-BdCn.otf" media-type="application/vnd.ms-opentype" />
+		<item id="HelveticaNeueLTStd-Cn.otf" href="font/HelveticaNeueLTStd-Cn.otf" media-type="application/vnd.ms-opentype" />
+		<item id="HelveticaNeueLTStd-It.otf" href="font/HelveticaNeueLTStd-It.otf" media-type="application/vnd.ms-opentype" />
+		<item id="HelveticaNeueLTStd-Lt.otf" href="font/HelveticaNeueLTStd-Lt.otf" media-type="application/vnd.ms-opentype" />
+		<item id="HelveticaNeueLTStd-LtIt.otf" href="font/HelveticaNeueLTStd-LtIt.otf" media-type="application/vnd.ms-opentype" />
+		<item id="HelveticaNeueLTStd-Roman.otf" href="font/HelveticaNeueLTStd-Roman.otf" media-type="application/vnd.ms-opentype" />
+		<item id="capt1.png" href="image/capt1.png" media-type="image/png" />
+		<item id="capt10.png" href="image/capt10.png" media-type="image/png" />
+		<item id="capt2.png" href="image/capt2.png" media-type="image/png" />
+		<item id="capt3.png" href="image/capt3.png" media-type="image/png" />
+		<item id="capt4.png" href="image/capt4.png" media-type="image/png" />
+		<item id="capt5.png" href="image/capt5.png" media-type="image/png" />
+		<item id="capt6.png" href="image/capt6.png" media-type="image/png" />
+		<item id="capt7.png" href="image/capt7.png" media-type="image/png" />
+		<item id="capt8.png" href="image/capt8.png" media-type="image/png" />
+		<item id="capt9.png" href="image/capt9.png" media-type="image/png" />
+		<item id="corazon.png" href="image/corazon.png" media-type="image/png" />
+		<item id="deco-cor1.png" href="image/deco-cor1.png" media-type="image/png" />
+		<item id="deco-cor11.png" href="image/deco-cor11.png" media-type="image/png" />
+		<item id="deco-cor2.png" href="image/deco-cor2.png" media-type="image/png" />
+		<item id="deco.png" href="image/deco.png" media-type="image/png" />
+		<item id="deco3.png" href="image/deco3.png" media-type="image/png" />
+		<item id="flor_1.png" href="image/flor_1.png" media-type="image/png" />
+		<item id="flor_10.png" href="image/flor_10.png" media-type="image/png" />
+		<item id="flor_10_2.png" href="image/flor_10_2.png" media-type="image/png" />
+		<item id="flor_11.png" href="image/flor_11.png" media-type="image/png" />
+		<item id="flor_12.png" href="image/flor_12.png" media-type="image/png" />
+		<item id="flor_12_2.png" href="image/flor_12_2.png" media-type="image/png" />
+		<item id="flor_13.png" href="image/flor_13.png" media-type="image/png" />
+		<item id="flor_14.png" href="image/flor_14.png" media-type="image/png" />
+		<item id="flor_14_2.png" href="image/flor_14_2.png" media-type="image/png" />
+		<item id="flor_15.png" href="image/flor_15.png" media-type="image/png" />
+		<item id="flor_15_2.png" href="image/flor_15_2.png" media-type="image/png" />
+		<item id="flor_16.png" href="image/flor_16.png" media-type="image/png" />
+		<item id="flor_16_2.png" href="image/flor_16_2.png" media-type="image/png" />
+		<item id="flor_1_2.png" href="image/flor_1_2.png" media-type="image/png" />
+		<item id="flor_2.png" href="image/flor_2.png" media-type="image/png" />
+		<item id="flor_2_2.png" href="image/flor_2_2.png" media-type="image/png" />
+		<item id="flor_3.png" href="image/flor_3.png" media-type="image/png" />
+		<item id="flor_3_2.png" href="image/flor_3_2.png" media-type="image/png" />
+		<item id="flor_4.png" href="image/flor_4.png" media-type="image/png" />
+		<item id="flor_4_2.png" href="image/flor_4_2.png" media-type="image/png" />
+		<item id="flor_5.png" href="image/flor_5.png" media-type="image/png" />
+		<item id="flor_5_2.png" href="image/flor_5_2.png" media-type="image/png" />
+		<item id="flor_6.png" href="image/flor_6.png" media-type="image/png" />
+		<item id="flor_6_2.png" href="image/flor_6_2.png" media-type="image/png" />
+		<item id="flor_7.png" href="image/flor_7.png" media-type="image/png" />
+		<item id="flor_8.png" href="image/flor_8.png" media-type="image/png" />
+		<item id="flor_8_2.png" href="image/flor_8_2.png" media-type="image/png" />
+		<item id="flor_9.png" href="image/flor_9.png" media-type="image/png" />
+		<item id="img-reco.png" href="image/img-reco.png" media-type="image/png" />
+		<item id="portadilla.png" href="image/portadilla.png" media-type="image/png" />
+	</manifest>
+	<spine toc="ncx">
+		<itemref idref="escucha" />
+		<itemref idref="escucha-1" />
+		<itemref idref="escucha-2" />
+		<itemref idref="escucha-3" />
+		<itemref idref="escucha-4" />
+		<itemref idref="escucha-5" />
+		<itemref idref="escucha-6" />
+		<itemref idref="escucha-7" />
+		<itemref idref="escucha-8" />
+		<itemref idref="escucha-9" />
+		<itemref idref="escucha-10" />
+		<itemref idref="escucha-11" />
+		<itemref idref="escucha-12" />
+		<itemref idref="escucha-13" />
+		<itemref idref="escucha-14" />
+		<itemref idref="escucha-15" />
+		<itemref idref="escucha-16" />
+		<itemref idref="escucha-17" />
+		<itemref idref="escucha-18" />
+		<itemref idref="escucha-19" />
+		<itemref idref="escucha-20" />
+		<itemref idref="escucha-21" />
+		<itemref idref="escucha-22" />
+		<itemref idref="escucha-23" />
+	</spine>
+	<guide>
+		<reference type="cover" title="Portada" href="escucha.xhtml" />
+		<reference type="title-page" title="Portadilla" href="escucha-1.xhtml" />
+		<reference type="toc" title="Tabla_de_Contenidos" href="escucha-4.xhtml" />
+	</guide>
+</package>

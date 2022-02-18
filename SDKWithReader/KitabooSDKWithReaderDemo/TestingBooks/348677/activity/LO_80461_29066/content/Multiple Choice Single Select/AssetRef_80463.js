@@ -1,0 +1,1 @@
+var assetRef='<?xml version="1.0" encoding="UTF-8"?><assets><asset><id>IMG_8F8C0A6D2506AC4</id><url>assets/images/laboratory_equipment_list_46095.jpg</url></asset></assets>';

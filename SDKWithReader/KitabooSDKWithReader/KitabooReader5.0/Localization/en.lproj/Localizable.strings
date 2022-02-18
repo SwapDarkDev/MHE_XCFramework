@@ -1,0 +1,379 @@
+/*
+ Localizable.strings
+ KItabooSDK
+ 
+ Copyright © 2017 Hurix Systems. All rights reserved.
+ */
+"EPUB_LOADED_MSG" = "ePub player loaded";
+"PAGE_LOADED" = "Page has been loaded";
+"PAGE_ZOOM_IN" = "The Page has been Zoomed In";
+"PAGE_ZOOM_OUT" = "The Page has been Zoomed Out";
+"FONT_FILE_MISSING" = "Font file is missing";
+"PAGE" ="Page";
+"OK" = "Ok";
+"ARE_YOU_SURE_YOU_WANT_TO_SHARE_THIS_NOTE_ALERT" = "Are you sure you want to share this note?";
+"Me" = "Me";
+"BOOK_OPEN_MSG" = "Book initialisation started";
+"BOOK_OPEN_ERROR_MSG" = "Initialising of book failed";
+
+//Reader
+"FAILED_TO_SAVE_SCROM_DATA" = "Unable to save data scrom data";
+"FAILED_TO_FETCH_SCROM_DATA" = "Unable to fetch data scrom data";
+"FAILED_TO_SAVE_HIGHLIGHT_DATA" = "Unable to save highlights data";
+"FAILED_TO_ACCEPT_OR_REJECT_DATA" = "Unable to accept or reject the data";
+"FAILED_TO_SAVE_COLLAB_DATA" = "Unable to save collab data";
+
+//Help Screen
+"HELP_GOT_IT_BUTTON" = "GOT IT";
+"HELP_SKIP_BUTTON" = "SKIP";
+
+"HELP_HOME_BUTTON_TITLE" = "Home";
+"HELP_HOME_BUTTON_DETAIL" = "Redirect to library";
+"HELP_TOC_BUTTON_TITLE" = "Table of Content";
+"HELP_TOC_BUTTON_DETAIL" = "Brief listing of the content";
+"HELP_MY_DATA_BUTTON_TITLE" = "My Data";
+"HELP_MY_DATA_BUTTON_DETAIL" = "Consolidated view of notes and highlights";
+"HELP_MY_DATA_HIGHLIGHT_BUTTON_DETAIL" = "Consolidated view of highlights";
+"HELP_MY_DATA_NOTE_BUTTON_DETAIL" = "Consolidated view of notes";
+"HELP_PEN_TOOL_BUTTON_TITLE" = "Pen Tool";
+"HELP_PEN_TOOL_BUTTON_DETAIL" = "Annotate and doodle in different colors";
+"HELP_NOTE_BUTTON_TITLE" = "Add Note";
+"HELP_NOTE_BUTTON_DETAIL" = "Make notes and share";
+"HELP_SUBMIT_BUTTON_TITLE" = "Submit";
+"HELP_SUBMIT_BUTTON_DETAIL" = "Submit all data";
+"HELP_THUMBNAIL_BUTTON_TITLE"="Thumbnail";
+"HELP_THUMBNAIL_BUTTON_DETAIL" = "Thumbnail view of the content";
+"HELP_SEARCH_BUTTON_DETAIL" = "Search words in the content";
+"HELP_SETTING_BUTTON_DETAIL" = "See detail analysis";
+"HELP_PROFILE_BUTTON_TITLE" = "Profile";
+"HELP_PROFILE_BUTTON_DETAIL" = "Personalize your settings";
+"HELP_FONT_SETTING_BUTTON_TITLE" = "Font Setting";
+"HELP_FONT_SETTING_BUTTON_DETAIL" = "Personalize your font";
+"HELP_MORE_SETTINGS_BUTTON_TITLE" = "More Settings";
+"HELP_MORE_SETTINGS_BUTTON_DETAIL" = "Click to see more tools";
+"HELP_PROTRACTOR_BUTTON_TITLE" = "Protractor";
+"HELP_PROTRACTOR_BUTTON_DETAIL" = "Tap here to draw angles";
+"HELP_ADDTEXT_BUTTON_TITLE" = "Text Annotation";
+"HELP_ADDTEXT_BUTTON_DETAIL" = "Add Text Annotation on page";
+"HELP_BOOKMARK_BUTTON_TITLE" = "Bookmark";
+"HELP_BOOKMARK_BUTTON_DETAIL" = "Bookmark this page";
+"HELP_ERASER_BUTTON_TITLE" = "Eraser";
+"HELP_ERASER_BUTTON_DETAIL" = "Erase your data";
+"HELP_CLEAR_BUTTON_TITLE" = "Clear";
+"HELP_CLEAR_BUTTON_DETAIL" = "Clear your data";
+"HELP_UNDO_BUTTON_TITLE" = "Undo";
+"HELP_UNDO_BUTTON_DETAIL" = "Undo your data";
+"HELP_ARROW_BUTTON_TITLE" = "Arrow";
+"HELP_ARROW_BUTTON_DETAIL" = "Go forword and backword in the content";
+"HELP_DONE_BUTTON_DETAIL" = "Submit your edit";
+"HELP_STUDENT_PROFILE_BUTTON_TITLE" = "Student Profile";
+"HELP_STUDENT_PROFILE_BUTTON_DETAIL" = "View and change from student list";
+"HELP_MARKER_BUTTON_TITLE" = "Marker";
+"HELP_MARKER_BUTTON_DETAIL" = "Annotate and doodle in green and red";
+"HELP_PREV_STUDENT_TITLE" = "Previous Student";
+"HELP_PREV_STUDENT_DETAIL" = "Go to the previous student";
+"HELP_NEXT_STUDENT_TITLE" = "Next Student";
+"HELP_NEXT_STUDENT_DETAIL" = "Go to the next student";
+"HELP_DRAG_BOX_STUDENT_TITLE" = "Drag Box";
+"HELP_DRAG_BOX_STUDENT_DETAIL" = "Click and drag for group selection";
+"HELP_GENERATE_REPORT_STUDENT_TITLE" = "Generate report";
+"HELP_GENERATE_REPORT_STUDENT_DETAIL" = "Click to download student report";
+"HELP_FURTHEST_PAGE_TITLE" = "Furthest Page";
+"HELP_FURTHEST_PAGE_DETAIL" = "Click to go to the furthest page";
+
+//Alerts
+"DO_YOU_WISH_TO_DELETE_THIS_NOTE_ALERT" = "Do you wish to delete this note?";
+"YES_ALERT_BUTTON" = "Yes";
+"NO_ALERT_BUTTON" = "No";
+"THIS_ANSWER_IS_ALREADY_SUBMITTED_AND_CANNOT_CHANGED" = "Sorry, this answer is already submitted and cannot be changed";
+"NO_DATA_TO_SUBMIT" = "No data to Submit";
+"SUBMIT_DATA" = "Submit Data";
+"ANSWER_WILL_BE_SUBMITTED_AND_CANNOT_BE_CHANGED" = "Answer will be submitted and cannot be Changed.Do you wish to continue?";
+"YOUR_DATA_HAS_BEEN_SUCCESSFULLY_SAVED" = "Your data has been\n successfully saved";
+"FAILED_TO_SUBMIT_ANOTATIONS" = "Failed to Submit Anotations";
+"FAILED_TO_SAVE_STUDENT_ANOTATION" = "Unable to save data, Please try again...";
+"FAILED_TO_FETCH_UGC" = "Failed to fetch UGC";
+"UGC_SYNCHING_FAILED" = "UGC Syncing failed";
+"HAS_NOT_SUBMITTED_ANY_ANSWER" = " has not submitted\n any answers";
+"FAILED_TO_SAVE_ANOTATION" = "Failed to save anotation";
+"YOUR_SESSION_HAS_EXPIRED" = "Your Session has Expired";
+"PLEASE_SIGN_IN_AGAIN" = "Please Sign in again";
+"INCORRECT_ANSWER_TEXT" = "That is an incorrect answer!\nCorrect answer is ";
+
+//My data
+"NO_SHARED_NOTES_KEY" = "No shared notes found";
+"NO_SHARED_HIGHLIGHTS_KEY" = "No shared highlights found";
+"NO_HIGHLIGHTS_KEY" = "No highlights found.";
+"NO_NOTES_KEY" = "No notes found.";
+"My_Data:_Notification" = "My Data: Highlights";
+"Notes_added/shared_with_will_appear_color_coded_on_the_basis_of_recently_create/shared" = "Notes added/shared will appear color coded on the basis of recently created/shared";
+"Highlight_text_to_add_a_note_or_mark them_as_important" = "Highlight text to add a note or mark them as important";
+"HIGHLIGHTS_KEY" = "Highlights";
+"NOTES_KEY" = "Notes";
+"MY_DATA_COMMENTS" = "  Comments %@";
+"MY_DATA_RECEIVE" = "Receive";
+"MY_DATA_STARTED_SHARING_DATA_WITH_YOU" = "started sharing data with you.";
+
+//Months
+"January" = "January";
+"February" = "February";
+"March" = "March";
+"April" = "April";
+"May" = "May";
+"June" = "June";
+"July" = "July";
+"August" = "August";
+"September" = "September";
+"October" = "October";
+"November" = "November";
+"December" = "December";
+
+/*
+ Read To me Header Texts
+ */
+"READALOUD_READ_TO_ME_TEXT" = "Select to open the book in read-aloud mode on page-by-page basis";
+"READALOUD_LET_ME_READ_TEXT" = "Select to open the book without audio";
+"READALOUD_AUTOPLAY_TEXT" = "Select to open the book in read-aloud mode with auto-flip to the next page";
+"READALOUD_CHOOSE_YOUR_MODE_TEXT" = "Choose your mode";
+
+"READALOUD_LET_ME_READ_BUTTON_TEXT" = "Let me read";
+"READALOUD_AUTOPLAY_BUTTON_TEXT" = "Auto play";
+"READALOUD_READ_TO_ME_BUTTON_TEXT" = "Read to me";
+
+"NO_DATA" = "No Data";
+"MY_NOTES" = "My Notes";
+"MY_HIGHLIGHTS" = "My Highlights";
+
+//Teacher Review
+"SELECT_STUDENT" = "Select Student";
+"DONE" = "Done";
+"CLASS" = "Class";
+"ALL_STUDENTS" = "All Students";
+"REFRESH" = "REFRESH";
+"SELECT_CLASS" = "Select Class";
+"SELECT_STUDENT" = "Select Student";
+"ANNOTATIONS" = "Annotations";
+"CHANGE_CLASS" = "Change";
+"RESET_ALL" = "Reset all";
+"RESET_DETAIL" = "This will reset the Submitted Text input and Annotation entries, It's an irreversible process.";
+"CURRENT_PAGE" = "Current page";
+"ALL_PAGES" = "All the pages";
+"LEARNER" = "Learner";
+
+//Text Search
+"SEARCH_WITH_KEYWORDS" = "Search with keywords";
+
+//ShareSettings
+"ANNOTATIONS_SHARING_NOT_ALLOWED" = "Annotations sharing not allowed for this class";
+"SETTINGS" = "Settings";
+"SHARE_NOTE" = "Share Note";
+"SHARE" = "Share";
+"ALL TEACHERS" = "All Teachers";
+
+//Thumbnail
+"GO_TO" ="Go to";
+"THUMBNAILS" = "Thumbnails";
+"PLEASE_ENTER_PAGE_NUMBER_ALERT" = "Please Enter Page number";
+"ERROR_ALERT_TITLE" = "Error";
+"PLEASE_ENTER_VALID_PAGE_NUMBER_ALERT" = "Please enter valid page number";
+
+//StickyNote
+"PLEASE_TAP_INSIDE_THE_PAGE_TO_ADD STICKYNOTE" = "Please tap inside the page to add stickynote";
+"Enter_Note" = "Enter note";
+"Save_Changes" = "Save Changes";
+"Do_you_wish_to_save_changes" = "Do you wish to save changes?";
+"Delete_note" = "Delete note";
+"NOTE" = "Note";
+"WRITE_YOUR_COMMENT_HERE" = "Write your comment here";
+
+//KitabooTOC
+"NO_TOC_Data" = "No TOC Data";
+"NO_RESOURCE_DATA" = "No Resource Data";
+"NO_BOOKMARK_DATA" = "No Bookmark Data";
+"Table_of_Resources" = "Table of Resources";
+"Table_of_Content" = "Table of Contents";
+"Your_added_bookmarks_will_be_listed_here" = "Your added bookmarks will be listed here";
+"NO_INTERNAL_RESOURCES" = "No internal resources are available";
+"INTERNAL_RESOURCES" = "Internal Resources";
+"EXTERNAL_RESOURCES" = "External Resources";
+"Content" = "Contents";
+"TEKS" = "TEKS";
+"ELPS" = "ELPS";
+"Standards" = "Standards";
+"Resources" = "Resources";
+
+//TextAnnotation
+"DELETE_TEXT_ANNOTATION_MESSAGE" = "Are you sure you want to delete?\nThis action is irreversible";
+"TEXT_ANNOTATION_CAN_NOT_ADD_VIEW" = "Text Annotation cannot be added on this view";
+"TEXT_ANNOTATION_CAN_NOT_ADD" = "Please add text annotation on any of the pages.";
+
+//ReaderViewController
+"SEARCH" = "Search";
+"LOADING_DATA" = "Loading Data..";
+"Delete_Highlight" = "Delete Highlight";
+"Do_you_wish_to_delete_highlight" = "Do you wish to delete highlight?";
+
+//Kaltura Video Player Alert
+"KALTURA_INITIALIZATION_ERROR_MESSAGE_KEY"  =   "Error occurred while initializing Kaltura video";
+
+//SEARCH VIEW
+"search_result_not_found" = "search result not found";
+"GENERATING_SEARCH_RESULT" = "Generating search result...";
+//Just now
+"JUST_NOW" = "Just now";
+
+//Teacher Annotation.
+"RETRY" = "RETRY";
+"DO_YOU_WISH_TO_DELETE_ALL_DOODLES" = "All the data on this page will be cleared. Do you wish to continue?";
+"DATA_SUBMITTED_SUCCESSFULLY" = "Data submitted successfully.";
+"ALERT_BUTTON" = "Alert!";
+"SAVING_THE_DATA" = "Saving the data...";
+
+//FilerViewController
+"Filter_All" = "All";
+"Contextual_notes" = "Contextual notes";
+"FILTER_BY" = "Filter by";
+"NOTES_FILTER_BY" = "Notes filter by";
+"Highlights_filter_by" = "Highlights filter by";
+"CONTEXTUAL_NOTES_FILTER_BY" = "Contextual notes filter by";
+
+//Protractor
+"PROTRACTOR_NOT_AVAILABLE_IN_LANDSCAPE_ALERT_TITLE" = "";
+"THE_FEATURE_CAN_BE_BEST_USED_IN_ONE_PAGE_VIEW_PLEASE_SWITCH_TO_ONE_PAGE_VIEW" = "The feature can be best used in one page view, please switch to one page view.";
+"PROTRACTOR_ALERT_MSG"="Are you sure you want to delete?";
+
+//Bookmark
+"ADD_BOOKMARK_PLACEHOLDER_KEY"  =   "Add bookmark title";
+
+//Equation Editor
+"EE_DATA_DELETE_TITLE"="Switch Keyboard";
+"EE_DATA_DELETE_MESSAGE"="Your data will be deleted, Are you sure you want to switch?";
+"NOTE_CAN_NOT_MOVE_NEAR_BOOKMARK_MESSAGE_KEY"  =  "You cannot move note near to bookmark or markup area.";
+"SORRY_KEY" = "Sorry";
+
+//BOTTOMBAR FOR PHONE
+"INTERNET_UNAVAILABLE_MESSAGE" = "You are offline. Check your internet connection and try again.";
+"FAILED_ALERT_TITLE" = "Failed";
+
+//DropDown
+"SELECT_KEY"   =   "Select";
+
+"MY_DATA_ACCEPT" = "Accept";
+"MY_DATA_DECLINE" = "Decline";
+
+
+//Clear All Data
+"CLEAR_DATA_ALERT_TITILE_KEY"           =   "Clear Data";
+"CLEAR_DATA_ALERT_MESSAGE"              =   "Answers will be cleared. Do you wish to continue?";
+
+//Html Activity
+"INTERNET_NOT_AVAILABLE_ACTIVITY"="No Internet Connection.";
+
+//Epub font setting
+"FONTSETTING_LAYOUT_TITLE" = "Font Settings";
+"FONTSETTING_RESET_TITLE" = "Reset to default";
+
+"FONTSETTING_FONTFAMILY_TITLE" = "Font";
+"FONTSETTING_FONTFAMILY_DEFAULT" = "Default";
+"FONTSETTING_ALIGNMENT_TITLE" = "Align";
+"FONTSETTING_LINESPACING_TITLE" = "Line Spacing";
+"FONTSETTING_MARGIN_TITLE" = "Margins";
+"FONTSETTING_READERMODE_TITLE" = "Mode";
+"FONTSETTING_SCROLLMODE_TITLE" = "Scroll Mode";
+
+//AudioBook
+
+//Narration Speed
+"NARRATION_SPEED_TITLE" = "Narration Speed";
+"CANCEL" = "Cancel";
+"APPLY" = "Apply";
+
+//TOC
+"CHAPTERS" = "Chapters";
+"TRANSCRIPT" = "Transcript";
+"BOOKMARKS" = "Bookmarks";
+
+//TOC MultiLevel Chapter
+"HOURS" = "Hrs";
+"MINUTE" = "Min";
+"MINUTES" = "Mins";
+"SECONDS" = "Secs";
+
+//Bookmark
+"Add Bookmark" = "Add Bookmark";
+"Delete Bookmark" = "Delete Bookmark";
+"DELETE" = "Delete";
+"ADD" = "Add";
+"TYPE_SOMETHING_HERE" = "Type something here";
+
+//Reflowable Slider Page Count
+"CHAPTER_KEY" = "Chapter";
+"OF_KEY" = "of";
+"MIN_LEFT" = "min left";
+
+//Resources
+"The Internet connection appears to be offline." = "The Internet connection appears to be offline.";
+"RESOURCE_NOT_FOUND"= "Resources Not Found!";
+"MARKUP_NOT_SUPPORTED" = "This markup type is not supported.";
+
+//Error Message
+"UNKNOWN_ERROR" = "Unknown error occured";
+"INVALID_RESPONSE_RECEIVED" = "Invalid Response Received.";
+
+//AudioBook Sleep Timer
+"SLEEP_MODE" = "Sleep Mode";
+"SLEEP_TIMER_OFF" = "Sleep timer off";
+"MIN" = "min";
+"CUSTOM" = "Custom";
+"SET_CUSTOM_TIME" = "Set custom time";
+"OK_BUTTON" = "OK";
+
+
+//Generate Report
+"GENERATE_REPORT" = "Generate Report";
+"SELECT_STUDENT_FOR_REVIEW" = "Select student to review";
+"GENERATE_REPORT_TITLE" = "Generated Report";
+"GENERATE_REPORT_MESSAGE" = "\n Generated report will share on your registered email ID";
+"GENERATE_REPORT_PLACEHOLDER" = "Enter another email ID";
+"GENERATE_REPORT_MESSAGE_CONF" = "You will receive the report at the email shared within 30min from";
+"GENERATE_REPORT_LABEL_TITLE" = "Generate Report";
+"GENERATE_REPORT_LABEL_MESSAGE" = "Select Chapter & Student to generate report";
+"GENERATE_REPORT_CANCEL_BUTTON" = "Cancel";
+"GENERATE_REPORT_NEXT_BUTTON" = "Next";
+"SELECT_CHAPTER" = "Select Chapter";
+"SELECT_STUDENT" = "Select Student";
+"GENERATE_REPORT_ALL" = "All";
+"GENERATE_REPORT_ALL_STUDENTS" = "All Students";
+"GENERATE_REPORT_ONLY_ATTEMPTED" = "Only Attempted";
+"GENERATE_REPORT_ALL_STUDENTS_COUNT" = "All Students";
+"GENERATE_REPORT_MAIL_SUCCESS_TITLE" = "Success";
+"GENERATE_REPORT_MAIL_SUCCESS_MESSAGE" = "Report sent successfully to the user";
+"SOMETHING_WENT_WRONG" = "Sorry,Something went wrong.Please try again";
+"GENERATE_REPORT_NO_KEY" = "Kindly update the eBook again to view the table of content or contact the administrator for more details.";
+"INVALID_EMAIL_MESSAGE" = "Please enter a valid email id.";
+
+"WATERMARK_TEXT" = "This work is protected by law, including but not limited to United States Copyright law and international treaties. All Rights Reserved by the publisher and/or licensor";
+
+//Furthest Page
+"FURTHEST_PAGE_NOT_SUPPORTED" = "Furthest Page Not Supported";
+"YOU_ARE_ALREADY_ON_FURTHEST_PAGE" = "You are already on the furthest page";
+
+//MultiAudio Support
+"LANGUAGE" = "Language";
+"QUALITY" = "Quality";
+"SUBTITLES_CC" = "Subtitles/cc";
+"SUBTITLES_CC_TURNED_ON" = "Subtitle/cc turned on ";
+"ON_KEY" = "ON";
+"OFF_KEY" = "OFF";
+"QUALITY_PIXEL_KEY" = "p";
+
+//External Resource
+"LOADING_FAILED" = "Loading Failed...";
+
+//MediaBook Download
+"BOOK_DOWNLOADED_DATA_CURRUPTION_ERROR" = "This Playlist's downloaded data has been corrupted, Please delete the book and re-download it.";
+
+//Print My Data
+"PRINT_KEY" = "Print";
+"BOTH_KEY" = "Both";
+"NOTE_CELL_PAGE_KEY" = "Page";

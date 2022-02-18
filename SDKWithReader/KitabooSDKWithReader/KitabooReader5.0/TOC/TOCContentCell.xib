@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="kitabooread.ttf">
+            <string>kitabooread</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="TOCContentCell" id="KGk-i7-Jjw" customClass="TOCContentCell" customModule="Kitaboo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OBn-dI-QXx">
+                        <rect key="frame" x="0.0" y="0.0" width="260" height="42.5"/>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cyv-Ma-OPo">
+                        <rect key="frame" x="14" y="12" width="236" height="19.5"/>
+                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cYW-JZ-Eua">
+                        <rect key="frame" x="0.0" y="42.5" width="320" height="1"/>
+                        <color key="backgroundColor" red="0.83921568627450982" green="0.83921568627450982" blue="0.85098039215686272" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="2Qi-dX-l1d"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="n1e-hq-EFs">
+                        <rect key="frame" x="0.0" y="0.0" width="6" height="43.5"/>
+                        <color key="backgroundColor" red="0.37254901959999998" green="0.72941176470000002" blue="0.92549019610000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="6" id="SZY-aM-Gbh"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Peg-xN-3sP">
+                        <rect key="frame" x="14" y="12" width="0.0" height="0.0"/>
+                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j3s-uW-W7k">
+                        <rect key="frame" x="260" y="0.0" width="50" height="43.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" priority="750" constant="50" id="FdK-uH-jpu"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="kitabooread" family="kitabooread" pointSize="19.399999618530273"/>
+                        <state key="normal" title="7">
+                            <color key="titleColor" red="0.36470588240000001" green="0.36862745099999999" blue="0.36470588240000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </state>
+                        <state key="selected" title="6"/>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="cYW-JZ-Eua" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="3yB-xk-AAn"/>
+                    <constraint firstItem="j3s-uW-W7k" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="6nR-al-72x"/>
+                    <constraint firstItem="Cyv-Ma-OPo" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="12" id="8jd-eP-usa"/>
+                    <constraint firstItem="n1e-hq-EFs" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="B7j-ya-sac"/>
+                    <constraint firstItem="Peg-xN-3sP" firstAttribute="top" secondItem="Cyv-Ma-OPo" secondAttribute="top" id="F9W-D0-qb0"/>
+                    <constraint firstAttribute="trailing" secondItem="j3s-uW-W7k" secondAttribute="trailing" priority="750" constant="10" id="H4O-w3-MDW"/>
+                    <constraint firstAttribute="trailing" secondItem="cYW-JZ-Eua" secondAttribute="trailing" id="HR0-5m-tlZ"/>
+                    <constraint firstItem="cYW-JZ-Eua" firstAttribute="top" secondItem="OBn-dI-QXx" secondAttribute="bottom" id="JOM-St-zKe"/>
+                    <constraint firstItem="n1e-hq-EFs" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Jha-5X-hmm"/>
+                    <constraint firstItem="j3s-uW-W7k" firstAttribute="bottom" secondItem="n1e-hq-EFs" secondAttribute="bottom" id="Mnz-LS-h5b"/>
+                    <constraint firstItem="j3s-uW-W7k" firstAttribute="leading" secondItem="OBn-dI-QXx" secondAttribute="trailing" id="RLI-Ir-Bg7"/>
+                    <constraint firstAttribute="bottom" secondItem="cYW-JZ-Eua" secondAttribute="bottom" id="Rju-xw-wUn"/>
+                    <constraint firstItem="n1e-hq-EFs" firstAttribute="bottom" secondItem="cYW-JZ-Eua" secondAttribute="bottom" id="cD5-sk-nMy"/>
+                    <constraint firstItem="Cyv-Ma-OPo" firstAttribute="leading" secondItem="Peg-xN-3sP" secondAttribute="trailing" id="cmb-Pu-2aH"/>
+                    <constraint firstItem="OBn-dI-QXx" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="czs-Cu-TRz"/>
+                    <constraint firstAttribute="bottom" secondItem="Cyv-Ma-OPo" secondAttribute="bottom" constant="12" id="eoJ-Hs-WRT"/>
+                    <constraint firstItem="j3s-uW-W7k" firstAttribute="leading" secondItem="Cyv-Ma-OPo" secondAttribute="trailing" constant="10" id="gP4-gm-Ynk"/>
+                    <constraint firstItem="Peg-xN-3sP" firstAttribute="leading" secondItem="n1e-hq-EFs" secondAttribute="trailing" constant="8" id="lBG-xZ-HHB"/>
+                    <constraint firstItem="cYW-JZ-Eua" firstAttribute="leading" secondItem="Peg-xN-3sP" secondAttribute="leading" id="qSV-L5-IQV"/>
+                    <constraint firstItem="OBn-dI-QXx" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="sUe-0b-bVt"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="qSV-L5-IQV"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="barView" destination="n1e-hq-EFs" id="5sB-Wh-EO8"/>
+                <outlet property="cellLeadConstraint" destination="lBG-xZ-HHB" id="0lx-SQ-jkw"/>
+                <outlet property="dataLabel" destination="Cyv-Ma-OPo" id="EVy-13-VUS"/>
+                <outlet property="downArrowButton" destination="j3s-uW-W7k" id="gVe-zL-oGP"/>
+                <outlet property="levelLabel" destination="Peg-xN-3sP" id="F8o-2M-aCr"/>
+                <outlet property="sectionHeaderButton" destination="OBn-dI-QXx" id="ldf-Tw-oim"/>
+                <outlet property="seperatorConstraintFromLevelLabel" destination="qSV-L5-IQV" id="5eG-Yq-8MI"/>
+                <outlet property="seperatorSuperviewLeadingConstraint" destination="3yB-xk-AAn" id="fZc-gi-sFF"/>
+                <outlet property="seperatorView" destination="cYW-JZ-Eua" id="iMW-yF-JAu"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

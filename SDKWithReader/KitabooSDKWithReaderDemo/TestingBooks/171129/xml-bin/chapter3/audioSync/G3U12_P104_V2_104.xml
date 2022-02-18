@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cues gender="male" pausePeriod="0.02" type="wordsync">
+    <cue detection-type="user" end="1.085" start="0.725">
+        <text><![CDATA[every]]></text>
+        <x>465</x>
+        <y>39</y>
+        <width>126.97</width>
+        <height>74.43</height>
+    </cue>
+    <cue detection-type="user" end="1.375" start="1.085">
+        <text><![CDATA[vote]]></text>
+        <x>439</x>
+        <y>111</y>
+        <width>159.81</width>
+        <height>70.05</height>
+    </cue>
+    <cue detection-type="user" end="2.035" start="1.375">
+        <text><![CDATA[countss]]></text>
+        <x>424</x>
+        <y>183</y>
+        <width>176.23</width>
+        <height>74.43</height>
+    </cue>
+</cues>

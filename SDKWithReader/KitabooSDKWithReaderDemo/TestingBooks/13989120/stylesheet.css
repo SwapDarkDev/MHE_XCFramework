@@ -1,0 +1,312 @@
+@namespace h "http://www.w3.org/1999/xhtml";
+.MsoListParagraph {
+    display: block;
+    font-family: "Cambria", "serif";
+    font-size: 0.88889em;
+    line-height: 115%;
+    margin-bottom: 0.0001pt;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0
+    }
+.MsoNormal {
+    display: block;
+    font-family: "Cambria", "serif";
+    font-size: 0.88889em;
+    line-height: normal;
+    margin-bottom: 0.0001pt;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0
+    }
+.MsoNormal1 {
+    display: block;
+    font-family: "Cambria", "serif";
+    font-size: 0.88889em;
+    line-height: 115%;
+    margin-bottom: 10pt;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0
+    }
+.WordSection {
+    display: block;
+    page: WordSection1
+    }
+.bookheader {
+    display: block;
+    font-family: "Cambria", "serif";
+    font-size: 0.88889em;
+    line-height: 150%;
+    margin-bottom: 0.0001pt;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    mso-style-link: "book header Char";
+    mso-style-name: "book header"
+    }
+.bookpara {
+    display: block;
+    font-family: "Cambria", "serif";
+    font-size: 0.88889em;
+    line-height: 150%;
+    margin-bottom: 0.0001pt;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    mso-style-link: "book para Char";
+    mso-style-name: "book para";
+    text-indent: 0.2in
+    }
+.bookpara1 {
+    display: block;
+    font-family: "Cambria", "serif";
+    font-size: 0.88889em;
+    line-height: 115%;
+    margin-bottom: 0.0001pt;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    mso-style-link: "book para Char";
+    mso-style-name: "book para";
+    text-indent: 0
+    }
+.bookpara2 {
+    display: block;
+    font-family: "Cambria", "serif";
+    font-size: 0.88889em;
+    line-height: 150%;
+    margin-bottom: 0.0001pt;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    mso-style-link: "book para Char";
+    mso-style-name: "book para";
+    text-indent: 0
+    }
+.bookpara3 {
+    display: block;
+    font-family: "Cambria", "serif";
+    font-size: 0.88889em;
+    line-height: 150%;
+    margin-bottom: 0.0001pt;
+    margin-left: 0.2in;
+    margin-right: 0;
+    margin-top: 0;
+    mso-style-link: "book para Char";
+    mso-style-name: "book para";
+    text-indent: 0.2in
+    }
+.bookpara4 {
+    display: block;
+    font-family: "Cambria", "serif";
+    font-size: 0.88889em;
+    line-height: 150%;
+    margin-bottom: 0.0001pt;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    mso-style-link: "book para Char";
+    mso-style-name: "book para";
+    text-align: center;
+    text-indent: 0.2in
+    }
+.bookparaChar {
+    font-family: "Cambria", "serif";
+    mso-style-link: "book para";
+    mso-style-name: "book para Char"
+    }
+.booktitleChar {
+    font-family: "Cambria", "serif";
+    font-style: italic;
+    mso-style-link: "book title";
+    mso-style-name: "book title Char"
+    }
+.calibre {
+    display: block;
+    font-size: 1.125em;
+    margin-bottom: 0;
+    margin-left: 5pt;
+    margin-right: 5pt;
+    margin-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    page-break-before: always
+    }
+.calibre1 {
+    display: block;
+    font-size: 1.22222em;
+    font-weight: bold;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0.83em
+    }
+.calibre10 {
+    color: inherit;
+    cursor: inherit;
+    text-decoration: inherit
+    }
+.calibre11 {
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline
+    }
+.calibre12 {
+    font-size: 1em;
+    font-weight: normal
+    }
+.calibre13 {
+    line-height: 115%
+    }
+.calibre14 {
+    font-family: "Cambria", "serif";
+    font-size: 0.88889em;
+    line-height: 115%
+    }
+.calibre15 {
+    font-family: "Cambria", "serif";
+    font-size: 0.88889em
+    }
+.calibre16 {
+    color: #DA0000;
+    font-size: 1.375em
+    }
+.calibre17 {
+    font-family: "Cambria", "serif";
+    font-size: 1em;
+    line-height: 115%
+    }
+.calibre18 {
+    display: block;
+    font-family: "Cambria", "serif";
+    font-size: 1em;
+    font-weight: bold;
+    line-height: 115%;
+    margin-bottom: 10pt;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    mso-style-link: "Heading 1 Char";
+    page-break-before: always;
+    text-align: left
+    }
+.calibre19 {
+    font-family: "Cambria", "serif"
+    }
+.calibre2 {
+    font-weight: bolder
+    }
+.calibre20 {
+    font-family: "Cambria", "serif";
+    font-style: normal
+    }
+.calibre21 {
+    font-family: "Cambria", "serif";
+    font-size: 0.88889em;
+    line-height: 150%
+    }
+.calibre22 {
+    color: black;
+    font-size: 1.125em;
+    line-height: 150%
+    }
+.calibre23 {
+    text-decoration: underline
+    }
+.calibre24 {
+    font-size: 0.875em;
+    line-height: 150%
+    }
+.calibre25 {
+    color: red
+    }
+.calibre26 {
+    line-height: 150%
+    }
+.calibre27 {
+    color: blue;
+    line-height: 115%
+    }
+.calibre28 {
+    color: #333;
+    font-family: "Cambria", "serif";
+    font-size: 0.77778em
+    }
+.calibre29 {
+    color: #333;
+    font-size: 0.875em
+    }
+.calibre3 {
+    font-style: italic
+    }
+.calibre30 {
+    font-size: 1.125em;
+    line-height: 115%
+    }
+.calibre4 {
+    display: block;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 1em
+    }
+.calibre5 {
+    display: block
+    }
+.calibre6 {
+    font-family: Symbol
+    }
+.calibre7 {
+    font-family: "Cambria", "serif";
+    font-size: 1em
+    }
+.calibre8 {
+    display: block;
+    page-break-before: always
+    }
+.calibre9 {
+    font-size: 1.125em
+    }
+.copyright {
+    display: block;
+    font-family: "Cambria", "serif";
+    font-size: 0.88889em;
+    line-height: 115%;
+    margin-bottom: 10pt;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    mso-style-link: "copyright Char";
+    mso-style-name: copyright
+    }
+.linkcolor {
+    mso-style-name: linkcolor
+    }
+.title {
+    display: block;
+    font-family: "Cambria", "serif";
+    font-size: 1em;
+    font-weight: bold;
+    line-height: 150%;
+    margin-bottom: 0.0001pt;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    mso-style-link: "title Char";
+    mso-style-name: title
+    }
+.title1 {
+    display: block;
+    font-family: "Cambria", "serif";
+    font-size: 1em;
+    font-weight: bold;
+    line-height: 115%;
+    margin-bottom: 10pt;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    mso-style-link: "Heading 1 Char";
+    page-break-before: always;
+    text-align: justify
+    }

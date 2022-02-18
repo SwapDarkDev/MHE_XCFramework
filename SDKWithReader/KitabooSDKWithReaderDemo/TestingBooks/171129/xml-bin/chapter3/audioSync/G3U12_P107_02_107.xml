@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cues gender="male" pausePeriod="0.02" type="wordsync">
+    <cue end="0.225" start="0.005">
+        <text><![CDATA[Then]]></text>
+        <x>63.365</x>
+        <y>558.566</y>
+        <width>39.457</width>
+        <height>21.165</height>
+    </cue>
+    <cue end="0.415" start="0.225">
+        <text><![CDATA[we]]></text>
+        <x>108.721</x>
+        <y>558.566</y>
+        <width>23.358</width>
+        <height>21.165</height>
+    </cue>
+    <cue end="0.745" start="0.415">
+        <text><![CDATA[mark]]></text>
+        <x>137.978</x>
+        <y>558.566</y>
+        <width>41.633</width>
+        <height>21.165</height>
+    </cue>
+    <cue end="0.805" start="0.745">
+        <text><![CDATA[a]]></text>
+        <x>185.51</x>
+        <y>558.566</y>
+        <width>10.064</width>
+        <height>21.165</height>
+    </cue>
+    <cue end="2.3649999999999998" start="0.805">
+        <text><![CDATA[ballot]]></text>
+        <x>201.473</x>
+        <y>558.566</y>
+        <width>50.575</width>
+        <height>21.165</height>
+    </cue>
+    <cue end="3.005" start="2.3649999999999998">
+        <text><![CDATA[Finally]]></text>
+        <x>329.738</x>
+        <y>558.566</y>
+        <width>51.408</width>
+        <height>21.165</height>
+    </cue>
+    <cue end="3.205" start="3.005">
+        <text><![CDATA[we]]></text>
+        <x>387.045</x>
+        <y>558.566</y>
+        <width>23.358</width>
+        <height>21.165</height>
+    </cue>
+    <cue end="3.795" start="3.205">
+        <text><![CDATA[vote]]></text>
+        <x>416.302</x>
+        <y>558.566</y>
+        <width>39.61</width>
+        <height>21.165</height>
+    </cue>
+</cues>

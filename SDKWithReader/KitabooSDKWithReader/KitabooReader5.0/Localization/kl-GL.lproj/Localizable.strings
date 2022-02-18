@@ -1,0 +1,323 @@
+/*
+ Localizable.strings
+ KItabooSDK
+ 
+ Copyright © 2017 Hurix Systems. All rights reserved.
+ */
+
+"EPUB_LOADED_MSG" = "ePub aaneqarpoq";
+"PAGE_LOADED" = "Qupperneq aaneqareerpoq";
+"PAGE_ZOOM_IN" = "Qanillisiguk";
+"PAGE_ZOOM_OUT" = "Ungasillisiguk";
+"FONT_FILE_MISSING" = "Naqinnerit isikkui amigaataapput";
+"PAGE" ="Qupperneq";
+"OK" = "Ok";
+"ARE_YOU_SURE_YOU_WANT_TO_SHARE_THIS_NOTE_ALERT" = "Allatat siammarusuppiuk?";
+"Me" = "Uanga";
+
+//Help Screen
+"HELP_GOT_IT_BUTTON" = "Ingerlaqqigit";
+"HELP_SKIP_BUTTON" = "Naammassigit";
+
+"HELP_HOME_BUTTON_TITLE" = "Saqqaa";
+"HELP_HOME_BUTTON_DETAIL" = "Atuakkanut uterit";
+"HELP_TOC_BUTTON_TITLE" = "Imarisaa";
+"HELP_TOC_BUTTON_DETAIL" = "Imarisaa";
+"HELP_MY_DATA_BUTTON_TITLE" = "Paasissutissaatikka";
+"HELP_MY_DATA_BUTTON_DETAIL" = "Allattukkat nalunaaqutsikkallu nalunaarsorsimaffiat";
+"HELP_PEN_TOOL_BUTTON_TITLE" = "Aqerluusaq";
+"HELP_PEN_TOOL_BUTTON_DETAIL" = "Titartaagit allallutillu";
+"HELP_NOTE_BUTTON_TITLE" = "Allagit";
+"HELP_NOTE_BUTTON_DETAIL" = "Allariarlutit siammaagit";
+"HELP_SUBMIT_BUTTON_TITLE" = "Nassiuguk";
+"HELP_SUBMIT_BUTTON_DETAIL" = "Imarisaa nassiuguk";
+"HELP_THUMBNAIL_BUTTON_TITLE"="Mikisunngorlugu";
+"HELP_THUMBNAIL_BUTTON_DETAIL" = "Mikisunngorlugu";
+"HELP_SEARCH_BUTTON_TITLE" = "Ujarlerit";
+"HELP_SEARCH_BUTTON_DETAIL" = "Imarisaani ujarlerit";
+"HELP_SETTING_BUTTON_TITLE" = "Aaqqissuussat";
+"HELP_SETTING_BUTTON_DETAIL" = "Aaqqissuussat takukkit";
+"HELP_PROFILE_BUTTON_TITLE" = "Profili";
+"HELP_PROFILE_BUTTON_DETAIL" = "Aaqqissuussatit allanngukkit";
+"HELP_FONT_SETTING_BUTTON_TITLE" = "Naqinnernut aaqqissuussat";
+"HELP_FONT_SETTING_BUTTON_DETAIL" = "Naqinnerit allanngukkit";
+"HELP_MORE_SETTINGS_BUTTON_TITLE" = "Aaqqissuussassat allat";
+"HELP_MORE_SETTINGS_BUTTON_DETAIL" = "Aaqqinneqarsinnaasut allat ugguuna takukkit";
+"HELP_PROTRACTOR_BUTTON_TITLE" = "Protractor";
+"HELP_PROTRACTOR_BUTTON_DETAIL" = "Tap here to draw angles";
+"HELP_BOOKMARK_BUTTON_TITLE" = "Nalunaaqutsiineq";
+"HELP_BOOKMARK_BUTTON_DETAIL" = "Qupperneq una nalunaaqutseruk";
+"HELP_ERASER_BUTTON_TITLE" = "Piiaat";
+"HELP_ERASER_BUTTON_DETAIL" = "Peeruk";
+"HELP_CLEAR_BUTTON_TITLE" = "Peeruk";
+"HELP_CLEAR_BUTTON_DETAIL" = "Tamaasa piikkit";
+"HELP_UNDO_BUTTON_TITLE" = "Sussa";
+"HELP_UNDO_BUTTON_DETAIL" = "Sussa";
+"HELP_ARROW_BUTTON_TITLE" = "Tikkuaat";
+"HELP_ARROW_BUTTON_DETAIL" = "Quppernerup tullianukarlutillu siulianukarit";
+"HELP_DONE_BUTTON_TITLE" = "Naammassivoq";
+"HELP_DONE_BUTTON_DETAIL" = "Atoruk";
+"HELP_STUDENT_PROFILE_BUTTON_TITLE" = "Atuartoq";
+"HELP_STUDENT_PROFILE_BUTTON_DETAIL" = "Atuartoq takuuk";
+"HELP_MARKER_BUTTON_TITLE" = "Aqerluusaq";
+"HELP_MARKER_BUTTON_DETAIL" = "Titartaallutillu allagit";
+
+//Alerts
+"DO_YOU_WISH_TO_DELETE_THIS_NOTE_ALERT" = "Allataq peerniarpiuk?";
+"YES_ALERT_BUTTON" = "Aap";
+"NO_ALERT_BUTTON" = "Naagga";
+"THIS_ANSWER_IS_ALREADY_SUBMITTED_AND_CANNOT_CHANGED" = "Akissut nassiunneqareermat allanngortinneqarsinnaanngilaq";
+"NO_DATA_TO_SUBMIT" = "Paasissutissaqanngilaq";
+"SUBMIT_DATA" = "Paasissutissat nassiutikkit";
+"ANSWER_WILL_BE_SUBMITTED_AND_CANNOT_BE_CHANGED" = "Akissut nassiunneqariaannanngoreerpoq allanngortinneqarsinnaananilu. Ingerlaqqikkusuppit?";
+"YOUR_DATA_HAS_BEEN_SUCCESSFULLY_SAVED" = "Toqqorneqarput";
+"FAILED_TO_SUBMIT_ANOTATIONS" = "Atuutilersinneqarsinnaanngillat";
+"FAILED_TO_SAVE_STUDENT_ANOTATION" = "Toqqorneqarsinnaanngillat. Kingorna misileqqiguk.";
+"FAILED_TO_FETCH_UGC" = "Ajutoorpoq";
+"UGC_SYNCHING_FAILED" = "Ajutoorpoq";
+"HAS_NOT_SUBMITTED_ANY_ANSWER" = " has not submitted\n any answer";
+"FAILED_TO_SAVE_ANOTATION" = "Failed to save anotation";
+"YOUR_SESSION_HAS_EXPIRED" = "Piffissaritinneqartoq qaangiuppoq.";
+"PLEASE_SIGN_IN_AGAIN" = "Iseqqigit";
+"INCORRECT_ANSWER_TEXT" = "That is an incorrect answer!\nCorrect answer is ";
+
+"YES_BUTTON" = "Aap";
+"NO_BUTTON" = "Naagga";
+
+"SIGNOUT_ALERT" = "Aniniarpit?";
+"SIGNOUT_ALERT_MESSAGE" = "Iserfissamut utertinneqassaatit";
+
+//My data
+"NO_SHARED_NOTES_KEY" = "Allatanik siammagaqanngilaq";
+"NO_SHARED_HIGHLIGHTS_KEY" = "Erseqqissakkanik siammagaqanngilaq";
+"NO_HIGHLIGHTS_KEY" = "Erseqqissagaqanngilaq";
+"NO_NOTES_KEY" = "Allagaqanngilaq";
+"NO_HIGHLIGHTS_KEY" = "Allassimasumi erseqqissagaqanngilaq";
+"My_Data:_Highlights" = "Paasissutissat uannut tunngasut: Erseqqissakkat";
+"My_Data:_Notes" = "Paasissutissat uannut tunngasut:  Allatat";
+"My_Data:_Notification" = "Paasissutissat uannut tunngasut: nalunaarutit";
+"Notes_added/shared_with_will_appear_color_coded_on_the_basis_of_recently_create/shared" = "Allassimasavit siammartikkavilluunniit";
+"Highlight_text_to_add_a_note_or_mark them_as_important" = "Allanniarlutit erseqqissaaniarlutilluunniit allanneri ersersikkit";
+"NOTES_KEY" = "Allatat";
+"HIGHLIGHTS_KEY" = "Pingaarnerit ";
+"MY_DATA_COMMENTS" = "  Kommentaarid %@";
+"MY_DATA_SHARE" = "  Jaga %@";
+"PAGE:" = "Quppernerit:";
+"MY_DATA_RECEIVE" = "Tigujuk";
+"MY_DATA_APPLY" = "Atoruk";
+
+//Months
+
+"January" = "Januaari";
+"February" = "Februaari";
+"March" = "Marsi";
+"April" = "Apriili";
+"May" = "Maaji";
+"June" = "Juuni";
+"July" = "Juuli";
+"August" = "Aggusti";
+"September" = "Septembari";
+"October" = "Oktobari";
+"November" = "Novembari";
+"December" = "Decembari";
+
+/*
+ Read To me Header Texts
+ */
+"READALOUD_READ_TO_ME_TEXT" = "Quppernikkaartumik atuffanneqarniaruit una toqqaruk";
+"READALOUD_LET_ME_READ_TEXT" = "Atuffanneqarnianngikkuit una toqqaruk";
+"READALOUD_AUTOPLAY_TEXT" = "Atuffanneqarniaruit atuagarlu nammineq quppertarniarpat una toqqaruk";
+"READALOUD_CHOOSE_YOUR_MODE_TEXT" = "Periaaseq toqqaruk";
+"READALOUD_LET_ME_READ_BUTTON_TEXT" = "Nammineq atuarlara";
+"READALOUD_AUTOPLAY_BUTTON_TEXT" = "Atuartiguk";
+"READALOUD_READ_TO_ME_BUTTON_TEXT" = "Atuffannga";
+
+"NO_DATA" = "Paasissutissaqanngilaq";
+"MY_NOTES" = "Allatakka";
+"MY_HIGHLIGHTS" = "Ersersitakka";
+
+//Teacher Review
+"SELECT_STUDENT" = "Atuartoq toqqaruk";
+"DONE" = "Naammassivunga";
+"CLASS" = "Klasse";
+"ALL_STUDENTS" = "Atuartut tamarmik";
+"REFRESH" = "Nutarteruk";
+
+//Text Search
+"SEARCH_WITH_KEYWORDS" = "Ujarlerit";
+"NO_SEARCH_RESULT_FOUND" ="Nassaarineqanngilaq";
+"CHAPTER" = "Kapitel:";
+
+//ShareSettings
+"ANNOTATIONS_SHARING_NOT_ALLOWED" = "Uani klassimiittumit toqqarneqarsinnaanngilaq";
+"SETTINGS" = "Inissiinerit";
+"SHARE_NOTE" = "Allataq siammaruk";
+"SHARE" = "Siammaruk";
+"ALL TEACHERS" = "Ilinniartitsisut tamaasa";
+
+//Thumbnail
+"GO_TO" ="Uungarit";
+"THUMBNAILS" = "Mikisunngorlugu takujuk";
+"PLEASE_ENTER_PAGE_NUMBER_ALERT" = "Quppernera allaguk";
+"ERROR_ALERT_TITLE" = "Ajutoorpoq";
+"PLEASE_ENTER_VALID_PAGE_NUMBER_ALERT" = "Qupperneq akuerisaq allaguk";
+
+//StickyNote
+"PLEASE_TAP_INSIDE_THE_PAGE_TO_ADD STICKYNOTE" = "Allataq ikkunniarlugu tooruk";
+"Enter_Note" = "Allataq ikkuguk";
+"Save_Changes" = "Toqqoruk";
+"Do_you_wish_to_save_changes" = "Toqqorniarpiuk?";
+"Delete_note" = "Allataq peeruk";
+"NOTE" = "Allattukkat";
+"WRITE_YOUR_COMMENT_HERE" = "Kirjutage oma kommentaar siia";
+
+//KitabooTOC
+"NO_TOC_Data" = "Imarisai peqanngillat";
+"NO_RESOURCE_DATA" = "Sakkussat peqanngillat";
+"NO_BOOKMARK_DATA" = "Nalunaaqutserneqanngilaq";
+"Table_of_Resources" = "Sakkussat";
+"Bookmarks" = "Nalunaaqutsiussat";
+"BOOKMARKS" = "Nalunaaqutsiussat";
+"Table_of_Content" = "Imarisai";
+"Your_added_bookmarks_will_be_listed_here" = "Nalunaaqutsiatit maana takuneqarsinnaapput";
+"Content" = "Imarisai";
+"TEKS" = "TEKS";
+"ELPS" = "ELPS";
+"Standards" = "Standards";
+"Resources" = "Sakkussat";
+"Page" = "Qupperneq";
+
+//ReaderViewController
+"SEARCH" = "Ujarlerneq";
+"LOADING_DATA" = "Aaneqarpoq...";
+"Delete_Highlight" = "Erseqqissakkat piikkit";
+"Do_you_wish_to_delete_highlight" = "Erseqqissakkat peerniarpigit?";
+
+//WebPlayer/Document Player
+"PLAYER_DONE_BUTTON" = "Naammassivoq";
+
+//Kaltura Video Player Alert
+"KALTURA_INITIALIZATION_ERROR_MESSAGE_KEY"  =   "Ajortoqarpoq";
+
+//Teacher Annotation.
+"DATA_NOT_SUBMITTED" = "Paasissutissaqanngilaq";
+"RETRY" = "Misileqqiguk";
+"DELETE_ALL_DOODLES" = "Takuuk!";
+"DO_YOU_WISH_TO_DELETE_ALL_DOODLES" = "Titartakkat quppernermiittut tamaasa peerusuppigit?";
+"DATA_SUBMITTED_SUCCESSFULLY" = "Paasissutissat nassiunneqarput";
+"ALERT_BUTTON" = "Takuuk!";
+"SAVING_THE_DATA" = "Toqqorneqarput...";
+
+//FilerViewController
+"Filter_All" = "Atuakkat tamaasa";
+"Notes" = "Allattukkat";
+"Contextual_notes" = "Allattukkat";
+"FILTER_BY" = "Una atorlugu immikkoortitikkit";
+"NOTES_FILTER_BY" = "Allattukkat uannga immikkoortinneqartut";
+"Highlights_filter_by" = "Allattukkat ersarissakkat uannga immikkoortinneqartut";
+"CONTEXTUAL_NOTES_FILTER_BY" = "Allattukkat uannga immikkoortinneqartut";
+
+// Advance Search Filter
+"NARROW_YOUR_SEARCH"                                        =   "Ujarlernerit killileruk:";
+"RESET_FILTER"                                              =   "Immikkoortiterissut peeruk";
+"APPLY_FILTER"                                              =   "Immikkoortiterissut atuutilersiguk";
+"INTEREST_LEVEL"                                            =   "Soqutiginassusaa:";
+"ALL_LEVEL"                                                 =   "Tamarmik";
+
+//Protractor
+
+"PROTRACTOR_NOT_AVAILABLE_IN_LANDSCAPE_ALERT_TITLE" = "";
+"THE_FEATURE_CAN_BE_BEST_USED_IN_ONE_PAGE_VIEW_PLEASE_SWITCH_TO_ONE_PAGE_VIEW" = "The feature can be best used in one page view, please switch to one page view.";
+"PROTRACTOR_ALERT_TITLE"="Peeruk";
+"PROTRACTOR_ALERT_MSG"="Ilumut peerniarpiuk?";
+"PROTRACTOR_ALERT_DELETE"="Aap";
+"PROTRACTOR_ALERT_CANCEL"="Naamik";
+
+//Bookmark
+"ADD_BOOKMARK_PLACEHOLDER_KEY"  =   "Nalunaaqutseruk";
+
+//Equation Editor
+"EE_DATA_DELETE_TITLE"="Naqitassat taarsikkit";
+"EE_DATA_DELETE_MESSAGE"="Paasissutissat piissappat? Suli taarserusuppigit?";
+"EE_OK"="Ok";
+"EE_CANCEL"="Sussaaruk";
+
+"NOTE_CAN_NOT_MOVE_NEAR_BOOKMARK_MESSAGE_KEY"  =  "Allataq uunga nuussinnaanngilaq";
+"SORRY_KEY"                 =   "Ajoqaaq";
+"ALL_LEVEL"                                                 =   "Tamaasa";
+
+"SIGNOUT_BUTTON" = "Anigit";
+"BOOKS_DOWNLOAD_IN_PROGRESS_ALERT" = "Downloaderivoq. Suli aniniarpit?";
+"CANCEL_BUTTON" = "Sussaaruk";
+"OK_BUTTON" = "OK";
+"KITABOO_CANCEL_BUTTON" = "Sussaaruk";
+"CANCEL_BUTTON_TITLE" = "Unitsiguk";
+"JUST_NOW" = "Massakkut";
+
+//BOTTOMBAR FOR PHONE
+"SEARCH_TEXT" = "Ujarlerneq";
+
+//SEARCH VIEW
+"CANCEL_TEXT" = "Sussaaruk";
+"search_results_found_for" = "Nassaarineqanngilaq";
+"search_result_not_found" = "Nassaarineqanngilaq";
+
+"INTERNET_NOT_AVAILABLE" = "Internetimut attavilersinnaanngilaq";
+"INTERNET_UNAVAILABLE_MESSAGE" = "Internetikkut attaveqanngilaq";
+"ERROR" = "Ajorpoq";
+"FAILED_ALERT_TITLE" = "Ajutoorpoq";
+
+//DropDown
+"SELECT_KEY"   =   "Toqqaruk";
+
+//TextAnnotation
+"DELETE_TEXT_ANNOTATION_MESSAGE" = "Peerniarpiuk? Sussaarsinnaanngilatit";
+"TEXT_ANNOTATION_CAN_NOT_ADD_VIEW" = "Allataq ikkussinnaanngilaq";
+"DELETE_BUTTON_TEXT_ANNOTATION" = "Peeruk";
+"CANCEL_BUTTON_TEXT_ANNOTATION" = "Sussa";
+"TEXT_ANNOTATION_CAN_NOT_ADD" = "Allatani ersarissaagit";
+
+//Profile PopUp
+"KITABOO_PROFILE_SETTINGS" = "Profilimut inissiissutit";
+"ABOUT_US" = "Uagut pilluta";
+"PRIVACY_POLICY" = "Inuup namminerisamik inuunissaanut politikki";
+"TERMS_AND_CONDITIONS" = "Piumasaqaatit";
+"VERSION" = "Versioni";
+
+//DELETE VIEW
+"ITEMS_SELECTED" = "%d toqqakkat";
+
+//Epub font setting
+"FONTSETTING_LAYOUT_TITLE" = "Font Settings";
+"FONTSETTING_RESET_TITLE" = "Reset to default";
+
+"FONTSETTING_FONTFAMILY_TITLE" = "Font";
+"FONTSETTING_ALIGNMENT_TITLE" = "Align";
+"FONTSETTING_LINESPACING_TITLE" = "Line Spacing";
+"FONTSETTING_MARGIN_TITLE" = "Margins";
+"FONTSETTING_READERMODE_TITLE" = "Mode";
+"FONTSETTING_SCROLLMODE_TITLE" = "Scroll Mode";
+
+//Reflowable Slider Page Count
+"CHAPTER_KEY" = "Kapitel:";
+"PAGE_KEY" = "Page";
+"OF_KEY" = "of";
+
+//Resources
+"RESOURCE_NOT_FOUND"= "Resources Not Found!";
+"MARKUP_NOT_SUPPORTED" = "This markup type is not supported.";
+
+//Error Message
+"UNKNOWN_ERROR" = "Unknown error occured";
+"INVALID_RESPONSE_RECEIVED" = "Invalid Response Received.";
+
+"WATERMARK_TEXT" = "This work is protected by law, including but not limited to United States Copyright law and international treaties. All Rights Reserved by the publisher and/or licensor";
+
+
+"APPLY" = "Atuutilersiguk";
+"CANCEL" = "Sussaaruk";
+
+"BOOK_ADDED_SUCCESSFULLY" = "Atuagaq ikkunneqarpoq.";
+"BOOK_ALREADY_DOWNLOADED" = "Atuagaq downloadereerpoq.";
+"MOVING_FILES" = "Filit nuunneqarput...";
+"VALIDATING_BOOK" = "Ammarneqarsinnaanersoq misissorneqarpoq...";

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>MicroServicesBaseURL</key>
+	<string>https://microservices.kitaboo.com/</string>
+	<key>LoginUserName</key>
+	<string>demo.sdk@yopmail.com</string>
+	<key>LoginPassword</key>
+	<string>kitaboo@123</string>
+	<key>BaseURL</key>
+	<string>https://cloud.kitaboo.com/DistributionServices/</string>
+	<key>ClientID</key>
+	<string>cHJvZi1raXRhYm9v</string>
+	<key>BookOne</key>
+	<dict>
+		<key>bookID</key>
+		<string>13989120</string>
+		<key>bookType</key>
+		<string>Reflowable</string>
+		<key>bookTitle</key>
+		<string>Reflowable Epub</string>
+		<key>ISBN</key>
+		<string>13989120</string>
+	</dict>
+	<key>BookTwo</key>
+	<dict>
+		<key>bookID</key>
+		<string>14120140</string>
+		<key>bookType</key>
+		<string>FixedEpub</string>
+		<key>bookTitle</key>
+		<string>Fixed Epub</string>
+		<key>ISBN</key>
+		<string>14120140</string>
+	</dict>
+	<key>BookThree</key>
+	<dict>
+		<key>bookID</key>
+		<string>348677</string>
+		<key>bookType</key>
+		<string>KitabooFixed</string>
+		<key>bookTitle</key>
+		<string>Kitaboo Fixed</string>
+		<key>ISBN</key>
+		<string>5677566443</string>
+	</dict>
+	<key>BookFour</key>
+	<dict>
+		<key>bookID</key>
+		<string></string>
+		<key>bookType</key>
+		<string>AudioBook</string>
+		<key>bookTitle</key>
+		<string>AudioBook</string>
+		<key>ISBN</key>
+		<string></string>
+	</dict>
+	<key>BookFive</key>
+	<dict>
+		<key>bookID</key>
+		<string></string>
+		<key>bookType</key>
+		<string></string>
+		<key>bookTitle</key>
+		<string></string>
+		<key>ISBN</key>
+		<string></string>
+	</dict>
+	<key>PrePackagedBooks</key>
+	<true/>
+</dict>
+</plist>

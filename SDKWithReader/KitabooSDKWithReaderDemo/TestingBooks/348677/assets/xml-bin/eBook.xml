@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eBook>
+    <title>Kitaboo Fixed Book</title>
+    <url>assets/images/thumbnails/page_1.png</url>
+    <id><![CDATA[348677]]></id>
+    <chapters><![CDATA[assets/xml-bin/chapters.xml]]></chapters>
+    <resources><![CDATA[assets/xml-bin/resources.xml]]></resources>
+    <glossary/>
+    <Author>Hurix</Author>
+    <Description>Demo book</Description>
+    <InputFormat><![CDATA[PDF]]></InputFormat>
+    <BookType><![CDATA[Other]]></BookType>
+    <BookOrientation>Dynamic</BookOrientation>
+    <printdata/>
+</eBook>

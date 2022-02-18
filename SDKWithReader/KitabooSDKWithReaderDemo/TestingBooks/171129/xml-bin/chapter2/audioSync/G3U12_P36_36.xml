@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cues gender="male" pausePeriod="0.02" type="wordsync">
+    <cue end="0.5650000000000001" start="0.405">
+        <text><![CDATA[The]]></text>
+        <x>375.407</x>
+        <y>33.735</y>
+        <width>88.718</width>
+        <height>65.608</height>
+    </cue>
+    <cue end="1.025" start="0.5650000000000001">
+        <text><![CDATA[Dream]]></text>
+        <x>337.26</x>
+        <y>70.80000000000001</y>
+        <width>201.977</width>
+        <height>80.749</height>
+    </cue>
+    <cue end="1.535" start="1.025">
+        <text><![CDATA[Catcher]]></text>
+        <x>421.74</x>
+        <y>124.70000000000002</y>
+        <width>233.869</width>
+        <height>80.749</height>
+    </cue>
+</cues>
